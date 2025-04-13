@@ -187,3 +187,4 @@ mainScreen.setWindowVisible: didn't show. andUnminimize: false, isMinimized: tru
 14:50:21.770 > [PostMessageTransport] Protocol error: event data should be an Array!
 14:50:25.505 > [WindowVisibilityVideoManager] Incoming video enabled changed, incomingVideoEnabled = false
 14:51:14.074 > [WindowVisibilityVideoManager] Incoming video enabled changed, incomingVideoEnabled = true
+14:52:04.654 > [WindowVisibilityVideoManager] Incoming video enabled changed, incomingVideoEnabled = false

@@ -2832,3 +2832,15 @@ PermissionError: [Errno 13] Permission denied: 'discord_output.txt'
 [2025-04-13 14:51:24.868252] Entering get_discord_idle_time
 [2025-04-13 14:51:24.868252] Last action at 14:50:20.391, idle for 64.48 seconds
 [2025-04-13 14:51:24.869236] Waiting 30 seconds for next check
+[2025-04-13 14:51:54.869856] Checking for internet access
+[2025-04-13 14:51:54.895930] Entering get_idle_time
+[2025-04-13 14:51:54.895930] Idle time: 0.00 seconds
+[2025-04-13 14:51:54.896972] Entering get_discord_idle_time
+[2025-04-13 14:51:54.897524] Last action at 14:50:20.391, idle for 94.51 seconds
+[2025-04-13 14:51:54.897524] Waiting 30 seconds for next check
+[2025-04-13 14:52:24.898469] Checking for internet access
+[2025-04-13 14:52:24.944071] Entering get_idle_time
+[2025-04-13 14:52:24.944071] Idle time: 0.00 seconds
+[2025-04-13 14:52:24.944071] Entering get_discord_idle_time
+[2025-04-13 14:52:24.945083] Last action at 14:50:20.391, idle for 124.55 seconds
+[2025-04-13 14:52:24.945083] Waiting 30 seconds for next check
