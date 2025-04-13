@@ -1,0 +1,1406 @@
+[2025-04-13 08:54:37.439193] Starting ww.py execution
+[2025-04-13 08:54:37.439193] Script started with pythonw (PID: 22816)
+[2025-04-13 08:54:37.506625] GUI initialized
+[2025-04-13 08:54:38.801269] Pop-up shown
+[2025-04-13 08:54:38.801269] Starting wait loop
+[2025-04-13 08:54:48.803042] Wait loop completed
+[2025-04-13 08:54:48.803042] Checking for internet access
+[2025-04-13 08:54:48.853108] Internet access confirmed
+[2025-04-13 08:54:48.854108] Entering get_idle_time
+[2025-04-13 08:54:48.854108] Idle time: 0.00 seconds
+[2025-04-13 08:54:48.854108] System idle time: 0.0
+[2025-04-13 08:54:48.854108] Entering get_discord_idle_time
+[2025-04-13 08:54:49.410839] No running Discord process found, assuming idle for 1 hour
+[2025-04-13 08:54:49.411840] Discord idle time: 3600.0
+[2025-04-13 08:54:49.411840] Calling discord_wiggle
+[2025-04-13 08:54:49.411840] Entering discord_wiggle
+[2025-04-13 08:54:49.417839] No running Discord process found
+[2025-04-13 08:54:49.417839] Found Discord executable: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe
+[2025-04-13 08:54:49.418908] Attempting to launch Discord at: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe
+[2025-04-13 08:54:49.425426] Launched Discord with PID: 28868
+[2025-04-13 08:54:49.861212] Read line from Discord: Discord 1.0.9188
+[2025-04-13 08:54:49.919438] Read line from Discord: Starting app.
+[2025-04-13 08:54:49.930171] Read line from Discord: Starting updater.
+[2025-04-13 08:54:49.942172] Read line from Discord: Determined current Windows architecture: x64
+[2025-04-13 08:54:49.953171] Read line from Discord: splashScreen.initSplash(false)
+[2025-04-13 08:54:49.964172] Read line from Discord: CDM component API found
+[2025-04-13 08:54:49.998384] Read line from Discord: blackbox: 4/13/2025, 8:54:49 AM MDT 0
+[2025-04-13 08:54:50.020387] Read line from Discord: ----------------------------------------------
+[2025-04-13 08:54:50.030937] Read line from Discord: CDM completed with status: cdm-ready-success
+[2025-04-13 08:54:50.041937] Read line from Discord: blackbox: 4/13/2025, 8:54:50 AM MDT 1 Discord starting: {"newUpdater":true,"releaseChannel":"stable","version":"1.0.9188"}, modulepath: C:\Users\Haley Thomson\AppData\Roaming\discord\module_data
+[2025-04-13 08:54:50.052937] Read line from Discord: blackbox: 4/13/2025, 8:54:50 AM MDT 2 ✅ webContents.created web1 "index.html"
+[2025-04-13 08:54:50.063937] Read line from Discord: blackbox: 4/13/2025, 8:54:50 AM MDT 3 ✅ window.created win1 "discord"
+[2025-04-13 08:54:50.166163] Read line from Discord: 08:54:50.164 > DiscordSplash.signalReady
+[2025-04-13 08:54:50.177164] Read line from Discord: splashScreen: SPLASH_SCREEN_READY
+[2025-04-13 08:54:50.188696] Read line from Discord: splashScreen.webContentsSend: SPLASH_SCREEN_QUOTE SPLASH_SCREEN_QUOTE [ 'Hold Tight — Loading Discord' ]
+[2025-04-13 08:54:50.199261] Read line from Discord: splashScreen.updateSplashState checking-for-updates checking-for-updates {}
+[2025-04-13 08:54:50.210261] Read line from Discord: splashScreen.webContentsSend: SPLASH_UPDATE_STATE SPLASH_UPDATE_STATE [ { status: 'checking-for-updates' } ]
+[2025-04-13 08:54:50.221263] Read line from Discord: 08:54:50.182 > DiscordSplash.onStateUpdate: {"status":"checking-for-updates"}
+[2025-04-13 08:54:50.231837] Read line from Discord: 08:54:50.183 > Splash.onStateUpdate: {"status":"checking-for-updates"}
+[2025-04-13 08:54:50.242837] Read line from Discord: blackbox: 4/13/2025, 8:54:50 AM MDT 4 ✅ webContents.did-finish-load web1
+[2025-04-13 08:54:50.398055] Read line from Discord: Checking CDM status...
+[2025-04-13 08:54:50.409054] Read line from Discord: CDM completed with status: cdm-ready-success
+[2025-04-13 08:54:50.420054] Read line from Discord: splashScreen.launchMainWindow: false
+[2025-04-13 08:54:50.468098] Read line from Discord: Optional module ./ElectronTestRpc was not included.
+[2025-04-13 08:54:50.617947] Read line from Discord: splashScreen.updateSplashState launching launching {}
+[2025-04-13 08:54:50.629947] Read line from Discord: splashScreen.webContentsSend: SPLASH_UPDATE_STATE SPLASH_UPDATE_STATE [ { status: 'launching' } ]
+[2025-04-13 08:54:50.640502] Read line from Discord: blackbox: 4/13/2025, 8:54:50 AM MDT 5 ✅ webContents.created web2 ""
+[2025-04-13 08:54:50.651505] Read line from Discord: 08:54:50.623 > DiscordSplash.onStateUpdate: {"status":"launching"}
+[2025-04-13 08:54:50.662501] Read line from Discord: 08:54:50.624 > Splash.onStateUpdate: {"status":"launching"}
+[2025-04-13 08:54:50.673500] Read line from Discord: blackbox: 4/13/2025, 8:54:50 AM MDT 6 ✅ window.created win2 "Discord"
+[2025-04-13 08:54:51.165172] Read line from Discord: 08:54:51.164 > Splash.updateCountdownSeconds: undefined
+[2025-04-13 08:54:51.252258] Read line from Discord: 08:54:51.251 > [FAST CONNECT] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream, encoding: etf, version: 9
+[2025-04-13 08:54:51.430491] Found running Discord process with PID: 1936
+[2025-04-13 08:54:51.430491] Discord PID found: 1936
+[2025-04-13 08:54:51.465489] Read line from Discord: 08:54:51.464 > Initializing voice engine with audio subsystem: experimental
+[2025-04-13 08:54:51.529187] Read line from Discord: 08:54:51.528 > [DatabaseManager] active user changed (now: 1308864998373851157, was: null, was: undefined)
+[2025-04-13 08:54:51.574187] Read line from Discord: 08:54:51.573 > [default] [BUILD INFO] Release Channel: stable, Build Number: 389004, Version Hash: 9e468acd9390c99cb2af3a3ace62b3b4d9b71d78
+[2025-04-13 08:54:51.691008] Read line from Discord: 08:54:51.690 > [default] [NATIVE INFO] host 1.0.9188, modules: discord_media: 1, discord_krisp: 1, discord_erlpack: 1, discord_spellcheck: 1, discord_zstd: 1, discord_dispatch: 1, discord_rpc: 1, discord_modules: 1, discord_utils: 2, discord_overlay2: 1, discord_hook: 1, discord_game_utils: 1, discord_voice: 2, discord_desktop_overlay: 2, discord_desktop_core: 2, discord_cloudsync: 1, build: 61444
+[2025-04-13 08:54:51.730055] Activated Discord by opening DM channel for PID: 1936
+[2025-04-13 08:54:52.165293] Read line from Discord: 08:54:52.164 > Splash.updateCountdownSeconds: undefined
+[2025-04-13 08:54:52.937760] Read line from Discord: 08:54:52.936 > [Spellchecker] sh is not a valid locale.
+[2025-04-13 08:54:52.953763] Read line from Discord: 08:54:52.952 > [FAST CONNECT] connected in 1701ms
+[2025-04-13 08:54:53.058400] Read line from Discord: 08:54:53.058 > [Spellchecker] Switching to en-US (available)
+[2025-04-13 08:54:53.070947] Read line from Discord: 08:54:53.070 > Unknown updater analytic event undefined
+[2025-04-13 08:54:53.139728] Read line from Discord: 08:54:53.139 > [Routing/Utils] transitionTo - Transitioning to /channels/866514085462147112/channel-browser
+[2025-04-13 08:54:53.164790] Read line from Discord: 08:54:53.164 > Splash.updateCountdownSeconds: undefined
+[2025-04-13 08:54:53.315045] Read line from Discord: mainScreen.on(did-finish-load) false false
+[2025-04-13 08:54:53.326158] Read line from Discord: blackbox: 4/13/2025, 8:54:53 AM MDT 7 ✅ webContents.did-finish-load web2
+[2025-04-13 08:54:53.337156] Read line from Discord: splashScreen.pageReady
+[2025-04-13 08:54:53.413814] Read line from Discord: 08:54:53.413 > [libdiscore] The answer for life the universe and everything is: 42
+[2025-04-13 08:54:53.425383] Read line from Discord: blackbox: 4/13/2025, 8:54:53 AM MDT 8 window.close win1
+[2025-04-13 08:54:53.436421] Read line from Discord: 08:54:53.426 > [RPCServer:WSS] Starting on 6463
+[2025-04-13 08:54:53.447420] Read line from Discord: 08:54:53.427 > [RPCServer:IPC] Starting on \\?\pipe\discord-ipc-0
+[2025-04-13 08:54:53.458421] Read line from Discord: 08:54:53.428 > [Routing/Utils] transitionTo - Transitioning to /channels/866514085462147112/channel-browser
+[2025-04-13 08:54:53.469421] Read line from Discord: blackbox: 4/13/2025, 8:54:53 AM MDT 9 webContents.destroyed web1
+[2025-04-13 08:54:53.480427] Read line from Discord: blackbox: 4/13/2025, 8:54:53 AM MDT 10 window.closed win1
+[2025-04-13 08:54:53.491423] Read line from Discord: 08:54:53.483 > [ConnectionStore] Socket is reconnecting because of starting new session
+[2025-04-13 08:54:53.502420] Read line from Discord: 08:54:53.483 > [GatewaySocket] .connect() called, new state is WILL_RECONNECT
+[2025-04-13 08:54:53.513420] Read line from Discord: 08:54:53.483 > [GatewaySocket] Setting connection state to WILL_RECONNECT
+[2025-04-13 08:54:53.523990] Read line from Discord: 08:54:53.483 > [GatewaySocket] Setting connection state to CONNECTING
+[2025-04-13 08:54:53.534992] Read line from Discord: 08:54:53.483 > [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-04-13 08:54:53.545992] Read line from Discord: 08:54:53.484 > [GatewaySocket] [FAST CONNECT] successfully took over websocket, state: [object Object]
+[2025-04-13 08:54:53.556991] Read line from Discord: 08:54:53.484 > [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 1 ms
+[2025-04-13 08:54:53.567993] Read line from Discord: 08:54:53.484 > [ConnectionStore] handleIdentify called [object Object]
+[2025-04-13 08:54:53.579532] Read line from Discord: 08:54:53.485 > [GatewaySocket] Setting connection state to IDENTIFYING
+[2025-04-13 08:54:53.590532] Read line from Discord: 08:54:53.485 > [GatewaySocket] [HELLO] via
+[2025-04-13 08:54:53.601532] Read line from Discord: gateway-prd-us-east1-c-j1jb: 0, heartbeat interval: 41250, took 1 ms
+[2025-04-13 08:54:53.612069] Read line from Discord: 08:54:53.500 > [GatewaySocket] [IDENTIFY]
+[2025-04-13 08:54:53.946442] Read line from Discord: 08:54:53.946 > [GatewaySocket] [READY] took 463ms, as 6f95534b7bc8a1cda75cec7ebffd6733
+[2025-04-13 08:54:53.958443] Read line from Discord: 08:54:53.946 > [GatewaySocket]
+[2025-04-13 08:54:53.969445] Read line from Discord: gateway-prd-us-east1-c-j1jb: 280.398
+[2025-04-13 08:54:53.980506] Read line from Discord: |  id_created: 0.973
+[2025-04-13 08:54:53.991558] Read line from Discord: |  session_lookup_time: 0.332
+[2025-04-13 08:54:54.002557] Read line from Discord: |  session_lookup_finished: 0.016
+[2025-04-13 08:54:54.013608] Read line from Discord: |  discord-sessions-prd-2-164: 277.624
+[2025-04-13 08:54:54.024169] Read line from Discord: |  |  start_session: 252.333
+[2025-04-13 08:54:54.034680] Read line from Discord: |  |  |  discord-api-rpc-556f7996f-5s2rb: 232.156
+[2025-04-13 08:54:54.045681] Read line from Discord: |  |  |  |  get_user: 47.141
+[2025-04-13 08:54:54.056680] Read line from Discord: |  |  |  |  get_guilds: 30.533
+[2025-04-13 08:54:54.067681] Read line from Discord: |  |  |  |  user_settings_proto: 0.074
+[2025-04-13 08:54:54.078234] Read line from Discord: |  |  |  |  relationships: 57.714
+[2025-04-13 08:54:54.089234] Read line from Discord: |  |  |  |  game_relationships: 0.002
+[2025-04-13 08:54:54.100250] Read line from Discord: |  |  |  |  friend_suggestion: 0.045
+[2025-04-13 08:54:54.111234] Read line from Discord: |  |  |  |  connections: 0.015
+[2025-04-13 08:54:54.122236] Read line from Discord: |  |  |  |  serialized_read_states: 0.002
+[2025-04-13 08:54:54.133797] Read line from Discord: |  |  |  |  send_scheduled_deletion_message: 0.001
+[2025-04-13 08:54:54.144800] Read line from Discord: |  |  |  |  sanitize_premium_perks: 0.001
+[2025-04-13 08:54:54.155797] Read line from Discord: |  |  |  |  guild_join_requests: 0.001
+[2025-04-13 08:54:54.166797] Read line from Discord: |  |  |  |  user_guild_settings: 1.562
+[2025-04-13 08:54:54.177426] Read line from Discord: |  |  |  |  serialized_private_channels: 0.003
+[2025-04-13 08:54:54.188426] Read line from Discord: |  |  |  |  user_segments: 25.687
+[2025-04-13 08:54:54.199426] Read line from Discord: |  |  |  |  game_invites: 0.002
+[2025-04-13 08:54:54.210553] Read line from Discord: |  |  |  |  blocker_ids: 0.001
+[2025-04-13 08:54:54.221545] Read line from Discord: |  |  |  |  affine_user_ids: 0.01
+[2025-04-13 08:54:54.232186] Read line from Discord: |  |  |  |  experiments: 24.606
+[2025-04-13 08:54:54.243184] Read line from Discord: |  |  |  |  required_action: 0.009
+[2025-04-13 08:54:54.254185] Read line from Discord: |  |  |  |  authorized_ip_coro: 0.001
+[2025-04-13 08:54:54.265185] Read line from Discord: |  |  |  |  pending_payments: 1.274
+[2025-04-13 08:54:54.275782] Read line from Discord: |  |  |  |  apex_user_experiments: 0.003
+[2025-04-13 08:54:54.287319] Read line from Discord: |  |  starting_guild_connect: 0.053
+[2025-04-13 08:54:54.298319] Read line from Discord: |  |  presence_started: 3.854
+[2025-04-13 08:54:54.309316] Read line from Discord: |  |  guilds_started: 0.084
+[2025-04-13 08:54:54.320723] Read line from Discord: |  |  lobbies_started: 0.001
+[2025-04-13 08:54:54.331339] Read line from Discord: |  |  guilds_connect: 20.447
+[2025-04-13 08:54:54.342341] Read line from Discord: |  |  presence_connect: 0.001
+[2025-04-13 08:54:54.353343] Read line from Discord: |  |  connect_finished: 20.751
+[2025-04-13 08:54:54.364341] Read line from Discord: |  |  build_ready: 0.227
+[2025-04-13 08:54:54.375339] Read line from Discord: |  |  clean_ready: 0.001
+[2025-04-13 08:54:54.385896] Read line from Discord: |  |  optimize_ready: 0.308
+[2025-04-13 08:54:54.396408] Read line from Discord: |  |  split_ready: 0.011
+[2025-04-13 08:54:54.407466] Read line from Discord: 08:54:53.947 > [GatewaySocket] Setting connection state to SESSION_ESTABLISHED
+[2025-04-13 08:54:54.418470] Read line from Discord: 08:54:53.947 > [GatewaySocket] Updating resume url to wss://gateway-us-east1-c.discord.gg
+[2025-04-13 08:54:54.429467] Read line from Discord: 08:54:53.953 > [Flux] Dispatching CONNECTION_OPEN
+[2025-04-13 08:54:54.440467] Read line from Discord: 08:54:53.953 > [AuthenticationStore] handleConnectionOpen called [object Object]
+[2025-04-13 08:54:54.451469] Read line from Discord: 08:54:53.955 > [DatabaseManager] removing database (user: 1308864998373851157, database: undefined)
+[2025-04-13 08:54:54.462468] Read line from Discord: 08:54:53.956 > [DatabaseManager] added database (1308864998373851157 → null)
+[2025-04-13 08:54:54.473466] Read line from Discord: 08:54:53.962 > [NativeDispatchUtils] Tried getting Dispatch instance before instantiated
+[2025-04-13 08:54:54.484000] Read line from Discord: 08:54:53.963 > Deferring audio subsystem switch to experimental until next restart.
+[2025-04-13 08:54:54.494531] Read line from Discord: 08:54:53.966 > [OverlayRenderStore] setOverlayEnabled: supported [object Object]
+[2025-04-13 08:54:54.505532] Read line from Discord: 08:54:53.967 > [OverlayRenderStore] setOverlayEnabled [object Object]
+[2025-04-13 08:54:54.516069] Read line from Discord: 08:54:53.967 > [OverlayRenderStore] Legacy change
+[2025-04-13 08:54:54.527070] Read line from Discord: 08:54:53.967 > [OverlayRenderStore] OOP change
+[2025-04-13 08:54:54.538141] Read line from Discord: 08:54:53.978 > [OverlayStoreV3] Maybe Enable Overlay
+[2025-04-13 08:54:54.549141] Read line from Discord: 08:54:53.978 > [OverlayStoreV3] Loading Out of Process Overlay Module
+[2025-04-13 08:54:54.560156] Read line from Discord: 08:54:53.986 > [GatewaySocket] [READY_SUPPLEMENTAL] took 504ms
+[2025-04-13 08:54:54.571141] Read line from Discord: 08:54:53.987 > [GatewaySocket] Setting connection state to SESSION_ESTABLISHED
+[2025-04-13 08:54:55.524771] Read line from Discord: 08:54:55.524 > [OverlayStoreV3] OverlayV3 Module Loaded
+[2025-04-13 08:54:55.985542] Read line from Discord: 08:54:55.985 > [OverlayRenderStore] Retracking 0 games (0 already tracked)
+[2025-04-13 08:54:55.996558] Read line from Discord: 08:54:55.985 > [OverlayRenderStore] Retracked 0 games
+[2025-04-13 08:54:56.288355] Read line from Discord: 08:54:56.287 > [libdiscore] isLibdiscoreBlockedDomainsEnabledThisSession: false
+[2025-04-13 08:54:56.730264] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 08:54:56.730264] Checked Discord logs during activity
+[2025-04-13 08:54:56.744831] Read line from Discord: 08:54:56.744 > [Flux] Slow dispatch on GAMES_DATABASE_UPDATE: 227.5ms
+[2025-04-13 08:54:58.730856] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 08:54:58.730856] Checked Discord logs during activity
+[2025-04-13 08:55:00.731605] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 08:55:00.731605] Checked Discord logs during activity
+[2025-04-13 08:55:02.732333] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 08:55:02.732845] Checked Discord logs during activity
+[2025-04-13 08:55:04.005183] Read line from Discord: 08:55:04.004 > [MessageActionCreators] Fetching messages for 1354895636004343972 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+[2025-04-13 08:55:04.048817] Read line from Discord: 08:55:04.047 > [Routing/Utils] transitionTo - Transitioning to /channels/866514085462147112/1354895636004343972
+[2025-04-13 08:55:04.351443] Read line from Discord: 08:55:04.350 > [MessageActionCreators] Fetched 50 messages for 1354895636004343972 isBefore:false isAfter:false
+[2025-04-13 08:55:04.362097] Read line from Discord: 08:55:04.358 > [ChannelMessages] loadComplete: resetting state for channelId=1354895636004343972, sending.length=0
+[2025-04-13 08:55:04.733529] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 08:55:04.733529] Checked Discord logs during activity
+[2025-04-13 08:55:05.697393] Read line from Discord: 08:55:05.696 > [discord_protos.discord_users.v1.FrecencyUserSettings] Loading proto
+[2025-04-13 08:55:06.352847] Read line from Discord: 08:55:06.351 > [FetchBlockedDomain] Fetching blocked domain list
+[2025-04-13 08:55:06.363389] Read line from Discord: 08:55:06.355 > [FetchBlockedDomain] Server revision: 1223, Client revision: 1223
+[2025-04-13 08:55:06.734060] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 08:55:06.734060] Checked Discord logs during activity
+[2025-04-13 08:55:08.734721] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 08:55:08.734721] Checked Discord logs during activity
+[2025-04-13 08:55:10.306189] Read line from Discord: 08:55:10.305 > [MessageActionCreators] Fetching messages for 1337036209821847592 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+[2025-04-13 08:55:10.330809] Read line from Discord: 08:55:10.330 > [Routing/Utils] transitionTo - Transitioning to /channels/866514085462147112/1337036209821847592
+[2025-04-13 08:55:10.735198] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 08:55:10.735198] Checked Discord logs during activity
+[2025-04-13 08:55:10.751856] Read line from Discord: 08:55:10.750 > [MessageActionCreators] Fetched 50 messages for 1337036209821847592 isBefore:false isAfter:false
+[2025-04-13 08:55:10.762899] Read line from Discord: 08:55:10.755 > [ChannelMessages] loadComplete: resetting state for channelId=1337036209821847592, sending.length=0
+[2025-04-13 08:55:12.432231] Read line from Discord: 08:55:12.431 > [KeyboardLayoutMapUtils] KeyboardMapper - Key added [object Object]
+[2025-04-13 08:55:12.445233] Read line from Discord: 08:55:12.445 > [KeyboardLayoutMapUtils] KeyboardMapper - Key added [object Object]
+[2025-04-13 08:55:12.547381] Read line from Discord: 08:55:12.546 > [KeyboardLayoutMapUtils] KeyboardMapper - Key added [object Object]
+[2025-04-13 08:55:12.680738] Read line from Discord: 08:55:12.680 > [KeyboardLayoutMapUtils] KeyboardMapper - Key added [object Object]
+[2025-04-13 08:55:12.692016] Read line from Discord: 08:55:12.687 > [KeyboardLayoutMapUtils] KeyboardMapper - Key added [object Object]
+[2025-04-13 08:55:12.736164] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 08:55:12.736164] Checked Discord logs during activity
+[2025-04-13 08:55:12.760292] Read line from Discord: 08:55:12.759 > [KeyboardLayoutMapUtils] KeyboardMapper - Key added [object Object]
+[2025-04-13 08:55:13.406688] Read line from Discord: 08:55:13.406 > [RTCLatencyTestManager] RTC cached ranked preferred regions are seattle,us-central,santa-clara,us-west,us-south
+[2025-04-13 08:55:14.736569] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 08:55:14.736569] Checked Discord logs during activity
+[2025-04-13 08:55:16.737516] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 08:55:16.737516] Checked Discord logs during activity
+[2025-04-13 08:55:18.737986] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 08:55:18.737986] Checked Discord logs during activity
+[2025-04-13 08:55:20.738305] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 08:55:20.738305] Checked Discord logs during activity
+[2025-04-13 08:55:21.397612] Read line from Discord: 08:55:21.396 > [Routing/Utils] transitionTo - Transitioning to /channels/866514085462147112/1354895636004343972
+[2025-04-13 08:55:22.738461] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 08:55:22.738461] Checked Discord logs during activity
+[2025-04-13 08:55:24.739224] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 08:55:24.739224] Checked Discord logs during activity
+[2025-04-13 08:55:26.741112] Exiting discord_wiggle
+[2025-04-13 08:55:26.742113] Finished discord_wiggle
+[2025-04-13 08:58:04.253622] Starting ww.py execution
+[2025-04-13 08:58:04.253622] Script started with pythonw (PID: 8372)
+[2025-04-13 08:58:04.318791] GUI initialized
+[2025-04-13 08:58:06.035237] Pop-up shown
+[2025-04-13 08:58:06.035237] Starting wait loop
+[2025-04-13 08:58:16.035659] Wait loop completed
+[2025-04-13 08:58:16.035659] Checking for internet access
+[2025-04-13 08:58:16.079816] Internet access confirmed
+[2025-04-13 08:58:16.080345] Entering get_idle_time
+[2025-04-13 08:58:16.080849] Idle time: 1.94 seconds
+[2025-04-13 08:58:16.080892] System idle time: 1.938
+[2025-04-13 08:58:16.080892] Entering get_discord_idle_time
+[2025-04-13 08:58:16.665990] No running Discord process found, assuming idle for 1 hour
+[2025-04-13 08:58:16.666990] Discord idle time: 3600.0
+[2025-04-13 08:58:16.666990] Calling discord_wiggle
+[2025-04-13 08:58:16.667991] Entering discord_wiggle
+[2025-04-13 08:58:16.675989] No running Discord process found
+[2025-04-13 08:58:16.676999] Found Discord executable: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe
+[2025-04-13 08:58:16.676999] Attempting to launch Discord at: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe
+[2025-04-13 08:58:16.681991] Launched Discord with PID: 11784
+[2025-04-13 08:58:17.104587] Read line from Discord: Discord 1.0.9188
+[2025-04-13 08:58:17.161248] Read line from Discord: Starting app.
+[2025-04-13 08:58:17.167249] Read line from Discord: Starting updater.
+[2025-04-13 08:58:17.169248] Read line from Discord: Determined current Windows architecture: x64
+[2025-04-13 08:58:17.177247] Read line from Discord: splashScreen.initSplash(false)
+[2025-04-13 08:58:17.179250] Read line from Discord: CDM component API found
+[2025-04-13 08:58:17.232432] Read line from Discord: blackbox: 4/13/2025, 8:58:17 AM MDT 0
+[2025-04-13 08:58:17.236434] Read line from Discord: ----------------------------------------------
+[2025-04-13 08:58:17.238432] Read line from Discord: CDM completed with status: cdm-ready-success
+[2025-04-13 08:58:17.252433] Read line from Discord: blackbox: 4/13/2025, 8:58:17 AM MDT 1 Discord starting: {"newUpdater":true,"releaseChannel":"stable","version":"1.0.9188"}, modulepath: C:\Users\Haley Thomson\AppData\Roaming\discord\module_data
+[2025-04-13 08:58:17.255431] Read line from Discord: blackbox: 4/13/2025, 8:58:17 AM MDT 2 ✅ webContents.created web1 ""
+[2025-04-13 08:58:17.257975] Read line from Discord: blackbox: 4/13/2025, 8:58:17 AM MDT 3 ✅ window.created win1 "discord"
+[2025-04-13 08:58:17.506181] Read line from Discord: 08:58:17.504 > DiscordSplash.signalReady
+[2025-04-13 08:58:17.508182] Read line from Discord: splashScreen: SPLASH_SCREEN_READY
+[2025-04-13 08:58:17.510232] Read line from Discord: splashScreen.webContentsSend: SPLASH_SCREEN_QUOTE SPLASH_SCREEN_QUOTE [ 'Hold Tight — Loading Discord' ]
+[2025-04-13 08:58:17.517748] Read line from Discord: splashScreen.updateSplashState checking-for-updates checking-for-updates {}
+[2025-04-13 08:58:17.519747] Read line from Discord: splashScreen.webContentsSend: SPLASH_UPDATE_STATE SPLASH_UPDATE_STATE [ { status: 'checking-for-updates' } ]
+[2025-04-13 08:58:17.521745] Read line from Discord: 08:58:17.519 > DiscordSplash.onStateUpdate: {"status":"checking-for-updates"}
+[2025-04-13 08:58:17.523762] Read line from Discord: 08:58:17.520 > Splash.onStateUpdate: {"status":"checking-for-updates"}
+[2025-04-13 08:58:17.537866] Read line from Discord: blackbox: 4/13/2025, 8:58:17 AM MDT 4 ✅ webContents.did-finish-load web1
+[2025-04-13 08:58:17.715107] Read line from Discord: Checking CDM status...
+[2025-04-13 08:58:17.717108] Read line from Discord: CDM completed with status: cdm-ready-success
+[2025-04-13 08:58:17.719108] Read line from Discord: splashScreen.launchMainWindow: false
+[2025-04-13 08:58:17.783841] Read line from Discord: Optional module ./ElectronTestRpc was not included.
+[2025-04-13 08:58:17.933209] Read line from Discord: splashScreen.updateSplashState launching launching {}
+[2025-04-13 08:58:17.935722] Read line from Discord: splashScreen.webContentsSend: SPLASH_UPDATE_STATE SPLASH_UPDATE_STATE [ { status: 'launching' } ]
+[2025-04-13 08:58:17.937723] Read line from Discord: blackbox: 4/13/2025, 8:58:17 AM MDT 5 ✅ webContents.created web2 ""
+[2025-04-13 08:58:17.939724] Read line from Discord: 08:58:17.936 > DiscordSplash.onStateUpdate: {"status":"launching"}
+[2025-04-13 08:58:17.941723] Read line from Discord: 08:58:17.937 > Splash.onStateUpdate: {"status":"launching"}
+[2025-04-13 08:58:17.943724] Read line from Discord: blackbox: 4/13/2025, 8:58:17 AM MDT 6 ✅ window.created win2 "Discord"
+[2025-04-13 08:58:18.505068] Read line from Discord: 08:58:18.504 > Splash.updateCountdownSeconds: undefined
+[2025-04-13 08:58:18.581274] Read line from Discord: 08:58:18.580 > [FAST CONNECT] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream, encoding: etf, version: 9
+[2025-04-13 08:58:18.689031] Found running Discord process with PID: 4284
+[2025-04-13 08:58:18.689031] Discord PID found: 4284
+[2025-04-13 08:58:18.775303] Read line from Discord: 08:58:18.774 > Initializing voice engine with audio subsystem: experimental
+[2025-04-13 08:58:18.833960] Read line from Discord: 08:58:18.833 > [DatabaseManager] active user changed (now: 1308864998373851157, was: null, was: undefined)
+[2025-04-13 08:58:18.874498] Read line from Discord: 08:58:18.874 > [default] [BUILD INFO] Release Channel: stable, Build Number: 389004, Version Hash: 9e468acd9390c99cb2af3a3ace62b3b4d9b71d78
+[2025-04-13 08:58:18.947094] Activated Discord by opening DM channel for PID: 4284
+[2025-04-13 08:58:18.985166] Read line from Discord: 08:58:18.984 > [default] [NATIVE INFO] host 1.0.9188, modules: discord_overlay2: 1, discord_modules: 1, discord_voice: 2, discord_krisp: 1, discord_zstd: 1, discord_spellcheck: 1, discord_erlpack: 1, discord_media: 1, discord_cloudsync: 1, discord_hook: 1, discord_desktop_core: 2, discord_game_utils: 1, discord_utils: 2, discord_dispatch: 1, discord_desktop_overlay: 2, discord_rpc: 1, build: 61444
+[2025-04-13 08:58:19.504039] Read line from Discord: 08:58:19.503 > Splash.updateCountdownSeconds: undefined
+[2025-04-13 08:58:20.283262] Read line from Discord: 08:58:20.282 > [Spellchecker] sh is not a valid locale.
+[2025-04-13 08:58:20.295808] Read line from Discord: 08:58:20.294 > [FAST CONNECT] connected in 1714ms
+[2025-04-13 08:58:20.363558] Read line from Discord: 08:58:20.363 > [Spellchecker] Switching to en-US (available)
+[2025-04-13 08:58:20.389556] Read line from Discord: 08:58:20.388 > Unknown updater analytic event undefined
+[2025-04-13 08:58:20.420825] Read line from Discord: 08:58:20.420 > [Routing/Utils] transitionTo - Transitioning to /channels/866514085462147112/channel-browser
+[2025-04-13 08:58:20.504540] Read line from Discord: 08:58:20.504 > Splash.updateCountdownSeconds: undefined
+[2025-04-13 08:58:20.700205] Read line from Discord: mainScreen.on(did-finish-load) false false
+[2025-04-13 08:58:20.701721] Read line from Discord: blackbox: 4/13/2025, 8:58:20 AM MDT 7 ✅ webContents.did-finish-load web2
+[2025-04-13 08:58:20.703740] Read line from Discord: splashScreen.pageReady
+[2025-04-13 08:58:20.784937] Read line from Discord: 08:58:20.784 > [libdiscore] The answer for life the universe and everything is: 42
+[2025-04-13 08:58:20.787937] Read line from Discord: 08:58:20.786 > [Routing/Utils] transitionTo - Transitioning to /channels/866514085462147112/channel-browser
+[2025-04-13 08:58:20.803936] Read line from Discord: blackbox: 4/13/2025, 8:58:20 AM MDT 8 window.close win1
+[2025-04-13 08:58:20.810937] Read line from Discord: blackbox: 4/13/2025, 8:58:20 AM MDT 9 webContents.destroyed web1
+[2025-04-13 08:58:20.812939] Read line from Discord: blackbox: 4/13/2025, 8:58:20 AM MDT 10 window.closed win1
+[2025-04-13 08:58:20.847562] Read line from Discord: 08:58:20.846 > [ConnectionStore] Socket is reconnecting because of starting new session
+[2025-04-13 08:58:20.849573] Read line from Discord: 08:58:20.846 > [GatewaySocket] .connect() called, new state is WILL_RECONNECT
+[2025-04-13 08:58:20.851613] Read line from Discord: 08:58:20.846 > [GatewaySocket] Setting connection state to WILL_RECONNECT
+[2025-04-13 08:58:20.853124] Read line from Discord: 08:58:20.847 > [GatewaySocket] Setting connection state to CONNECTING
+[2025-04-13 08:58:20.855125] Read line from Discord: 08:58:20.847 > [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-04-13 08:58:20.857126] Read line from Discord: 08:58:20.847 > [GatewaySocket] [FAST CONNECT] successfully took over websocket, state: [object Object]
+[2025-04-13 08:58:20.859151] Read line from Discord: 08:58:20.848 > [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 0 ms
+[2025-04-13 08:58:20.860731] Read line from Discord: 08:58:20.848 > [ConnectionStore] handleIdentify called [object Object]
+[2025-04-13 08:58:20.862731] Read line from Discord: 08:58:20.848 > [GatewaySocket] Setting connection state to IDENTIFYING
+[2025-04-13 08:58:20.864712] Read line from Discord: 08:58:20.848 > [GatewaySocket] [HELLO] via
+[2025-04-13 08:58:20.866713] Read line from Discord: gateway-prd-us-east1-c-zv7r: 0, heartbeat interval: 41250, took 1 ms
+[2025-04-13 08:58:20.868711] Read line from Discord: 08:58:20.865 > [GatewaySocket] [IDENTIFY]
+[2025-04-13 08:58:21.234859] Read line from Discord: 08:58:21.234 > [GatewaySocket] [READY] took 387ms, as aa99c9f7f45f8ce0c3a02a3c5feafe8f
+[2025-04-13 08:58:21.237863] Read line from Discord: 08:58:21.235 > [GatewaySocket]
+[2025-04-13 08:58:21.239860] Read line from Discord: gateway-prd-us-east1-c-zv7r: 214.307
+[2025-04-13 08:58:21.241875] Read line from Discord: |  id_created: 1.254
+[2025-04-13 08:58:21.243860] Read line from Discord: |  session_lookup_time: 2.617
+[2025-04-13 08:58:21.245860] Read line from Discord: |  session_lookup_finished: 0.016
+[2025-04-13 08:58:21.247866] Read line from Discord: |  discord-sessions-prd-2-77: 208.915
+[2025-04-13 08:58:21.249860] Read line from Discord: |  |  start_session: 193.642
+[2025-04-13 08:58:21.251861] Read line from Discord: |  |  |  discord-api-rpc-556f7996f-tv4pp: 155.772
+[2025-04-13 08:58:21.253984] Read line from Discord: |  |  |  |  get_user: 31.724
+[2025-04-13 08:58:21.256012] Read line from Discord: |  |  |  |  get_guilds: 25.195
+[2025-04-13 08:58:21.258030] Read line from Discord: |  |  |  |  user_settings_proto: 0.045
+[2025-04-13 08:58:21.260014] Read line from Discord: |  |  |  |  relationships: 25.71
+[2025-04-13 08:58:21.262011] Read line from Discord: |  |  |  |  game_relationships: 0.002
+[2025-04-13 08:58:21.264024] Read line from Discord: |  |  |  |  friend_suggestion: 0.038
+[2025-04-13 08:58:21.266011] Read line from Discord: |  |  |  |  connections: 0.013
+[2025-04-13 08:58:21.268012] Read line from Discord: |  |  |  |  serialized_read_states: 0.002
+[2025-04-13 08:58:21.270013] Read line from Discord: |  |  |  |  send_scheduled_deletion_message: 0.001
+[2025-04-13 08:58:21.272011] Read line from Discord: |  |  |  |  sanitize_premium_perks: 0.001
+[2025-04-13 08:58:21.274012] Read line from Discord: |  |  |  |  guild_join_requests: 0.002
+[2025-04-13 08:58:21.276020] Read line from Discord: |  |  |  |  user_guild_settings: 1.086
+[2025-04-13 08:58:21.278011] Read line from Discord: |  |  |  |  serialized_private_channels: 0.002
+[2025-04-13 08:58:21.280012] Read line from Discord: |  |  |  |  user_segments: 7.081
+[2025-04-13 08:58:21.282011] Read line from Discord: |  |  |  |  game_invites: 0.003
+[2025-04-13 08:58:21.284010] Read line from Discord: |  |  |  |  blocker_ids: 0.002
+[2025-04-13 08:58:21.286012] Read line from Discord: |  |  |  |  affine_user_ids: 0.008
+[2025-04-13 08:58:21.288014] Read line from Discord: |  |  |  |  experiments: 20.411
+[2025-04-13 08:58:21.290010] Read line from Discord: |  |  |  |  required_action: 0.009
+[2025-04-13 08:58:21.292011] Read line from Discord: |  |  |  |  authorized_ip_coro: 0.001
+[2025-04-13 08:58:21.294010] Read line from Discord: |  |  |  |  pending_payments: 4.351
+[2025-04-13 08:58:21.296010] Read line from Discord: |  |  |  |  apex_user_experiments: 0.002
+[2025-04-13 08:58:21.298010] Read line from Discord: |  |  starting_guild_connect: 0.058
+[2025-04-13 08:58:21.300010] Read line from Discord: |  |  presence_started: 7.577
+[2025-04-13 08:58:21.302012] Read line from Discord: |  |  guilds_started: 0.069
+[2025-04-13 08:58:21.304041] Read line from Discord: |  |  lobbies_started: 0.001
+[2025-04-13 08:58:21.306065] Read line from Discord: |  |  guilds_connect: 4.472
+[2025-04-13 08:58:21.308067] Read line from Discord: |  |  presence_connect: 2.025
+[2025-04-13 08:58:21.310067] Read line from Discord: |  |  connect_finished: 7.035
+[2025-04-13 08:58:21.312067] Read line from Discord: |  |  build_ready: 0.159
+[2025-04-13 08:58:21.314068] Read line from Discord: |  |  clean_ready: 0
+[2025-04-13 08:58:21.316067] Read line from Discord: |  |  optimize_ready: 0.352
+[2025-04-13 08:58:21.318092] Read line from Discord: |  |  split_ready: 0.02
+[2025-04-13 08:58:21.320091] Read line from Discord: 08:58:21.235 > [GatewaySocket] Setting connection state to SESSION_ESTABLISHED
+[2025-04-13 08:58:21.322091] Read line from Discord: 08:58:21.236 > [GatewaySocket] Updating resume url to wss://gateway-us-east1-c.discord.gg
+[2025-04-13 08:58:21.324132] Read line from Discord: 08:58:21.243 > [Flux] Dispatching CONNECTION_OPEN
+[2025-04-13 08:58:21.326191] Read line from Discord: 08:58:21.244 > [AuthenticationStore] handleConnectionOpen called [object Object]
+[2025-04-13 08:58:21.328214] Read line from Discord: 08:58:21.246 > [DatabaseManager] removing database (user: 1308864998373851157, database: undefined)
+[2025-04-13 08:58:21.330192] Read line from Discord: 08:58:21.247 > [DatabaseManager] added database (1308864998373851157 → null)
+[2025-04-13 08:58:21.332229] Read line from Discord: 08:58:21.253 > [NativeDispatchUtils] Tried getting Dispatch instance before instantiated
+[2025-04-13 08:58:21.334210] Read line from Discord: 08:58:21.254 > Deferring audio subsystem switch to experimental until next restart.
+[2025-04-13 08:58:21.336190] Read line from Discord: 08:58:21.257 > [OverlayRenderStore] setOverlayEnabled: supported [object Object]
+[2025-04-13 08:58:21.338190] Read line from Discord: 08:58:21.258 > [OverlayRenderStore] setOverlayEnabled [object Object]
+[2025-04-13 08:58:21.340208] Read line from Discord: 08:58:21.258 > [OverlayRenderStore] Legacy change
+[2025-04-13 08:58:21.342224] Read line from Discord: 08:58:21.259 > [OverlayRenderStore] OOP change
+[2025-04-13 08:58:21.344194] Read line from Discord: 08:58:21.268 > [OverlayStoreV3] Maybe Enable Overlay
+[2025-04-13 08:58:21.346247] Read line from Discord: 08:58:21.268 > [OverlayStoreV3] Loading Out of Process Overlay Module
+[2025-04-13 08:58:21.347774] Read line from Discord: 08:58:21.283 > [GatewaySocket] [READY_SUPPLEMENTAL] took 437ms
+[2025-04-13 08:58:21.349789] Read line from Discord: 08:58:21.284 > [GatewaySocket] Setting connection state to SESSION_ESTABLISHED
+[2025-04-13 08:58:21.351784] Read line from Discord: 08:58:21.309 > [RPCServer:WSS] Starting on 6463
+[2025-04-13 08:58:21.353783] Read line from Discord: 08:58:21.311 > [RPCServer:IPC] Starting on \\?\pipe\discord-ipc-0
+[2025-04-13 08:58:23.283231] Read line from Discord: 08:58:23.282 > [OverlayRenderStore] Retracking 0 games (0 already tracked)
+[2025-04-13 08:58:23.285236] Read line from Discord: 08:58:23.283 > [OverlayRenderStore] Retracked 0 games
+[2025-04-13 08:58:23.315217] Read line from Discord: 08:58:23.314 > [OverlayStoreV3] OverlayV3 Module Loaded
+[2025-04-13 08:58:23.612610] Read line from Discord: 08:58:23.612 > [libdiscore] isLibdiscoreBlockedDomainsEnabledThisSession: false
+[2025-04-13 08:58:23.947926] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 08:58:23.947926] Checked Discord logs during activity
+[2025-04-13 08:58:24.070278] Read line from Discord: 08:58:24.069 > [Flux] Slow dispatch on GAMES_DATABASE_UPDATE: 234.79999999701977ms
+[2025-04-13 08:58:25.948540] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 08:58:25.948540] Checked Discord logs during activity
+[2025-04-13 08:58:27.949163] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 08:58:27.949163] Checked Discord logs during activity
+[2025-04-13 08:58:29.950694] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 08:58:29.950694] Checked Discord logs during activity
+[2025-04-13 08:58:31.853704] Read line from Discord: 08:58:31.852 > [RTCLatencyTestManager] RTC cached ranked preferred regions are seattle,us-central,santa-clara,us-west,us-south
+[2025-04-13 08:58:31.951411] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 08:58:31.951411] Checked Discord logs during activity
+[2025-04-13 08:58:33.613689] Read line from Discord: 08:58:33.613 > [FetchBlockedDomain] Fetching blocked domain list
+[2025-04-13 08:58:33.616692] Read line from Discord: 08:58:33.616 > [FetchBlockedDomain] Server revision: 1223, Client revision: 1223
+[2025-04-13 08:58:33.951877] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 08:58:33.951877] Checked Discord logs during activity
+[2025-04-13 08:58:34.750935] Read line from Discord: 08:58:34.749 > [MessageActionCreators] Fetching messages for 1360014770077569177 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+[2025-04-13 08:58:34.812316] Read line from Discord: 08:58:34.811 > [Routing/Utils] transitionTo - Transitioning to /channels/866514085462147112/1360014770077569177
+[2025-04-13 08:58:35.050293] Read line from Discord: 08:58:35.049 > [MessageActionCreators] Fetched 17 messages for 1360014770077569177 isBefore:false isAfter:false
+[2025-04-13 08:58:35.055282] Read line from Discord: 08:58:35.055 > [ChannelMessages] loadComplete: resetting state for channelId=1360014770077569177, sending.length=0
+[2025-04-13 08:58:35.953345] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 08:58:35.953345] Checked Discord logs during activity
+[2025-04-13 08:58:36.878969] Read line from Discord: 08:58:36.878 > [discord_protos.discord_users.v1.FrecencyUserSettings] Loading proto
+[2025-04-13 08:58:37.953943] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 08:58:37.953943] Checked Discord logs during activity
+[2025-04-13 08:58:39.954357] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 08:58:39.954357] Checked Discord logs during activity
+[2025-04-13 08:58:41.954552] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 08:58:41.954552] Checked Discord logs during activity
+[2025-04-13 08:58:43.693142] Read line from Discord: 08:58:43.692 > [MessageActionCreators] Fetching messages for 1354895636004343972 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+[2025-04-13 08:58:43.717693] Read line from Discord: 08:58:43.716 > [Routing/Utils] transitionTo - Transitioning to /channels/866514085462147112/1354895636004343972
+[2025-04-13 08:58:43.955512] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 08:58:43.955512] Checked Discord logs during activity
+[2025-04-13 08:58:44.059951] Read line from Discord: 08:58:44.059 > [MessageActionCreators] Fetched 50 messages for 1354895636004343972 isBefore:false isAfter:false
+[2025-04-13 08:58:44.063948] Read line from Discord: 08:58:44.063 > [ChannelMessages] loadComplete: resetting state for channelId=1354895636004343972, sending.length=0
+[2025-04-13 08:58:44.796384] Read line from Discord: 08:58:44.795 > [MessageActionCreators] Fetching messages for 1337036209821847592 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+[2025-04-13 08:58:44.857628] Read line from Discord: 08:58:44.857 > [Routing/Utils] transitionTo - Transitioning to /channels/866514085462147112/1337036209821847592
+[2025-04-13 08:58:45.071658] Read line from Discord: 08:58:45.071 > [MessageActionCreators] Fetched 50 messages for 1337036209821847592 isBefore:false isAfter:false
+[2025-04-13 08:58:45.076658] Read line from Discord: 08:58:45.075 > [ChannelMessages] loadComplete: resetting state for channelId=1337036209821847592, sending.length=0
+[2025-04-13 08:58:45.957171] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 08:58:45.957171] Checked Discord logs during activity
+[2025-04-13 08:58:47.532026] Read line from Discord: 08:58:47.531 > [KeyboardLayoutMapUtils] KeyboardMapper - Key added [object Object]
+[2025-04-13 08:58:47.561606] Read line from Discord: 08:58:47.561 > [KeyboardLayoutMapUtils] KeyboardMapper - Key added [object Object]
+[2025-04-13 08:58:47.636702] Read line from Discord: 08:58:47.635 > [KeyboardLayoutMapUtils] KeyboardMapper - Key added [object Object]
+[2025-04-13 08:58:47.786272] Read line from Discord: 08:58:47.786 > [KeyboardLayoutMapUtils] KeyboardMapper - Key added [object Object]
+[2025-04-13 08:58:47.793271] Read line from Discord: 08:58:47.792 > [KeyboardLayoutMapUtils] KeyboardMapper - Key added [object Object]
+[2025-04-13 08:58:47.921500] Read line from Discord: 08:58:47.920 > [KeyboardLayoutMapUtils] KeyboardMapper - Key added [object Object]
+[2025-04-13 08:58:47.957948] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 08:58:47.957948] Checked Discord logs during activity
+[2025-04-13 08:58:48.029640] Read line from Discord: 08:58:48.028 > [KeyboardLayoutMapUtils] KeyboardMapper - Key added [object Object]
+[2025-04-13 08:58:49.958327] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 08:58:49.958327] Checked Discord logs during activity
+[2025-04-13 08:58:51.958714] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 08:58:51.958714] Checked Discord logs during activity
+[2025-04-13 08:58:53.960864] Exiting discord_wiggle
+[2025-04-13 08:58:53.960864] Finished discord_wiggle
+[2025-04-13 12:20:14.724598] Starting ww.py execution
+[2025-04-13 12:20:14.724598] Script started with pythonw (PID: 21512)
+[2025-04-13 12:20:15.035217] GUI initialized
+[2025-04-13 12:20:16.442052] Pop-up shown
+[2025-04-13 12:20:16.442052] Starting wait loop
+[2025-04-13 12:20:26.443077] Wait loop completed
+[2025-04-13 12:20:26.443077] Checking for internet access
+[2025-04-13 12:20:26.492844] Internet access confirmed
+[2025-04-13 12:20:26.492844] Entering get_idle_time
+[2025-04-13 12:20:26.492844] Idle time: 2.44 seconds
+[2025-04-13 12:20:26.493825] System idle time: 2.437
+[2025-04-13 12:20:26.493825] Entering get_discord_idle_time
+[2025-04-13 12:20:27.031991] No running Discord process found, assuming idle for 1 hour
+[2025-04-13 12:20:27.031991] Discord idle time: 3600.0
+[2025-04-13 12:20:27.032993] Calling discord_wiggle
+[2025-04-13 12:20:27.032993] Entering discord_wiggle
+[2025-04-13 12:20:27.038990] No running Discord process found
+[2025-04-13 12:20:27.039991] Found Discord executable: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe
+[2025-04-13 12:20:27.039991] Attempting to launch Discord at: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe
+[2025-04-13 12:20:27.045992] Failed to launch Discord: [WinError 6] The handle is invalid
+[2025-04-13 12:20:27.045992] Failed to get Discord PID after launch
+[2025-04-13 12:20:27.046994] No Discord PID available to activate
+[2025-04-13 12:20:27.055992] Exiting discord_wiggle
+[2025-04-13 12:20:27.056992] Finished discord_wiggle
+[2025-04-13 12:22:11.963780] Starting ww.py execution
+[2025-04-13 12:22:11.963780] Script started with pythonw (PID: 22508)
+[2025-04-13 12:22:12.026320] GUI initialized
+[2025-04-13 12:22:13.339990] Pop-up shown
+[2025-04-13 12:22:13.340990] Starting wait loop
+[2025-04-13 12:22:23.341416] Wait loop completed
+[2025-04-13 12:22:23.341416] Checking for internet access
+[2025-04-13 12:22:23.379572] Internet access confirmed
+[2025-04-13 12:22:23.380547] Entering get_idle_time
+[2025-04-13 12:22:23.380547] Idle time: 4.56 seconds
+[2025-04-13 12:22:23.380547] System idle time: 4.563
+[2025-04-13 12:22:23.381548] Entering get_discord_idle_time
+[2025-04-13 12:22:23.926851] No running Discord process found, assuming idle for 1 hour
+[2025-04-13 12:22:23.926851] Discord idle time: 3600.0
+[2025-04-13 12:22:23.927834] Calling discord_wiggle
+[2025-04-13 12:22:23.927834] Entering discord_wiggle
+[2025-04-13 12:22:23.932845] No running Discord process found
+[2025-04-13 12:22:23.933846] Found Discord executable: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe
+[2025-04-13 12:22:23.933846] Attempting to launch Discord at: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe
+[2025-04-13 12:22:23.939835] Launched Discord with PID: 20268
+[2025-04-13 12:22:24.369143] Read line from Discord: Discord 1.0.9188
+[2025-04-13 12:22:24.370127] Error reading Discord output: module 'datetime' has no attribute 'now'
+[2025-04-13 12:22:24.370127] Closed stdout pipe
+[2025-04-13 12:22:25.946621] Found running Discord process with PID: 9456
+[2025-04-13 12:22:25.946621] Discord PID found: 9456
+[2025-04-13 12:22:26.176310] Activated Discord by opening DM channel for PID: 9456
+[2025-04-13 12:22:31.176665] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:22:31.176665] Checked Discord logs during activity
+[2025-04-13 12:22:33.177605] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:22:33.177605] Checked Discord logs during activity
+[2025-04-13 12:22:35.178042] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:22:35.178042] Checked Discord logs during activity
+[2025-04-13 12:22:37.178213] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:22:37.178213] Checked Discord logs during activity
+[2025-04-13 12:22:39.179142] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:22:39.179142] Checked Discord logs during activity
+[2025-04-13 12:22:41.179210] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:22:41.179210] Checked Discord logs during activity
+[2025-04-13 12:22:43.179507] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:22:43.179507] Checked Discord logs during activity
+[2025-04-13 12:22:45.179870] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:22:45.179870] Checked Discord logs during activity
+[2025-04-13 12:22:47.180058] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:22:47.180058] Checked Discord logs during activity
+[2025-04-13 12:22:49.180526] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:22:49.180526] Checked Discord logs during activity
+[2025-04-13 12:22:51.180971] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:22:51.180971] Checked Discord logs during activity
+[2025-04-13 12:22:53.181486] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:22:53.181486] Checked Discord logs during activity
+[2025-04-13 12:22:55.181636] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:22:55.181636] Checked Discord logs during activity
+[2025-04-13 12:22:57.182367] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:22:57.182367] Checked Discord logs during activity
+[2025-04-13 12:22:59.182541] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:22:59.182541] Checked Discord logs during activity
+[2025-04-13 12:23:01.184255] Exiting discord_wiggle
+[2025-04-13 12:23:01.184255] Finished discord_wiggle
+[2025-04-13 12:24:56.323002] Starting ww.py execution
+[2025-04-13 12:24:56.323002] Script started with pythonw (PID: 10648)
+[2025-04-13 12:24:56.388054] GUI initialized
+[2025-04-13 12:24:57.544972] Pop-up shown
+[2025-04-13 12:24:57.544972] Starting wait loop
+[2025-04-13 12:25:07.545397] Wait loop completed
+[2025-04-13 12:25:07.545397] Checking for internet access
+[2025-04-13 12:25:07.589016] Internet access confirmed
+[2025-04-13 12:25:07.589016] Entering get_idle_time
+[2025-04-13 12:25:07.589016] Idle time: 6.97 seconds
+[2025-04-13 12:25:07.590017] System idle time: 6.969
+[2025-04-13 12:25:07.590017] Entering get_discord_idle_time
+[2025-04-13 12:25:08.103710] No timestamp found in Discord log: C:\Users\Haley Thomson\AppData\Roaming\Discord\logs\renderer_js.log
+[2025-04-13 12:25:08.103710] Discord (PID: 8824) last active 155.05 seconds ago (using process creation)
+[2025-04-13 12:25:08.104710] Discord idle time: 155.0542438030243
+[2025-04-13 12:25:08.105710] Calling discord_wiggle
+[2025-04-13 12:25:08.105710] Entering discord_wiggle
+[2025-04-13 12:25:08.110710] Found running Discord process with PID: 8824
+[2025-04-13 12:25:08.740461] Attempted to restore Discord window for PID: 8824
+[2025-04-13 12:25:08.970889] Activated Discord by opening DM channel for PID: 8824
+[2025-04-13 12:25:13.971072] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:25:13.971072] Checked Discord logs during activity
+[2025-04-13 12:25:15.971526] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:25:15.971526] Checked Discord logs during activity
+[2025-04-13 12:25:17.971628] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:25:17.971628] Checked Discord logs during activity
+[2025-04-13 12:25:19.971724] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:25:19.971724] Checked Discord logs during activity
+[2025-04-13 12:25:21.972385] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:25:21.972385] Checked Discord logs during activity
+[2025-04-13 12:25:23.972804] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:25:23.972804] Checked Discord logs during activity
+[2025-04-13 12:25:25.973154] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:25:25.973154] Checked Discord logs during activity
+[2025-04-13 12:25:27.974074] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:25:27.974074] Checked Discord logs during activity
+[2025-04-13 12:25:29.974116] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:25:29.974116] Checked Discord logs during activity
+[2025-04-13 12:25:31.974219] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:25:31.974219] Checked Discord logs during activity
+[2025-04-13 12:25:33.974719] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:25:33.974719] Checked Discord logs during activity
+[2025-04-13 12:25:35.975654] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:25:35.975654] Checked Discord logs during activity
+[2025-04-13 12:25:37.976561] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:25:37.976561] Checked Discord logs during activity
+[2025-04-13 12:25:39.977419] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:25:39.977419] Checked Discord logs during activity
+[2025-04-13 12:25:41.978172] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:25:41.978172] Checked Discord logs during activity
+[2025-04-13 12:25:43.979827] Exiting discord_wiggle
+[2025-04-13 12:25:43.979827] Finished discord_wiggle
+[2025-04-13 12:26:49.378309] Starting ww.py execution
+[2025-04-13 12:26:49.379306] Script started with pythonw (PID: 21992)
+[2025-04-13 12:26:49.441409] GUI initialized
+[2025-04-13 12:26:50.488729] Pop-up shown
+[2025-04-13 12:26:50.488729] Starting wait loop
+[2025-04-13 12:27:00.488815] Wait loop completed
+[2025-04-13 12:27:00.488815] Checking for internet access
+[2025-04-13 12:27:00.529529] Internet access confirmed
+[2025-04-13 12:27:00.530517] Entering get_idle_time
+[2025-04-13 12:27:00.530517] Idle time: 0.03 seconds
+[2025-04-13 12:27:00.531525] System idle time: 0.031
+[2025-04-13 12:27:00.531525] Entering get_discord_idle_time
+[2025-04-13 12:27:01.149233] No running Discord process found, assuming idle for 1 hour
+[2025-04-13 12:27:01.149233] Discord idle time: 3600.0
+[2025-04-13 12:27:01.149233] Calling discord_wiggle
+[2025-04-13 12:27:01.150235] Entering discord_wiggle
+[2025-04-13 12:27:01.155232] No running Discord process found
+[2025-04-13 12:27:01.157234] Found Discord executable: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe
+[2025-04-13 12:27:01.157234] Attempting to launch Discord at: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe
+[2025-04-13 12:27:01.167234] Launched Discord with PID: 23172
+[2025-04-13 12:27:01.594591] Discord: Discord 1.0.9188
+[2025-04-13 12:27:01.594591] Error reading output: module 'datetime' has no attribute 'now'
+[2025-04-13 12:27:03.173963] Found running Discord process with PID: 16956
+[2025-04-13 12:27:03.173963] Discord PID found: 16956
+[2025-04-13 12:27:03.399540] Activated Discord by opening DM channel for PID: 16956
+[2025-04-13 12:27:08.400197] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:27:08.400197] Checked Discord logs during activity
+[2025-04-13 12:27:10.400897] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:27:10.403897] Checked Discord logs during activity
+[2025-04-13 12:27:12.405752] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:27:12.405752] Checked Discord logs during activity
+[2025-04-13 12:27:14.406663] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:27:14.406663] Checked Discord logs during activity
+[2025-04-13 12:27:16.406921] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:27:16.406921] Checked Discord logs during activity
+[2025-04-13 12:27:18.407541] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:27:18.407541] Checked Discord logs during activity
+[2025-04-13 12:27:20.407668] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:27:20.407668] Checked Discord logs during activity
+[2025-04-13 12:27:22.408385] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:27:22.408385] Checked Discord logs during activity
+[2025-04-13 12:27:24.408873] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:27:24.408873] Checked Discord logs during activity
+[2025-04-13 12:27:26.408963] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:27:26.408963] Checked Discord logs during activity
+[2025-04-13 12:27:28.409338] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:27:28.409338] Checked Discord logs during activity
+[2025-04-13 12:27:30.409724] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:27:30.409724] Checked Discord logs during activity
+[2025-04-13 12:27:32.409724] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:27:32.409724] Checked Discord logs during activity
+[2025-04-13 12:27:34.410140] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:27:34.410140] Checked Discord logs during activity
+[2025-04-13 12:27:36.410995] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:27:36.410995] Checked Discord logs during activity
+[2025-04-13 12:27:38.414701] Exiting discord_wiggle
+[2025-04-13 12:27:38.414701] Finished discord_wiggle
+[2025-04-13 12:28:08.029733] Starting ww.py execution
+[2025-04-13 12:28:08.029733] Script started with pythonw (PID: 36212)
+[2025-04-13 12:28:08.095389] GUI initialized
+[2025-04-13 12:28:09.525530] Pop-up shown
+[2025-04-13 12:28:09.525530] Starting wait loop
+[2025-04-13 12:28:19.526503] Wait loop completed
+[2025-04-13 12:28:19.526503] Checking for internet access
+[2025-04-13 12:28:19.570628] Internet access confirmed
+[2025-04-13 12:28:19.571635] Entering get_idle_time
+[2025-04-13 12:28:19.571635] Idle time: 0.00 seconds
+[2025-04-13 12:28:19.572618] System idle time: 0.0
+[2025-04-13 12:28:19.572618] Entering get_discord_idle_time
+[2025-04-13 12:28:20.133313] No running Discord process found, assuming idle for 1 hour
+[2025-04-13 12:28:20.133313] Discord idle time: 3600.0
+[2025-04-13 12:28:20.134314] Calling discord_wiggle
+[2025-04-13 12:28:20.134314] Entering discord_wiggle
+[2025-04-13 12:28:20.139326] No running Discord process found
+[2025-04-13 12:28:20.140312] Found Discord executable: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe
+[2025-04-13 12:28:20.140312] Attempting to launch Discord at: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe
+[2025-04-13 12:28:20.146312] Launched Discord with PID: 36424
+[2025-04-13 12:28:22.151318] Found running Discord process with PID: 10952
+[2025-04-13 12:28:22.152319] Discord PID found: 10952
+[2025-04-13 12:28:22.435418] Activated Discord by opening DM channel for PID: 10952
+[2025-04-13 12:28:27.436093] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:28:27.436093] Checked Discord logs during activity
+[2025-04-13 12:28:29.436780] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:28:29.436780] Checked Discord logs during activity
+[2025-04-13 12:28:31.437154] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:28:31.437154] Checked Discord logs during activity
+[2025-04-13 12:28:33.437245] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:28:33.437245] Checked Discord logs during activity
+[2025-04-13 12:28:35.437915] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:28:35.437915] Checked Discord logs during activity
+[2025-04-13 12:28:37.438334] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:28:37.438334] Checked Discord logs during activity
+[2025-04-13 12:28:39.439243] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:28:39.439243] Checked Discord logs during activity
+[2025-04-13 12:28:41.439961] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:28:41.439961] Checked Discord logs during activity
+[2025-04-13 12:28:43.440836] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:28:43.440836] Checked Discord logs during activity
+[2025-04-13 12:28:45.441382] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:28:45.441382] Checked Discord logs during activity
+[2025-04-13 12:28:47.441841] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:28:47.441841] Checked Discord logs during activity
+[2025-04-13 12:28:49.442521] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:28:49.442521] Checked Discord logs during activity
+[2025-04-13 12:28:51.442538] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:28:51.442538] Checked Discord logs during activity
+[2025-04-13 12:28:53.442593] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:28:53.443593] Checked Discord logs during activity
+[2025-04-13 12:28:55.443800] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:28:55.443800] Checked Discord logs during activity
+[2025-04-13 12:28:57.445786] Exiting discord_wiggle
+[2025-04-13 12:28:57.446769] Finished discord_wiggle
+[2025-04-13 12:30:24.609372] Starting ww.py execution
+[2025-04-13 12:30:24.609372] Script started with pythonw (PID: 5936)
+[2025-04-13 12:30:24.675934] GUI initialized
+[2025-04-13 12:30:25.893437] Pop-up shown
+[2025-04-13 12:30:25.893437] Starting wait loop
+[2025-04-13 12:30:35.894048] Wait loop completed
+[2025-04-13 12:30:35.894048] Checking for internet access
+[2025-04-13 12:30:35.939641] Internet access confirmed
+[2025-04-13 12:30:35.939641] Entering get_idle_time
+[2025-04-13 12:30:35.940622] Idle time: 0.27 seconds
+[2025-04-13 12:30:35.940622] System idle time: 0.265
+[2025-04-13 12:30:35.940622] Entering get_discord_idle_time
+[2025-04-13 12:30:36.512256] No running Discord process found, assuming idle for 1 hour
+[2025-04-13 12:30:36.512256] Discord idle time: 3600.0
+[2025-04-13 12:30:36.513235] Calling discord_wiggle
+[2025-04-13 12:30:36.513235] Entering discord_wiggle
+[2025-04-13 12:30:36.519233] No running Discord process found
+[2025-04-13 12:30:36.520275] Found Discord executable: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe
+[2025-04-13 12:30:36.520275] Attempting to launch Discord at: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe
+[2025-04-13 12:30:36.529799] Launched Discord with PID: 35776
+[2025-04-13 12:30:38.535791] Found running Discord process with PID: 22028
+[2025-04-13 12:30:38.535791] Discord PID found: 22028
+[2025-04-13 12:30:38.536800] Started monitoring Discord logs: C:\Users\Haley Thomson\AppData\Roaming\Discord\logs\renderer_js.log
+[2025-04-13 12:30:38.648958] Discord log: [2025-04-13 12:30:38.566] [info]  Initializing voice engine with audio subsystem: experimental
+[2025-04-13 12:30:38.904446] Activated Discord by opening DM channel for PID: 22028
+[2025-04-13 12:30:43.905025] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:30:43.905025] Checked Discord logs during activity
+[2025-04-13 12:30:45.905028] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:30:45.905028] Checked Discord logs during activity
+[2025-04-13 12:30:47.905257] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:30:47.905257] Checked Discord logs during activity
+[2025-04-13 12:30:49.906143] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:30:49.906143] Checked Discord logs during activity
+[2025-04-13 12:30:51.906972] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:30:51.906972] Checked Discord logs during activity
+[2025-04-13 12:30:53.907050] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:30:53.907050] Checked Discord logs during activity
+[2025-04-13 12:30:55.907331] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:30:55.907331] Checked Discord logs during activity
+[2025-04-13 12:30:57.908020] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:30:57.908020] Checked Discord logs during activity
+[2025-04-13 12:30:59.908942] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:30:59.908942] Checked Discord logs during activity
+[2025-04-13 12:31:01.909487] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:31:01.909487] Checked Discord logs during activity
+[2025-04-13 12:31:03.910038] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:31:03.910038] Checked Discord logs during activity
+[2025-04-13 12:31:05.910710] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:31:05.910710] Checked Discord logs during activity
+[2025-04-13 12:31:07.911577] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:31:07.911577] Checked Discord logs during activity
+[2025-04-13 12:31:09.912411] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:31:09.912411] Checked Discord logs during activity
+[2025-04-13 12:31:11.912558] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:31:11.912558] Checked Discord logs during activity
+[2025-04-13 12:31:13.915163] Exiting discord_wiggle
+[2025-04-13 12:31:13.915163] Finished discord_wiggle
+[2025-04-13 12:31:32.223631] Starting ww.py execution
+[2025-04-13 12:31:32.224638] Script started with pythonw (PID: 5832)
+[2025-04-13 12:31:32.287191] GUI initialized
+[2025-04-13 12:31:33.138287] Pop-up shown
+[2025-04-13 12:31:33.139289] Starting wait loop
+[2025-04-13 12:31:43.139930] Wait loop completed
+[2025-04-13 12:31:43.139930] Checking for internet access
+[2025-04-13 12:31:43.180577] Internet access confirmed
+[2025-04-13 12:31:43.180577] Entering get_idle_time
+[2025-04-13 12:31:43.181576] Idle time: 0.05 seconds
+[2025-04-13 12:31:43.181576] System idle time: 0.047
+[2025-04-13 12:31:43.181576] Entering get_discord_idle_time
+[2025-04-13 12:31:43.739572] No running Discord process found, assuming idle for 1 hour
+[2025-04-13 12:31:43.739572] Discord idle time: 3600.0
+[2025-04-13 12:31:43.740562] Calling discord_wiggle
+[2025-04-13 12:31:43.740562] Entering discord_wiggle
+[2025-04-13 12:31:43.745553] No running Discord process found
+[2025-04-13 12:31:43.747095] Found Discord executable: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe
+[2025-04-13 12:31:43.747095] Attempting to launch Discord at: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe
+[2025-04-13 12:31:43.753097] Launched Discord with PID: 28284
+[2025-04-13 12:31:45.762509] Found running Discord process with PID: 980
+[2025-04-13 12:31:45.762509] Discord PID found: 980
+[2025-04-13 12:31:45.764509] Started monitoring Discord logs: C:\Users\Haley Thomson\AppData\Roaming\Discord\logs\renderer_js.log
+[2025-04-13 12:31:45.874511] Discord log: [2025-04-13 12:31:45.865] [info]  [default] [BUILD INFO] Release Channel: stable, Build Number: 389004, Version Hash: 9e468acd9390c99cb2af3a3ace62b3b4d9b71d78
+[2025-04-13 12:31:46.074776] Activated Discord by opening DM channel for PID: 980
+[2025-04-13 12:31:51.075491] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:31:51.075491] Checked Discord logs during activity
+[2025-04-13 12:31:53.075628] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:31:53.075628] Checked Discord logs during activity
+[2025-04-13 12:31:55.076375] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:31:55.076375] Checked Discord logs during activity
+[2025-04-13 12:31:57.076986] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:31:57.076986] Checked Discord logs during activity
+[2025-04-13 12:31:59.077687] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:31:59.078342] Checked Discord logs during activity
+[2025-04-13 12:32:01.078792] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:32:01.078792] Checked Discord logs during activity
+[2025-04-13 12:32:03.079282] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:32:03.079282] Checked Discord logs during activity
+[2025-04-13 12:32:05.079814] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:32:05.079814] Checked Discord logs during activity
+[2025-04-13 12:32:07.080810] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:32:07.080810] Checked Discord logs during activity
+[2025-04-13 12:32:09.082211] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:32:09.082211] Checked Discord logs during activity
+[2025-04-13 12:32:11.082894] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:32:11.082894] Checked Discord logs during activity
+[2025-04-13 12:32:13.083008] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:32:13.083550] Checked Discord logs during activity
+[2025-04-13 12:32:15.084308] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:32:15.084308] Checked Discord logs during activity
+[2025-04-13 12:32:16.808019] Exiting discord_wiggle
+[2025-04-13 12:32:21.260659] Starting ww.py execution
+[2025-04-13 12:32:21.260659] Script started with pythonw (PID: 16416)
+[2025-04-13 12:32:21.325846] GUI initialized
+[2025-04-13 12:32:22.509688] Pop-up shown
+[2025-04-13 12:32:22.509688] Starting wait loop
+[2025-04-13 12:32:32.509984] Wait loop completed
+[2025-04-13 12:32:32.509984] Checking for internet access
+[2025-04-13 12:32:32.568252] Internet access confirmed
+[2025-04-13 12:32:32.568252] Entering get_idle_time
+[2025-04-13 12:32:32.569253] Idle time: 7.51 seconds
+[2025-04-13 12:32:32.569253] System idle time: 7.515
+[2025-04-13 12:32:32.569253] Entering get_discord_idle_time
+[2025-04-13 12:32:33.161416] No running Discord process found, assuming idle for 1 hour
+[2025-04-13 12:32:33.161416] Discord idle time: 3600.0
+[2025-04-13 12:32:33.162416] Calling discord_wiggle
+[2025-04-13 12:32:33.162416] Entering discord_wiggle
+[2025-04-13 12:32:33.167416] No running Discord process found
+[2025-04-13 12:32:33.168416] Found Discord executable: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe
+[2025-04-13 12:32:33.168416] Attempting to launch Discord at: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe
+[2025-04-13 12:32:33.174418] Launched Discord with PID: 3812
+[2025-04-13 12:32:35.184103] Found running Discord process with PID: 20484
+[2025-04-13 12:32:35.185094] Discord PID found: 20484
+[2025-04-13 12:32:35.186093] Started monitoring Discord logs: C:\Users\Haley Thomson\AppData\Roaming\Discord\logs\renderer_js.log
+[2025-04-13 12:32:35.295259] Discord log: [2025-04-13 12:32:35.195] [info]  Initializing voice engine with audio subsystem: experimental
+[2025-04-13 12:32:35.494766] Activated Discord by opening DM channel for PID: 20484
+[2025-04-13 12:32:40.495520] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:32:40.495520] Checked Discord logs during activity
+[2025-04-13 12:32:42.495616] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:32:42.495616] Checked Discord logs during activity
+[2025-04-13 12:32:44.495772] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:32:44.495772] Checked Discord logs during activity
+[2025-04-13 12:32:46.496577] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:32:46.496577] Checked Discord logs during activity
+[2025-04-13 12:32:48.497385] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:32:48.497385] Checked Discord logs during activity
+[2025-04-13 12:32:50.498410] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:32:50.498410] Checked Discord logs during activity
+[2025-04-13 12:32:52.498733] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:32:52.498733] Checked Discord logs during activity
+[2025-04-13 12:32:54.499427] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:32:54.499427] Checked Discord logs during activity
+[2025-04-13 12:32:56.500372] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:32:56.500372] Checked Discord logs during activity
+[2025-04-13 12:32:58.501590] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:32:58.501590] Checked Discord logs during activity
+[2025-04-13 12:33:00.502105] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:33:00.502105] Checked Discord logs during activity
+[2025-04-13 12:33:02.503039] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:33:02.503039] Checked Discord logs during activity
+[2025-04-13 12:33:04.503644] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:33:04.504192] Checked Discord logs during activity
+[2025-04-13 12:33:06.504445] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:33:06.504445] Checked Discord logs during activity
+[2025-04-13 12:33:08.505155] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:33:08.505155] Checked Discord logs during activity
+[2025-04-13 12:33:10.507835] Exiting discord_wiggle
+[2025-04-13 12:33:10.507835] Finished discord_wiggle
+[2025-04-13 12:33:23.219000] Starting ww.py execution
+[2025-04-13 12:33:23.219000] Script started with pythonw (PID: 35820)
+[2025-04-13 12:33:23.288665] GUI initialized
+[2025-04-13 12:33:24.505438] Pop-up shown
+[2025-04-13 12:33:24.505438] Starting wait loop
+[2025-04-13 12:33:34.507335] Wait loop completed
+[2025-04-13 12:33:34.507335] Checking for internet access
+[2025-04-13 12:33:34.540013] Internet access confirmed
+[2025-04-13 12:33:34.540013] Entering get_idle_time
+[2025-04-13 12:33:34.541029] Idle time: 0.64 seconds
+[2025-04-13 12:33:34.541029] System idle time: 0.641
+[2025-04-13 12:33:34.541029] Entering get_discord_idle_time
+[2025-04-13 12:33:35.114261] No timestamp found in Discord log: C:\Users\Haley Thomson\AppData\Roaming\Discord\logs\renderer_js.log
+[2025-04-13 12:33:35.114261] Discord (PID: 20928) last active 61.93 seconds ago (using process creation)
+[2025-04-13 12:33:35.115261] Discord idle time: 61.92936158180237
+[2025-04-13 12:33:35.116279] Calling discord_wiggle
+[2025-04-13 12:33:35.116279] Entering discord_wiggle
+[2025-04-13 12:33:35.121274] Found running Discord process with PID: 20928
+[2025-04-13 12:33:37.657047] Attempted to restore Discord window for PID: 20928
+[2025-04-13 12:33:37.875338] Activated Discord by opening DM channel for PID: 20928
+[2025-04-13 12:33:42.875969] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:33:42.875969] Checked Discord logs during activity
+[2025-04-13 12:33:44.876832] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:33:44.876832] Checked Discord logs during activity
+[2025-04-13 12:33:46.877380] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:33:46.877380] Checked Discord logs during activity
+[2025-04-13 12:33:48.878060] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:33:48.878060] Checked Discord logs during activity
+[2025-04-13 12:33:50.878335] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:33:50.878335] Checked Discord logs during activity
+[2025-04-13 12:33:52.879268] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:33:52.879268] Checked Discord logs during activity
+[2025-04-13 12:33:54.880232] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:33:54.880232] Checked Discord logs during activity
+[2025-04-13 12:33:56.880758] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:33:56.880758] Checked Discord logs during activity
+[2025-04-13 12:33:58.881271] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:33:58.881271] Checked Discord logs during activity
+[2025-04-13 12:34:00.881735] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:34:00.881735] Checked Discord logs during activity
+[2025-04-13 12:34:02.882052] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:34:02.882052] Checked Discord logs during activity
+[2025-04-13 12:34:04.882824] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:34:04.882824] Checked Discord logs during activity
+[2025-04-13 12:34:06.882970] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:34:06.882970] Checked Discord logs during activity
+[2025-04-13 12:34:08.883591] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:34:08.883591] Checked Discord logs during activity
+[2025-04-13 12:34:10.884924] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:34:10.884924] Checked Discord logs during activity
+[2025-04-13 12:34:12.887415] Exiting discord_wiggle
+[2025-04-13 12:34:12.887415] Finished discord_wiggle
+[2025-04-13 12:34:47.122587] Starting ww.py execution
+[2025-04-13 12:34:47.122587] Script started with pythonw (PID: 16176)
+[2025-04-13 12:34:47.186379] GUI initialized
+[2025-04-13 12:34:47.937817] Pop-up shown
+[2025-04-13 12:34:47.937817] Starting wait loop
+[2025-04-13 12:34:57.937904] Wait loop completed
+[2025-04-13 12:34:57.937904] Checking for internet access
+[2025-04-13 12:34:57.974455] Internet access confirmed
+[2025-04-13 12:34:57.975459] Entering get_idle_time
+[2025-04-13 12:34:57.975459] Idle time: 0.23 seconds
+[2025-04-13 12:34:57.975459] System idle time: 0.235
+[2025-04-13 12:34:57.976569] Entering get_discord_idle_time
+[2025-04-13 12:34:58.569768] No running Discord process found, assuming idle for 1 hour
+[2025-04-13 12:34:58.570769] Discord idle time: 3600.0
+[2025-04-13 12:34:58.570769] Calling discord_wiggle
+[2025-04-13 12:34:58.571770] Entering discord_wiggle
+[2025-04-13 12:34:58.578769] No running Discord process found
+[2025-04-13 12:34:58.579770] Found Discord executable: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe
+[2025-04-13 12:34:58.580769] Attempting to launch Discord at: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe
+[2025-04-13 12:34:58.589387] Launched Discord with PID: 10076
+[2025-04-13 12:35:00.624721] Found running Discord process with PID: 1796
+[2025-04-13 12:35:00.625720] Discord PID found: 1796
+[2025-04-13 12:35:00.626721] Started monitoring Discord logs: C:\Users\Haley Thomson\AppData\Roaming\Discord\logs\renderer_js.log
+[2025-04-13 12:35:00.741340] Discord log: [2025-04-13 12:35:00.716] [info]  [FAST CONNECT] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream, encoding: etf, version: 9
+[2025-04-13 12:35:00.741340] Error reading log: module 'datetime' has no attribute 'now'
+[2025-04-13 12:35:00.874035] Activated Discord by opening DM channel for PID: 1796
+[2025-04-13 12:35:02.452973] Discord log: [2025-04-13 12:35:02.365] [info]  Splash.updateCountdownSeconds: undefined
+[2025-04-13 12:35:02.452973] Error reading log: module 'datetime' has no attribute 'now'
+[2025-04-13 12:35:03.455076] Switched to new log file: C:\Users\Haley Thomson\AppData\Roaming\Discord\logs\Discord_updater_rCURRENT.log
+[2025-04-13 12:35:03.563854] Discord log: [2025-04-13 12:35:03.559432 -06:00] INFO [updater_client::db]: Database requested by "install_module(discord_modules)" busy; waiting.
+[2025-04-13 12:35:03.563854] Error reading log: module 'datetime' has no attribute 'now'
+[2025-04-13 12:35:04.977148] Discord log: [2025-04-13 12:35:04.975665 -06:00] INFO [updater_client::db]: Opened installer database (exclusive: true, caller: install_module(discord_desktop_overlay)).
+[2025-04-13 12:35:04.977148] Error reading log: module 'datetime' has no attribute 'now'
+[2025-04-13 12:35:05.874690] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:35:05.875205] Checked Discord logs during activity
+[2025-04-13 12:35:06.088268] Discord log: [2025-04-13 12:35:06.046134 -06:00] INFO [updater_client::db]: Opened installer database (exclusive: true, caller: install_module(discord_overlay2)).
+[2025-04-13 12:35:06.088268] Error reading log: module 'datetime' has no attribute 'now'
+[2025-04-13 12:35:07.089846] Switched to new log file: C:\Users\Haley Thomson\AppData\Roaming\Discord\logs\renderer_js.log
+[2025-04-13 12:35:07.876159] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:35:07.876159] Checked Discord logs during activity
+[2025-04-13 12:35:09.876857] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:35:09.876857] Checked Discord logs during activity
+[2025-04-13 12:35:11.877153] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:35:11.877153] Checked Discord logs during activity
+[2025-04-13 12:35:13.877673] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:35:13.877673] Checked Discord logs during activity
+[2025-04-13 12:35:15.878006] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:35:15.878006] Checked Discord logs during activity
+[2025-04-13 12:35:17.878714] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:35:17.878714] Checked Discord logs during activity
+[2025-04-13 12:35:19.879628] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:35:19.879628] Checked Discord logs during activity
+[2025-04-13 12:35:21.880956] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:35:21.880956] Checked Discord logs during activity
+[2025-04-13 12:35:23.881851] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:35:23.881851] Checked Discord logs during activity
+[2025-04-13 12:35:25.882424] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:35:25.882424] Checked Discord logs during activity
+[2025-04-13 12:35:27.882724] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:35:27.882724] Checked Discord logs during activity
+[2025-04-13 12:35:29.518657] Discord log: [2025-04-13 12:35:29.494] [info]  [MessageActionCreators] Fetching messages for 1360014770077569177 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+[2025-04-13 12:35:29.518657] Error reading log: module 'datetime' has no attribute 'now'
+[2025-04-13 12:35:29.882956] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:35:29.882956] Checked Discord logs during activity
+[2025-04-13 12:35:31.883979] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:35:31.883979] Checked Discord logs during activity
+[2025-04-13 12:35:33.884538] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:35:33.884538] Checked Discord logs during activity
+[2025-04-13 12:35:35.886867] Exiting discord_wiggle
+[2025-04-13 12:35:35.887868] Finished discord_wiggle
+[2025-04-13 12:36:58.755474] Starting ww.py execution
+[2025-04-13 12:36:58.755474] Script started with pythonw (PID: 36724)
+[2025-04-13 12:36:58.819142] GUI initialized
+[2025-04-13 12:36:59.957447] Pop-up shown
+[2025-04-13 12:36:59.957447] Starting wait loop
+[2025-04-13 12:37:01.958353] Wait loop completed
+[2025-04-13 12:37:01.958353] Checking for internet access
+[2025-04-13 12:37:02.007560] Internet access confirmed
+[2025-04-13 12:37:02.007560] Entering get_idle_time
+[2025-04-13 12:37:02.007560] Idle time: 1.00 seconds
+[2025-04-13 12:37:02.008557] System idle time: 1.0
+[2025-04-13 12:37:02.008557] Entering get_discord_idle_time
+[2025-04-13 12:37:02.604922] No running Discord process found, assuming idle for 1 hour
+[2025-04-13 12:37:02.604922] Discord idle time: 3600.0
+[2025-04-13 12:37:02.605925] Calling discord_wiggle
+[2025-04-13 12:37:02.605925] Entering discord_wiggle
+[2025-04-13 12:37:02.610941] No running Discord process found
+[2025-04-13 12:37:02.611925] Found Discord executable: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe
+[2025-04-13 12:37:02.611925] Attempting to launch Discord at: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe
+[2025-04-13 12:37:02.618924] Launched Discord with PID: 31160
+[2025-04-13 12:37:03.037575] Discord: Discord 1.0.9188
+[2025-04-13 12:37:03.037575] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:03.097117] Discord: Starting app.
+[2025-04-13 12:37:03.097117] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:03.101117] Discord: Starting updater.
+[2025-04-13 12:37:03.101117] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:03.102117] Discord: Determined current Windows architecture: x64
+[2025-04-13 12:37:03.102117] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:03.110119] Discord: splashScreen.initSplash(false)
+[2025-04-13 12:37:03.110119] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:03.111117] Discord: CDM component API found
+[2025-04-13 12:37:03.111117] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:03.162205] Discord: blackbox: 4/13/2025, 12:37:03 PM MDT 0
+[2025-04-13 12:37:03.162205] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:03.163205] Discord: ----------------------------------------------
+[2025-04-13 12:37:03.163205] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:03.166205] Discord: CDM completed with status: cdm-ready-success
+[2025-04-13 12:37:03.166205] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:03.183322] Discord: blackbox: 4/13/2025, 12:37:03 PM MDT 1 Discord starting: {"newUpdater":true,"releaseChannel":"stable","version":"1.0.9188"}, modulepath: C:\Users\Haley Thomson\AppData\Roaming\discord\module_data
+[2025-04-13 12:37:03.184323] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:03.187323] Discord: blackbox: 4/13/2025, 12:37:03 PM MDT 2 ✅ webContents.created web1 ""
+[2025-04-13 12:37:03.188322] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:03.191323] Discord: blackbox: 4/13/2025, 12:37:03 PM MDT 3 ✅ window.created win1 "discord"
+[2025-04-13 12:37:03.191323] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:03.345459] Discord: 12:37:03.344 > DiscordSplash.signalReady
+[2025-04-13 12:37:03.346459] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:03.347459] Discord: splashScreen: SPLASH_SCREEN_READY
+[2025-04-13 12:37:03.348476] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:03.349462] Discord: splashScreen.webContentsSend: SPLASH_SCREEN_QUOTE SPLASH_SCREEN_QUOTE [ 'Hold Tight — Loading Discord' ]
+[2025-04-13 12:37:03.349462] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:03.354460] Discord: splashScreen.updateSplashState checking-for-updates checking-for-updates {}
+[2025-04-13 12:37:03.355460] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:03.355460] Discord: splashScreen.webContentsSend: SPLASH_UPDATE_STATE SPLASH_UPDATE_STATE [ { status: 'checking-for-updates' } ]
+[2025-04-13 12:37:03.355460] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:03.366462] Discord: 12:37:03.366 > DiscordSplash.onStateUpdate: {"status":"checking-for-updates"}
+[2025-04-13 12:37:03.367463] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:03.367463] Discord: 12:37:03.366 > Splash.onStateUpdate: {"status":"checking-for-updates"}
+[2025-04-13 12:37:03.367463] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:03.380037] Discord: blackbox: 4/13/2025, 12:37:03 PM MDT 4 ✅ webContents.did-finish-load web1
+[2025-04-13 12:37:03.380037] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:03.585457] Discord: Checking CDM status...
+[2025-04-13 12:37:03.585457] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:03.586459] Discord: CDM completed with status: cdm-ready-success
+[2025-04-13 12:37:03.586459] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:03.586459] Discord: splashScreen.launchMainWindow: false
+[2025-04-13 12:37:03.587466] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:03.659532] Discord: Optional module ./ElectronTestRpc was not included.
+[2025-04-13 12:37:03.659532] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:03.788264] Discord: splashScreen.updateSplashState launching launching {}
+[2025-04-13 12:37:03.789265] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:03.789265] Discord: splashScreen.webContentsSend: SPLASH_UPDATE_STATE SPLASH_UPDATE_STATE [ { status: 'launching' } ]
+[2025-04-13 12:37:03.789265] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:03.790265] Discord: blackbox: 4/13/2025, 12:37:03 PM MDT 5 ✅ webContents.created web2 ""
+[2025-04-13 12:37:03.790265] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:03.792265] Discord: 12:37:03.791 > DiscordSplash.onStateUpdate: {"status":"launching"}
+[2025-04-13 12:37:03.792265] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:03.793265] Discord: 12:37:03.793 > Splash.onStateUpdate: {"status":"launching"}
+[2025-04-13 12:37:03.794266] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:03.802265] Discord: blackbox: 4/13/2025, 12:37:03 PM MDT 6 ✅ window.created win2 "Discord"
+[2025-04-13 12:37:03.803264] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:04.344285] Discord: 12:37:04.344 > Splash.updateCountdownSeconds: undefined
+[2025-04-13 12:37:04.345285] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:04.471486] Discord: 12:37:04.471 > [FAST CONNECT] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream, encoding: etf, version: 9
+[2025-04-13 12:37:04.472490] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:04.625738] Found running Discord process with PID: 2584
+[2025-04-13 12:37:04.625738] Discord PID found: 2584
+[2025-04-13 12:37:04.688840] Discord: 12:37:04.688 > Initializing voice engine with audio subsystem: experimental
+[2025-04-13 12:37:04.688840] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:04.766548] Discord: 12:37:04.766 > [DatabaseManager] active user changed (now: 1308864998373851157, was: null, was: undefined)
+[2025-04-13 12:37:04.767548] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:04.820475] Discord: 12:37:04.819 > [default] [BUILD INFO] Release Channel: stable, Build Number: 389004, Version Hash: 9e468acd9390c99cb2af3a3ace62b3b4d9b71d78
+[2025-04-13 12:37:04.820475] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:04.906767] Activated Discord by opening DM channel for PID: 2584
+[2025-04-13 12:37:04.931767] Discord: 12:37:04.930 > [default] [NATIVE INFO] host 1.0.9188, modules: discord_media: 1, discord_krisp: 1, discord_zstd: 1, discord_rpc: 1, discord_overlay2: 1, discord_voice: 2, discord_utils: 2, discord_erlpack: 1, discord_game_utils: 1, discord_dispatch: 1, discord_spellcheck: 1, discord_desktop_core: 2, discord_hook: 1, discord_desktop_overlay: 2, discord_cloudsync: 1, discord_modules: 1, build: 61444
+[2025-04-13 12:37:04.931767] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:05.039003] Discord: 12:37:05.037 > [Spellchecker] sh is not a valid locale.
+[2025-04-13 12:37:05.039003] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:05.345098] Discord: 12:37:05.344 > Splash.updateCountdownSeconds: undefined
+[2025-04-13 12:37:05.345098] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.188932] Discord: 12:37:06.188 > [KeyboardLayoutMapUtils] Duplicate key mapping found for: backspace
+[2025-04-13 12:37:06.188932] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.197488] Discord: 12:37:06.197 > [FAST CONNECT] connected in 1726ms
+[2025-04-13 12:37:06.198489] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.259166] Discord: 12:37:06.258 > [Spellchecker] Switching to en-US (available)
+[2025-04-13 12:37:06.260163] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.293744] Discord: 12:37:06.293 > Unknown updater analytic event undefined
+[2025-04-13 12:37:06.294745] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.326166] Discord: 12:37:06.325 > [Routing/Utils] transitionTo - Transitioning to /channels/866514085462147112/channel-browser
+[2025-04-13 12:37:06.326684] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.345143] Discord: 12:37:06.344 > Splash.updateCountdownSeconds: undefined
+[2025-04-13 12:37:06.346142] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.531632] Discord: mainScreen.on(did-finish-load) false false
+[2025-04-13 12:37:06.531632] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.531632] Discord: blackbox: 4/13/2025, 12:37:06 PM MDT 7 ✅ webContents.did-finish-load web2
+[2025-04-13 12:37:06.532632] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.532632] Discord: splashScreen.pageReady
+[2025-04-13 12:37:06.532632] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.613725] Discord: 12:37:06.612 > [libdiscore] The answer for life the universe and everything is: 42
+[2025-04-13 12:37:06.613725] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.614726] Discord: 12:37:06.614 > [Routing/Utils] transitionTo - Transitioning to /channels/866514085462147112/channel-browser
+[2025-04-13 12:37:06.614726] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.633726] Discord: blackbox: 4/13/2025, 12:37:06 PM MDT 8 window.close win1
+[2025-04-13 12:37:06.633726] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.641727] Discord: blackbox: 4/13/2025, 12:37:06 PM MDT 9 webContents.destroyed web1
+[2025-04-13 12:37:06.641727] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.643725] Discord: blackbox: 4/13/2025, 12:37:06 PM MDT 10 window.closed win1
+[2025-04-13 12:37:06.643725] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.671725] Discord: 12:37:06.670 > [ConnectionStore] Socket is reconnecting because of starting new session
+[2025-04-13 12:37:06.671725] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.671725] Discord: 12:37:06.671 > [GatewaySocket] .connect() called, new state is WILL_RECONNECT
+[2025-04-13 12:37:06.671725] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.672725] Discord: 12:37:06.671 > [GatewaySocket] Setting connection state to WILL_RECONNECT
+[2025-04-13 12:37:06.672725] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.672725] Discord: 12:37:06.671 > [GatewaySocket] Setting connection state to CONNECTING
+[2025-04-13 12:37:06.672725] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.673726] Discord: 12:37:06.671 > [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-04-13 12:37:06.673726] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.673726] Discord: 12:37:06.671 > [GatewaySocket] [FAST CONNECT] successfully took over websocket, state: [object Object]
+[2025-04-13 12:37:06.673726] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.674725] Discord: 12:37:06.672 > [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 0 ms
+[2025-04-13 12:37:06.674725] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.674725] Discord: 12:37:06.672 > [ConnectionStore] handleIdentify called [object Object]
+[2025-04-13 12:37:06.674725] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.674725] Discord: 12:37:06.672 > [GatewaySocket] Setting connection state to IDENTIFYING
+[2025-04-13 12:37:06.675726] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.675726] Discord: 12:37:06.672 > [GatewaySocket] [HELLO] via
+[2025-04-13 12:37:06.675726] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.675726] Discord: gateway-prd-us-east1-d-ncwh: 0, heartbeat interval: 41250, took 1 ms
+[2025-04-13 12:37:06.676725] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.686725] Discord: 12:37:06.686 > [GatewaySocket] [IDENTIFY]
+[2025-04-13 12:37:06.687726] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.880202] Discord: 12:37:06.879 > [RPCServer:WSS] Starting on 6463
+[2025-04-13 12:37:06.880202] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.881204] Discord: 12:37:06.880 > [RPCServer:IPC] Starting on \\?\pipe\discord-ipc-0
+[2025-04-13 12:37:06.881204] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.948344] Discord: 12:37:06.947 > [GatewaySocket] [READY] took 276ms, as 394b75a0ad11746efd7e442f898c4288
+[2025-04-13 12:37:06.948344] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.948344] Discord: 12:37:06.947 > [GatewaySocket]
+[2025-04-13 12:37:06.949344] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.949344] Discord: gateway-prd-us-east1-d-ncwh: 113.68
+[2025-04-13 12:37:06.949344] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.949344] Discord: |  id_created: 1.928
+[2025-04-13 12:37:06.950345] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.950345] Discord: |  session_lookup_time: 0.322
+[2025-04-13 12:37:06.950345] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.950345] Discord: |  session_lookup_finished: 0.019
+[2025-04-13 12:37:06.951360] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.951360] Discord: |  discord-sessions-prd-2-96: 109.778
+[2025-04-13 12:37:06.951360] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.951360] Discord: |  |  start_session: 89.72
+[2025-04-13 12:37:06.952344] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.952344] Discord: |  |  |  discord-api-prd-canary-rpc-648d48df68-p7257: 79.094
+[2025-04-13 12:37:06.952344] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.953349] Discord: |  |  |  |  get_user: 5.306
+[2025-04-13 12:37:06.953349] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.953349] Discord: |  |  |  |  get_guilds: 20.731
+[2025-04-13 12:37:06.953349] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.954344] Discord: |  |  |  |  user_settings_proto: 0.042
+[2025-04-13 12:37:06.954344] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.954344] Discord: |  |  |  |  relationships: 9.246
+[2025-04-13 12:37:06.955351] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.955351] Discord: |  |  |  |  game_relationships: 0.002
+[2025-04-13 12:37:06.955351] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.955351] Discord: |  |  |  |  friend_suggestion: 0.042
+[2025-04-13 12:37:06.956342] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.956342] Discord: |  |  |  |  connections: 0.014
+[2025-04-13 12:37:06.956342] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.956342] Discord: |  |  |  |  serialized_read_states: 0.002
+[2025-04-13 12:37:06.957342] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.957342] Discord: |  |  |  |  send_scheduled_deletion_message: 0.001
+[2025-04-13 12:37:06.957342] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.958342] Discord: |  |  |  |  sanitize_premium_perks: 0.001
+[2025-04-13 12:37:06.958342] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.958342] Discord: |  |  |  |  guild_join_requests: 0.001
+[2025-04-13 12:37:06.959355] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.959355] Discord: |  |  |  |  user_guild_settings: 0.876
+[2025-04-13 12:37:06.959355] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.960358] Discord: |  |  |  |  serialized_private_channels: 0.002
+[2025-04-13 12:37:06.960358] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.960358] Discord: |  |  |  |  user_segments: 4.766
+[2025-04-13 12:37:06.961345] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.961345] Discord: |  |  |  |  game_invites: 0.002
+[2025-04-13 12:37:06.961345] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.961345] Discord: |  |  |  |  blocker_ids: 0.001
+[2025-04-13 12:37:06.962345] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.962345] Discord: |  |  |  |  affine_user_ids: 0.006
+[2025-04-13 12:37:06.962345] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.962345] Discord: |  |  |  |  experiments: 14.911
+[2025-04-13 12:37:06.963344] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.963344] Discord: |  |  |  |  required_action: 0.012
+[2025-04-13 12:37:06.963344] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.963344] Discord: |  |  |  |  authorized_ip_coro: 0.002
+[2025-04-13 12:37:06.964391] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.964912] Discord: |  |  |  |  pending_payments: 0.926
+[2025-04-13 12:37:06.964912] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.964912] Discord: |  |  |  |  apex_user_experiments: 0.002
+[2025-04-13 12:37:06.965910] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.965910] Discord: |  |  starting_guild_connect: 0.057
+[2025-04-13 12:37:06.965910] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.966907] Discord: |  |  presence_started: 2.261
+[2025-04-13 12:37:06.966907] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.966907] Discord: |  |  guilds_started: 0.071
+[2025-04-13 12:37:06.967907] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.967907] Discord: |  |  lobbies_started: 0
+[2025-04-13 12:37:06.967907] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.968908] Discord: |  |  guilds_connect: 16.902
+[2025-04-13 12:37:06.968908] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.968908] Discord: |  |  presence_connect: 0.001
+[2025-04-13 12:37:06.968908] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.969907] Discord: |  |  connect_finished: 17.209
+[2025-04-13 12:37:06.969907] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.969907] Discord: |  |  build_ready: 0.167
+[2025-04-13 12:37:06.969907] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.970907] Discord: |  |  clean_ready: 0.001
+[2025-04-13 12:37:06.970907] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.970907] Discord: |  |  optimize_ready: 0.28
+[2025-04-13 12:37:06.971908] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.971908] Discord: |  |  split_ready: 0.01
+[2025-04-13 12:37:06.971908] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.972910] Discord: 12:37:06.948 > [GatewaySocket] Setting connection state to SESSION_ESTABLISHED
+[2025-04-13 12:37:06.972910] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.972910] Discord: 12:37:06.948 > [GatewaySocket] Updating resume url to wss://gateway-us-east1-d.discord.gg
+[2025-04-13 12:37:06.972910] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.973910] Discord: 12:37:06.956 > [Flux] Dispatching CONNECTION_OPEN
+[2025-04-13 12:37:06.973910] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.973910] Discord: 12:37:06.956 > [AuthenticationStore] handleConnectionOpen called [object Object]
+[2025-04-13 12:37:06.973910] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.973910] Discord: 12:37:06.958 > [DatabaseManager] removing database (user: 1308864998373851157, database: undefined)
+[2025-04-13 12:37:06.974910] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.974910] Discord: 12:37:06.959 > [DatabaseManager] added database (1308864998373851157 → null)
+[2025-04-13 12:37:06.974910] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.974910] Discord: 12:37:06.966 > [NativeDispatchUtils] Tried getting Dispatch instance before instantiated
+[2025-04-13 12:37:06.974910] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.975910] Discord: 12:37:06.967 > Deferring audio subsystem switch to experimental until next restart.
+[2025-04-13 12:37:06.975910] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.975910] Discord: 12:37:06.970 > [OverlayRenderStore] setOverlayEnabled: supported [object Object]
+[2025-04-13 12:37:06.976907] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.976907] Discord: 12:37:06.971 > [OverlayRenderStore] setOverlayEnabled [object Object]
+[2025-04-13 12:37:06.976907] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.976907] Discord: 12:37:06.971 > [OverlayRenderStore] Legacy change
+[2025-04-13 12:37:06.977910] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.977910] Discord: 12:37:06.972 > [OverlayRenderStore] OOP change
+[2025-04-13 12:37:06.978909] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.980910] Discord: 12:37:06.979 > [OverlayStoreV3] Maybe Enable Overlay
+[2025-04-13 12:37:06.980910] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.980910] Discord: 12:37:06.980 > [OverlayStoreV3] Loading Out of Process Overlay Module
+[2025-04-13 12:37:06.980910] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.989504] Discord: 12:37:06.989 > [GatewaySocket] [READY_SUPPLEMENTAL] took 318ms
+[2025-04-13 12:37:06.990494] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:06.990494] Discord: 12:37:06.989 > [GatewaySocket] Setting connection state to SESSION_ESTABLISHED
+[2025-04-13 12:37:06.990494] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:08.108957] Discord: 12:37:08.108 > [OverlayStoreV3] OverlayV3 Module Loaded
+[2025-04-13 12:37:08.109956] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:08.987890] Discord: 12:37:08.987 > [OverlayRenderStore] Retracking 0 games (0 already tracked)
+[2025-04-13 12:37:08.988888] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:08.988888] Discord: 12:37:08.988 > [OverlayRenderStore] Retracked 0 games
+[2025-04-13 12:37:08.988888] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:09.299092] Discord: 12:37:09.298 > [libdiscore] isLibdiscoreBlockedDomainsEnabledThisSession: false
+[2025-04-13 12:37:09.299092] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:09.908234] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:37:09.908234] Checked Discord logs during activity
+[2025-04-13 12:37:10.193974] Discord: 12:37:10.193 > [Flux] Slow dispatch on GAMES_DATABASE_UPDATE: 228.5ms
+[2025-04-13 12:37:10.193974] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:11.673090] Discord: 12:37:11.672 > [MessageActionCreators] Fetching messages for 1360014770077569177 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+[2025-04-13 12:37:11.674094] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:11.734703] Discord: 12:37:11.734 > [Routing/Utils] transitionTo - Transitioning to /channels/866514085462147112/1360014770077569177
+[2025-04-13 12:37:11.735704] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:11.909115] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:37:11.909115] Checked Discord logs during activity
+[2025-04-13 12:37:12.012738] Discord: 12:37:12.011 > [MessageActionCreators] Fetched 17 messages for 1360014770077569177 isBefore:false isAfter:false
+[2025-04-13 12:37:12.012738] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:12.018766] Discord: 12:37:12.018 > [ChannelMessages] loadComplete: resetting state for channelId=1360014770077569177, sending.length=0
+[2025-04-13 12:37:12.018766] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:12.662170] Discord: 12:37:12.661 > [discord_protos.discord_users.v1.FrecencyUserSettings] Loading proto
+[2025-04-13 12:37:12.662170] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:13.909281] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:37:13.909281] Checked Discord logs during activity
+[2025-04-13 12:37:13.962817] Discord: 12:37:13.962 > [RTCLatencyTestManager] RTC cached ranked preferred regions are seattle,us-central,santa-clara,us-west,us-south
+[2025-04-13 12:37:13.962817] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:15.648005] Discord: 12:37:15.647 > [MessageActionCreators] Fetching messages for 1354895636004343972 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+[2025-04-13 12:37:15.648005] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:15.678558] Discord: 12:37:15.678 > [Routing/Utils] transitionTo - Transitioning to /channels/866514085462147112/1354895636004343972
+[2025-04-13 12:37:15.678558] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:15.909781] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:37:15.909781] Checked Discord logs during activity
+[2025-04-13 12:37:15.975010] Discord: 12:37:15.974 > [MessageActionCreators] Fetched 50 messages for 1354895636004343972 isBefore:false isAfter:false
+[2025-04-13 12:37:15.975010] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:15.979559] Discord: 12:37:15.978 > [ChannelMessages] loadComplete: resetting state for channelId=1354895636004343972, sending.length=0
+[2025-04-13 12:37:15.979559] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:16.125279] Discord: 12:37:16.124 > [MessageActionCreators] Fetching messages for 1337036209821847592 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+[2025-04-13 12:37:16.125279] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:16.180932] Discord: 12:37:16.180 > [Routing/Utils] transitionTo - Transitioning to /channels/866514085462147112/1337036209821847592
+[2025-04-13 12:37:16.180932] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:16.951536] Discord: 12:37:16.951 > [Routing/Utils] transitionTo - Transitioning to /channels/866514085462147112/1354895636004343972
+[2025-04-13 12:37:16.951536] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:17.152424] Discord: 12:37:17.151 > [MessageActionCreators] Fetched 50 messages for 1337036209821847592 isBefore:false isAfter:false
+[2025-04-13 12:37:17.152424] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:17.157422] Discord: 12:37:17.157 > [ChannelMessages] loadComplete: resetting state for channelId=1337036209821847592, sending.length=0
+[2025-04-13 12:37:17.158423] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:17.221964] Discord: 12:37:17.221 > [discord_protos.discord_users.v1.FrecencyUserSettings] Scheduling save from markDirty
+[2025-04-13 12:37:17.222964] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:17.223966] Discord: 12:37:17.223 > [discord_protos.discord_users.v1.FrecencyUserSettings] Persisting proto
+[2025-04-13 12:37:17.224965] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:17.667948] Discord: 12:37:17.667 > [Routing/Utils] transitionTo - Transitioning to /channels/866514085462147112/1360014770077569177
+[2025-04-13 12:37:17.667948] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:17.910244] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:37:17.910244] Checked Discord logs during activity
+[2025-04-13 12:37:19.299378] Discord: 12:37:19.299 > [FetchBlockedDomain] Fetching blocked domain list
+[2025-04-13 12:37:19.300377] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:19.302377] Discord: 12:37:19.301 > [FetchBlockedDomain] Server revision: 1223, Client revision: 1223
+[2025-04-13 12:37:19.302377] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:19.910320] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:37:19.910320] Checked Discord logs during activity
+[2025-04-13 12:37:21.910759] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:37:21.910759] Checked Discord logs during activity
+[2025-04-13 12:37:23.911307] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:37:23.911307] Checked Discord logs during activity
+[2025-04-13 12:37:25.912304] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:37:25.912304] Checked Discord logs during activity
+[2025-04-13 12:37:26.138308] Discord: 12:37:26.137 > [Routing/Utils] transitionTo - Transitioning to /channels/866514085462147112/1354895636004343972
+[2025-04-13 12:37:26.138308] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:26.711424] Discord: 12:37:26.711 > [Routing/Utils] transitionTo - Transitioning to /channels/866514085462147112/1337036209821847592
+[2025-04-13 12:37:26.712426] Output error: module 'datetime' has no attribute 'now'
+[2025-04-13 12:37:27.912648] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:37:27.913199] Checked Discord logs during activity
+[2025-04-13 12:37:29.914071] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:37:29.914071] Checked Discord logs during activity
+[2025-04-13 12:37:31.914648] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:37:31.914648] Checked Discord logs during activity
+[2025-04-13 12:37:33.915310] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:37:33.915310] Checked Discord logs during activity
+[2025-04-13 12:37:35.916293] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:37:35.916293] Checked Discord logs during activity
+[2025-04-13 12:37:37.917076] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:37:37.917076] Checked Discord logs during activity
+[2025-04-13 12:37:39.918592] Exiting discord_wiggle
+[2025-04-13 12:37:39.918592] Finished discord_wiggle
+[2025-04-13 12:38:42.044180] Starting ww.py execution
+[2025-04-13 12:38:42.044180] Script started with pythonw (PID: 34596)
+[2025-04-13 12:38:42.109832] GUI initialized
+[2025-04-13 12:38:42.947122] Pop-up shown
+[2025-04-13 12:38:42.947122] Starting wait loop
+[2025-04-13 12:38:44.948634] Wait loop completed
+[2025-04-13 12:38:44.948634] Checking for internet access
+[2025-04-13 12:38:44.991008] Internet access confirmed
+[2025-04-13 12:38:44.991008] Entering get_idle_time
+[2025-04-13 12:38:44.991991] Idle time: 0.11 seconds
+[2025-04-13 12:38:44.991991] System idle time: 0.109
+[2025-04-13 12:38:44.991991] Entering get_discord_idle_time
+[2025-04-13 12:38:45.549754] No running Discord process found, assuming idle for 1 hour
+[2025-04-13 12:38:45.550753] Discord idle time: 3600.0
+[2025-04-13 12:38:45.550753] Calling discord_wiggle
+[2025-04-13 12:38:45.551737] Entering discord_wiggle
+[2025-04-13 12:38:45.556751] No running Discord process found
+[2025-04-13 12:38:45.557761] Found Discord executable: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe
+[2025-04-13 12:38:45.557761] Attempting to launch Discord at: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe
+[2025-04-13 12:38:45.564276] Launched Discord with PID: 29544
+[2025-04-13 12:38:47.572022] Found running Discord process with PID: 6680
+[2025-04-13 12:38:47.572022] Discord PID found: 6680
+[2025-04-13 12:38:47.826824] Activated Discord by opening DM channel for PID: 6680
+[2025-04-13 12:38:52.828021] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:38:52.828021] Checked Discord logs during activity
+[2025-04-13 12:38:54.828911] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:38:54.828911] Checked Discord logs during activity
+[2025-04-13 12:38:56.828928] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:38:56.828928] Checked Discord logs during activity
+[2025-04-13 12:38:58.829348] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:38:58.829348] Checked Discord logs during activity
+[2025-04-13 12:39:00.829505] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:39:00.829505] Checked Discord logs during activity
+[2025-04-13 12:39:02.830223] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:39:02.830223] Checked Discord logs during activity
+[2025-04-13 12:39:04.830723] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:39:04.830723] Checked Discord logs during activity
+[2025-04-13 12:39:06.831317] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:39:06.831317] Checked Discord logs during activity
+[2025-04-13 12:39:08.831946] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:39:08.831946] Checked Discord logs during activity
+[2025-04-13 12:39:10.832351] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:39:10.832351] Checked Discord logs during activity
+[2025-04-13 12:39:12.833126] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:39:12.833126] Checked Discord logs during activity
+[2025-04-13 12:39:14.833156] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:39:14.833156] Checked Discord logs during activity
+[2025-04-13 12:39:16.833312] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:39:16.833312] Checked Discord logs during activity
+[2025-04-13 12:39:18.833652] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:39:18.833652] Checked Discord logs during activity
+[2025-04-13 12:39:20.833906] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:39:20.834423] Checked Discord logs during activity
+[2025-04-13 12:39:22.835989] Exiting discord_wiggle
+[2025-04-13 12:39:22.836989] Finished discord_wiggle
+[2025-04-13 12:41:06.194646] Starting ww.py execution
+[2025-04-13 12:41:06.194646] Script started with pythonw (PID: 31612)
+[2025-04-13 12:41:06.258432] GUI initialized
+[2025-04-13 12:41:07.222864] Pop-up shown
+[2025-04-13 12:41:07.222864] Starting wait loop
+[2025-04-13 12:41:09.222939] Wait loop completed
+[2025-04-13 12:41:09.222939] Checking for internet access
+[2025-04-13 12:41:09.368231] Internet access confirmed
+[2025-04-13 12:41:09.368231] Entering get_idle_time
+[2025-04-13 12:41:09.369240] Idle time: 0.00 seconds
+[2025-04-13 12:41:09.369240] System idle time: 0.0
+[2025-04-13 12:41:09.369240] Entering get_discord_idle_time
+[2025-04-13 12:41:09.914250] No timestamp found in Discord log: C:\Users\Haley Thomson\AppData\Roaming\Discord\logs\renderer_js.log
+[2025-04-13 12:41:09.915249] Discord (PID: 6680) last active 143.88 seconds ago (using process creation)
+[2025-04-13 12:41:09.916250] Discord idle time: 143.88045024871826
+[2025-04-13 12:41:09.916250] Calling discord_wiggle
+[2025-04-13 12:41:09.916250] Entering discord_wiggle
+[2025-04-13 12:41:09.921250] Found running Discord process with PID: 6680
+[2025-04-13 12:41:12.480315] Attempted to restore Discord window for PID: 6680
+[2025-04-13 12:41:12.706378] Activated Discord by opening DM channel for PID: 6680
+[2025-04-13 12:41:17.707003] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:41:17.707003] Checked Discord logs during activity
+[2025-04-13 12:41:19.707337] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:41:19.707337] Checked Discord logs during activity
+[2025-04-13 12:41:21.708274] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:41:21.708274] Checked Discord logs during activity
+[2025-04-13 12:41:23.708574] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:41:23.708574] Checked Discord logs during activity
+[2025-04-13 12:41:25.709381] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:41:25.709381] Checked Discord logs during activity
+[2025-04-13 12:41:27.710017] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:41:27.710017] Checked Discord logs during activity
+[2025-04-13 12:41:29.710046] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:41:29.710046] Checked Discord logs during activity
+[2025-04-13 12:41:31.710658] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:41:31.710658] Checked Discord logs during activity
+[2025-04-13 12:41:33.711288] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:41:33.711288] Checked Discord logs during activity
+[2025-04-13 12:41:35.711400] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:41:35.711400] Checked Discord logs during activity
+[2025-04-13 12:41:37.711934] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:41:37.711934] Checked Discord logs during activity
+[2025-04-13 12:41:39.712763] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:41:39.712763] Checked Discord logs during activity
+[2025-04-13 12:41:41.712817] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:41:41.712817] Checked Discord logs during activity
+[2025-04-13 12:41:43.713247] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:41:43.713247] Checked Discord logs during activity
+[2025-04-13 12:41:45.714065] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 12:41:45.714065] Checked Discord logs during activity
+[2025-04-13 12:41:47.716508] Exiting discord_wiggle
+[2025-04-13 12:41:47.716508] Finished discord_wiggle

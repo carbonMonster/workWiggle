@@ -1,0 +1,1025 @@
+Script started at 2025-04-12 10:57:03.794396
+Pop-up shown at 2025-04-12 10:57:05.160155
+Script started at 2025-04-12 11:05:46.342549
+Pop-up shown at 2025-04-12 11:05:47.828103
+Script started at 2025-04-12 11:07:14.514939
+Pop-up shown at 2025-04-12 11:07:17.623546
+Script started at 2025-04-12 11:07:19.516353
+Pop-up shown at 2025-04-12 11:07:23.001635
+Script started at 2025-04-12 11:08:20.111491
+Pop-up shown at 2025-04-12 11:08:22.952713
+Script started at 2025-04-12 11:08:39.674573
+Pop-up shown at 2025-04-12 11:08:40.840665
+Script started at 2025-04-12 11:10:11.306012
+Script started at 2025-04-12 11:10:19.415268
+Script started at 2025-04-12 11:10:42.612534
+Pop-up shown at 2025-04-12 11:10:44.534043
+Script started with pythonw at 2025-04-12 11:11:21.930275
+Pop-up attempted at 2025-04-12 11:11:23.009598
+Script started with pythonw at 2025-04-12 11:11:36.356355
+Script started with pythonw at 2025-04-12 11:11:39.070250
+Script started with pythonw at 2025-04-12 11:12:33.397995
+Script started with pythonw at 2025-04-12 11:13:32.341811 (PID: 27792)
+GUI initialized at 2025-04-12 11:13:32.404984
+Pop-up shown at 2025-04-12 11:13:33.810548
+Script started with pythonw at 2025-04-12 11:13:37.407806 (PID: 22580)
+GUI initialized at 2025-04-12 11:13:37.465018
+Pop-up shown at 2025-04-12 11:13:38.605207
+Script started with pythonw at 2025-04-12 11:13:39.981087 (PID: 26788)
+GUI initialized at 2025-04-12 11:13:40.040405
+Pop-up shown at 2025-04-12 11:13:41.734913
+Script started with pythonw (PID: 20604) at 2025-04-12 11:17:33.668435
+GUI initialized at 2025-04-12 11:17:33.731006
+Pop-up shown at 2025-04-12 11:17:35.588363
+Starting wait loop at 2025-04-12 11:17:35.588363
+Wait loop completed at 2025-04-12 11:17:45.588875
+Checking for internet access at 2025-04-12 11:17:45.588875
+Internet access confirmed at 2025-04-12 11:17:45.796992
+Discord launched at 2025-04-12 11:17:45.802996
+Script started with pythonw (PID: 30424) at 2025-04-12 11:21:26.937146
+GUI initialized at 2025-04-12 11:21:26.997345
+Pop-up shown at 2025-04-12 11:21:28.594925
+Starting wait loop at 2025-04-12 11:21:28.595453
+Wait loop completed at 2025-04-12 11:21:30.596138
+Checking for internet access at 2025-04-12 11:21:30.596138
+Internet access confirmed at 2025-04-12 11:21:30.782452
+Found Discord executable: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe at 2025-04-12 11:21:30.783435
+Discord launched successfully at 2025-04-12 11:23:27.637753
+Script started with pythonw (PID: 5328) at 2025-04-12 11:23:33.659344
+GUI initialized at 2025-04-12 11:23:33.723018
+Pop-up shown at 2025-04-12 11:23:35.475856
+Starting wait loop at 2025-04-12 11:23:35.475856
+Wait loop completed at 2025-04-12 11:23:37.476603
+Checking for internet access at 2025-04-12 11:23:37.476603
+Internet access confirmed at 2025-04-12 11:23:37.647137
+Found Discord executable: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe at 2025-04-12 11:23:37.648136
+Discord launched successfully at 2025-04-12 11:28:40.877725
+Script started with pythonw (PID: 26896) at 2025-04-12 11:29:34.057119
+GUI initialized at 2025-04-12 11:29:34.119443
+Pop-up shown at 2025-04-12 11:29:35.244863
+Starting wait loop at 2025-04-12 11:29:35.245420
+Wait loop completed at 2025-04-12 11:29:45.245677
+Checking for internet access at 2025-04-12 11:29:45.245677
+Internet access confirmed at 2025-04-12 11:29:45.434778
+No running Discord process found at 2025-04-12 11:29:45.896056
+Found Discord executable: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe at 2025-04-12 11:29:45.897039
+Launched Discord with PID: 24764 at 2025-04-12 11:29:45.902056
+Found running Discord process with PID: 5288 at 2025-04-12 11:29:47.906698
+Discord is running with PID: 5288 at 2025-04-12 11:29:47.907699
+Ready to set Discord activity (loop placeholder) at 2025-04-12 11:29:47.907699
+Script started with pythonw (PID: 23548) at 2025-04-12 11:36:29.977838
+GUI initialized at 2025-04-12 11:36:30.041433
+Pop-up shown at 2025-04-12 11:36:31.571005
+Starting wait loop at 2025-04-12 11:36:31.571005
+Wait loop completed at 2025-04-12 11:36:41.572066
+Checking for internet access at 2025-04-12 11:36:41.572066
+Internet access confirmed at 2025-04-12 11:36:41.755394
+Error: name 'log_message' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Haley Thomson\Documents\Projects\autoHotkey\workWiggle\discord_utils.py", line 27, in get_discord_pid
+    log_message(f"Found running Discord process with PID: {proc.info['pid']}")
+NameError: name 'log_message' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Haley Thomson\Documents\Projects\autoHotkey\workWiggle\ww.py", line 51, in <module>
+    discord_pid = get_discord_pid()
+  File "C:\Users\Haley Thomson\Documents\Projects\autoHotkey\workWiggle\discord_utils.py", line 32, in get_discord_pid
+    log_message(f"Error checking Discord process: {str(e)}")
+NameError: name 'log_message' is not defined
+ at 2025-04-12 11:36:42.060579
+Script started with pythonw (PID: 30124) at 2025-04-12 11:39:05.752125
+GUI initialized at 2025-04-12 11:39:05.816251
+Pop-up shown at 2025-04-12 11:39:09.557176
+Starting wait loop at 2025-04-12 11:39:09.557176
+Wait loop completed at 2025-04-12 11:39:19.558519
+Checking for internet access at 2025-04-12 11:39:19.558519
+Internet access confirmed at 2025-04-12 11:39:19.731564
+Error: name 'log_message' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Haley Thomson\Documents\Projects\autoHotkey\workWiggle\discord_utils.py", line 27, in get_discord_pid
+    log_message(f"Found running Discord process with PID: {proc.info['pid']}")
+NameError: name 'log_message' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Haley Thomson\Documents\Projects\autoHotkey\workWiggle\ww.py", line 37, in <module>
+    discord_pid = get_discord_pid()
+  File "C:\Users\Haley Thomson\Documents\Projects\autoHotkey\workWiggle\discord_utils.py", line 32, in get_discord_pid
+    log_message(f"Error checking Discord process: {str(e)}")
+NameError: name 'log_message' is not defined
+ at 2025-04-12 11:39:20.033276
+Script started with pythonw (PID: 20136) at 2025-04-12 11:39:56.011564
+GUI initialized at 2025-04-12 11:39:56.072387
+Pop-up shown at 2025-04-12 11:39:57.497651
+Starting wait loop at 2025-04-12 11:39:57.498183
+Wait loop completed at 2025-04-12 11:40:07.499078
+Checking for internet access at 2025-04-12 11:40:07.499078
+Internet access confirmed at 2025-04-12 11:40:07.660560
+Error: name 'log_message' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Haley Thomson\Documents\Projects\autoHotkey\workWiggle\discord_utils.py", line 29, in get_discord_pid
+    log_message("No running Discord process found")
+NameError: name 'log_message' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Haley Thomson\Documents\Projects\autoHotkey\workWiggle\ww.py", line 37, in <module>
+    discord_pid = get_discord_pid()
+  File "C:\Users\Haley Thomson\Documents\Projects\autoHotkey\workWiggle\discord_utils.py", line 32, in get_discord_pid
+    log_message(f"Error checking Discord process: {str(e)}")
+NameError: name 'log_message' is not defined
+ at 2025-04-12 11:40:08.119016
+Script started with pythonw (PID: 24808) at 2025-04-12 11:41:27.415398
+GUI initialized at 2025-04-12 11:41:27.477071
+Pop-up shown at 2025-04-12 11:41:28.799170
+Starting wait loop at 2025-04-12 11:41:28.799170
+Wait loop completed at 2025-04-12 11:41:38.800169
+Checking for internet access at 2025-04-12 11:41:38.800169
+Internet access confirmed at 2025-04-12 11:41:38.981139
+No running Discord process found at 2025-04-12 11:41:39.454332
+Found Discord executable: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe at 2025-04-12 11:41:39.455333
+Launched Discord with PID: 8816 at 2025-04-12 11:41:39.460324
+Found running Discord process with PID: 1800 at 2025-04-12 11:41:41.466808
+Discord is running with PID: 1800 at 2025-04-12 11:41:41.466808
+Ready to set Discord activity (loop placeholder) at 2025-04-12 11:41:41.467811
+Script started with pythonw (PID: 31532) at 2025-04-12 11:50:52.141490
+GUI initialized at 2025-04-12 11:50:52.205590
+Pop-up shown at 2025-04-12 11:50:53.658612
+Starting wait loop at 2025-04-12 11:50:53.658612
+Wait loop completed at 2025-04-12 11:51:03.659063
+Checking for internet access at 2025-04-12 11:51:03.659063
+Internet access confirmed at 2025-04-12 11:51:03.835697
+Found running Discord process with PID: 1752 at 2025-04-12 11:51:03.910382
+Discord window not found for maximization at 2025-04-12 11:51:03.912399
+Script started with pythonw (PID: 20676) at 2025-04-12 11:53:12.540415
+GUI initialized at 2025-04-12 11:53:12.601207
+Pop-up shown at 2025-04-12 11:53:13.924214
+Starting wait loop at 2025-04-12 11:53:13.924214
+Wait loop completed at 2025-04-12 11:53:23.925120
+Checking for internet access at 2025-04-12 11:53:23.925120
+Internet access confirmed at 2025-04-12 11:53:24.113042
+Found running Discord process with PID: 1752 at 2025-04-12 11:53:24.194895
+Error: No module named 'pyautogui'
+Traceback (most recent call last):
+  File "C:\Users\Haley Thomson\Documents\Projects\autoHotkey\workWiggle\ww.py", line 43, in <module>
+    import pyautogui
+ModuleNotFoundError: No module named 'pyautogui'
+ at 2025-04-12 11:53:24.195897
+Script started with pythonw (PID: 4516) at 2025-04-12 11:54:45.938927
+GUI initialized at 2025-04-12 11:54:46.010538
+Pop-up shown at 2025-04-12 11:54:47.064175
+Starting wait loop at 2025-04-12 11:54:47.064711
+Wait loop completed at 2025-04-12 11:54:57.065434
+Checking for internet access at 2025-04-12 11:54:57.065434
+Internet access confirmed at 2025-04-12 11:54:57.225045
+Found running Discord process with PID: 1752 at 2025-04-12 11:54:57.310660
+Discord window not found, checking system tray at 2025-04-12 11:54:57.376328
+Failed to restore Discord from system tray at 2025-04-12 11:54:59.085070
+Script started with pythonw (PID: 30688) at 2025-04-12 11:57:22.355124
+GUI initialized at 2025-04-12 11:57:22.415538
+Pop-up shown at 2025-04-12 11:57:25.089920
+Starting wait loop at 2025-04-12 11:57:25.089920
+Wait loop completed at 2025-04-12 11:57:35.090679
+Checking for internet access at 2025-04-12 11:57:35.090679
+Internet access confirmed at 2025-04-12 11:57:35.285922
+Found running Discord process with PID: 1752 at 2025-04-12 11:57:35.364287
+Attempted to restore Discord window for PID: 1752 at 2025-04-12 11:57:37.899663
+Script started with pythonw (PID: 29260) at 2025-04-12 11:57:55.216082
+GUI initialized at 2025-04-12 11:57:55.275786
+Pop-up shown at 2025-04-12 11:57:56.615724
+Starting wait loop at 2025-04-12 11:57:56.615724
+Wait loop completed at 2025-04-12 11:58:06.616611
+Checking for internet access at 2025-04-12 11:58:06.616611
+Internet access confirmed at 2025-04-12 11:58:06.798734
+Found running Discord process with PID: 1752 at 2025-04-12 11:58:06.874740
+Attempted to restore Discord window for PID: 1752 at 2025-04-12 11:58:09.405534
+Script started with pythonw (PID: 27088) at 2025-04-12 12:15:28.235314
+GUI initialized at 2025-04-12 12:15:28.312335
+Pop-up shown at 2025-04-12 12:15:30.109146
+Starting wait loop at 2025-04-12 12:15:30.109676
+Wait loop completed at 2025-04-12 12:15:40.110217
+Checking for internet access at 2025-04-12 12:15:40.110217
+Internet access confirmed at 2025-04-12 12:15:40.305041
+Found running Discord process with PID: 1752 at 2025-04-12 12:15:40.377009
+Attempted to restore Discord window for PID: 1752 at 2025-04-12 12:15:42.882486
+Activated Discord by opening DM channel for PID: 1752 at 2025-04-12 12:15:43.118669
+Script started with pythonw (PID: 6268) at 2025-04-12 12:16:14.723690
+GUI initialized at 2025-04-12 12:16:14.782948
+Pop-up shown at 2025-04-12 12:16:21.023537
+Starting wait loop at 2025-04-12 12:16:21.023537
+Wait loop completed at 2025-04-12 12:16:31.024303
+Checking for internet access at 2025-04-12 12:16:31.024303
+Internet access confirmed at 2025-04-12 12:16:31.218173
+Found running Discord process with PID: 1752 at 2025-04-12 12:16:31.294482
+Attempted to restore Discord window for PID: 1752 at 2025-04-12 12:16:33.804478
+Activated Discord by opening DM channel for PID: 1752 at 2025-04-12 12:16:34.013487
+Script started with pythonw (PID: 30976) at 2025-04-12 12:20:09.536559
+GUI initialized at 2025-04-12 12:20:09.597141
+Pop-up shown at 2025-04-12 12:20:13.178247
+Starting wait loop at 2025-04-12 12:20:13.178247
+Wait loop completed at 2025-04-12 12:20:23.179891
+Checking for internet access at 2025-04-12 12:20:23.179891
+Internet access confirmed at 2025-04-12 12:20:23.349136
+Found running Discord process with PID: 1752 at 2025-04-12 12:20:23.426979
+Attempted to restore Discord window for PID: 1752 at 2025-04-12 12:20:25.952372
+Activated Discord by opening DM channel for PID: 1752 at 2025-04-12 12:20:26.174443
+Script started with pythonw (PID: 9716) at 2025-04-12 12:32:56.422139
+GUI initialized at 2025-04-12 12:32:56.484894
+Pop-up shown at 2025-04-12 12:32:57.996840
+Starting wait loop at 2025-04-12 12:32:57.996840
+Wait loop completed at 2025-04-12 12:33:07.997462
+Checking for internet access at 2025-04-12 12:33:07.997462
+Internet access confirmed at 2025-04-12 12:33:08.166957
+Script started with pythonw (PID: 1028) at 2025-04-12 12:37:07.198196
+GUI initialized at 2025-04-12 12:37:07.261933
+Pop-up shown at 2025-04-12 12:37:08.228546
+Starting wait loop at 2025-04-12 12:37:08.229073
+Wait loop completed at 2025-04-12 12:37:18.229836
+Checking for internet access at 2025-04-12 12:37:18.229836
+Internet access confirmed at 2025-04-12 12:37:18.399906
+Discord (PID: 1752) last active 3336.91 seconds ago at 2025-04-12 12:37:18.472618
+Script started with pythonw (PID: 29980) at 2025-04-12 12:37:39.729988
+GUI initialized at 2025-04-12 12:37:39.790199
+Pop-up shown at 2025-04-12 12:37:42.207359
+Starting wait loop at 2025-04-12 12:37:42.207894
+Wait loop completed at 2025-04-12 12:37:52.208820
+Checking for internet access at 2025-04-12 12:37:52.208820
+Internet access confirmed at 2025-04-12 12:37:52.374825
+Discord (PID: 1752) last active 3370.89 seconds ago at 2025-04-12 12:37:52.453348
+Script started with pythonw (PID: 2096) at 2025-04-12 12:38:17.286461
+GUI initialized at 2025-04-12 12:38:17.348675
+Pop-up shown at 2025-04-12 12:38:18.724809
+Starting wait loop at 2025-04-12 12:38:18.725333
+Wait loop completed at 2025-04-12 12:38:28.725913
+Checking for internet access at 2025-04-12 12:38:28.725913
+Internet access confirmed at 2025-04-12 12:38:28.892982
+Discord (PID: 1752) last active 3407.40 seconds ago at 2025-04-12 12:38:28.966369
+Script started with pythonw (PID: 23180) at 2025-04-12 12:39:17.077140
+GUI initialized at 2025-04-12 12:39:17.139143
+Pop-up shown at 2025-04-12 12:39:18.249257
+Starting wait loop at 2025-04-12 12:39:18.249778
+Wait loop completed at 2025-04-12 12:39:28.250521
+Checking for internet access at 2025-04-12 12:39:28.250521
+Internet access confirmed at 2025-04-12 12:39:28.426697
+Discord (PID: 1752) last active 3466.95 seconds ago at 2025-04-12 12:39:28.514980
+Script started with pythonw (PID: 21520) at 2025-04-12 12:43:59.250809
+GUI initialized at 2025-04-12 12:43:59.311891
+Pop-up shown at 2025-04-12 12:44:00.476465
+Starting wait loop at 2025-04-12 12:44:00.476465
+Wait loop completed at 2025-04-12 12:44:10.477784
+Checking for internet access at 2025-04-12 12:44:10.477784
+Internet access confirmed at 2025-04-12 12:44:10.655892
+No timestamp found in Discord log: C:\Users\Haley Thomson\AppData\Roaming\Discord\logs\Discord_updater_rCURRENT.log at 2025-04-12 12:44:10.739664
+Discord (PID: 1752) last active 3749.18 seconds ago (using process creation) at 2025-04-12 12:44:10.739664
+Script started with pythonw (PID: 3240) at 2025-04-12 12:44:34.361665
+GUI initialized at 2025-04-12 12:44:34.423848
+Pop-up shown at 2025-04-12 12:44:36.629233
+Starting wait loop at 2025-04-12 12:44:36.630233
+Wait loop completed at 2025-04-12 12:44:46.630633
+Checking for internet access at 2025-04-12 12:44:46.630633
+Internet access confirmed at 2025-04-12 12:44:46.801986
+No timestamp found in Discord log: C:\Users\Haley Thomson\AppData\Roaming\Discord\logs\renderer_js.log at 2025-04-12 12:44:46.916749
+Discord (PID: 1752) last active 3785.35 seconds ago (using process creation) at 2025-04-12 12:44:46.916749
+Script started with pythonw (PID: 22176) at 2025-04-12 16:10:01.376469
+GUI initialized at 2025-04-12 16:10:01.437782
+Pop-up shown at 2025-04-12 16:10:03.850270
+Starting wait loop at 2025-04-12 16:10:03.850859
+Wait loop completed at 2025-04-12 16:10:13.851157
+Checking for internet access at 2025-04-12 16:10:13.851157
+Internet access confirmed at 2025-04-12 16:10:14.026999
+No timestamp found in Discord log: C:\Users\Haley Thomson\AppData\Roaming\Discord\logs\renderer_js.log at 2025-04-12 16:10:14.154093
+Discord (PID: 1752) last active 16112.59 seconds ago (using process creation) at 2025-04-12 16:10:14.154093
+Script started with pythonw (PID: 31284) at 2025-04-12 16:10:32.053406
+GUI initialized at 2025-04-12 16:10:32.115765
+Pop-up shown at 2025-04-12 16:10:34.197834
+Starting wait loop at 2025-04-12 16:10:34.198365
+Wait loop completed at 2025-04-12 16:10:44.198456
+Checking for internet access at 2025-04-12 16:10:44.198456
+Internet access confirmed at 2025-04-12 16:10:44.373680
+No timestamp found in Discord log: C:\Users\Haley Thomson\AppData\Roaming\Discord\logs\renderer_js.log at 2025-04-12 16:10:44.496251
+Discord (PID: 1752) last active 16142.93 seconds ago (using process creation) at 2025-04-12 16:10:44.496251
+Found running Discord process with PID: 1752 at 2025-04-12 16:10:44.501269
+Attempted to restore Discord window for PID: 1752 at 2025-04-12 16:10:47.038712
+Activated Discord by opening DM channel for PID: 1752 at 2025-04-12 16:10:47.264695
+Script started with pythonw (PID: 21528) at 2025-04-12 16:16:56.898500
+GUI initialized at 2025-04-12 16:16:56.962081
+Pop-up shown at 2025-04-12 16:16:58.671540
+Starting wait loop at 2025-04-12 16:16:58.672061
+Wait loop completed at 2025-04-12 16:17:08.672231
+Checking for internet access at 2025-04-12 16:17:08.672231
+Internet access confirmed at 2025-04-12 16:17:08.847357
+No timestamp found in Discord log: C:\Users\Haley Thomson\AppData\Roaming\Discord\logs\renderer_js.log at 2025-04-12 16:17:08.967840
+Discord (PID: 1752) last active 16527.41 seconds ago (using process creation) at 2025-04-12 16:17:08.967840
+Found running Discord process with PID: 1752 at 2025-04-12 16:17:08.972844
+Attempted to restore Discord window for PID: 1752 at 2025-04-12 16:17:11.492719
+Activated Discord by opening DM channel for PID: 1752 at 2025-04-12 16:17:11.700694
+Saved 0 Discord log lines to discord_output.log at 2025-04-12 16:17:16.700971
+Captured Discord logs after activation at 2025-04-12 16:17:16.700971
+Script started with pythonw (PID: 11248) at 2025-04-12 16:26:10.681147
+GUI initialized at 2025-04-12 16:26:10.742903
+Pop-up shown at 2025-04-12 16:26:12.323910
+Starting wait loop at 2025-04-12 16:26:12.324430
+Wait loop completed at 2025-04-12 16:26:22.325428
+Checking for internet access at 2025-04-12 16:26:22.325428
+Internet access confirmed at 2025-04-12 16:26:22.509764
+No timestamp found in Discord log: C:\Users\Haley Thomson\AppData\Roaming\Discord\logs\renderer_js.log at 2025-04-12 16:26:22.624617
+Discord (PID: 1752) last active 17081.06 seconds ago (using process creation) at 2025-04-12 16:26:22.624617
+Found running Discord process with PID: 1752 at 2025-04-12 16:26:22.629612
+Attempted to restore Discord window for PID: 1752 at 2025-04-12 16:26:25.110539
+Activated Discord by opening DM channel for PID: 1752 at 2025-04-12 16:26:25.330578
+Saved 0 Discord log lines to discord_output.log at 2025-04-12 16:26:30.332329
+Captured Discord logs after activation at 2025-04-12 16:26:30.332329
+Script started with pythonw (PID: 15420) at 2025-04-12 16:30:50.537623
+GUI initialized at 2025-04-12 16:30:50.601847
+Pop-up shown at 2025-04-12 16:30:51.924424
+Starting wait loop at 2025-04-12 16:30:51.924980
+Wait loop completed at 2025-04-12 16:31:01.925506
+Checking for internet access at 2025-04-12 16:31:01.925506
+Internet access confirmed at 2025-04-12 16:31:02.105226
+No running Discord process found, assuming idle for 1 hour at 2025-04-12 16:31:02.587256
+No running Discord process found at 2025-04-12 16:31:02.593003
+Found Discord executable: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe at 2025-04-12 16:31:02.594003
+Launched Discord with PID: 31244 at 2025-04-12 16:31:02.600009
+Found running Discord process with PID: 6572 at 2025-04-12 16:31:04.607541
+Activated Discord by opening DM channel for PID: 6572 at 2025-04-12 16:31:04.874623
+Saved 100 Discord log lines to discord_output.log at 2025-04-12 16:31:09.876504
+Captured Discord logs after activation at 2025-04-12 16:31:09.876504
+Pop-up attempted at 2025-04-12 16:34:17.100932
+Pop-up attempted at 2025-04-12 16:34:18.319537
+Pop-up shown at 2025-04-12 16:34:19.511115
+Pop-up attempted at 2025-04-12 16:34:20.630440
+Pop-up shown at 2025-04-12 16:34:22.052447
+Script started with pythonw (PID: 11304) at 2025-04-12 16:34:33.730208
+GUI initialized at 2025-04-12 16:34:33.791762
+Pop-up shown at 2025-04-12 16:34:35.345436
+Starting wait loop at 2025-04-12 16:34:35.346437
+Wait loop completed at 2025-04-12 16:34:45.346625
+Checking for internet access at 2025-04-12 16:34:45.346625
+Internet access confirmed at 2025-04-12 16:34:45.562898
+No running Discord process found, assuming idle for 1 hour at 2025-04-12 16:34:46.039397
+No running Discord process found at 2025-04-12 16:34:46.044397
+Found Discord executable: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe at 2025-04-12 16:34:46.045397
+Launched Discord with PID: 24896 at 2025-04-12 16:34:46.052378
+Found running Discord process with PID: 7748 at 2025-04-12 16:34:48.059307
+Activated Discord by opening DM channel for PID: 7748 at 2025-04-12 16:34:48.353402
+Saved 100 Discord log lines to discord_output.log at 2025-04-12 16:34:53.369852
+Captured Discord logs after activation at 2025-04-12 16:34:53.369852
+Script started with pythonw (PID: 11536) at 2025-04-12 16:41:44.083117
+GUI initialized at 2025-04-12 16:41:44.142808
+Pop-up shown at 2025-04-12 16:41:45.071405
+Starting wait loop at 2025-04-12 16:41:45.071921
+Wait loop completed at 2025-04-12 16:41:55.072855
+Checking for internet access at 2025-04-12 16:41:55.072855
+Internet access confirmed at 2025-04-12 16:41:55.259060
+No running Discord process found, assuming idle for 1 hour at 2025-04-12 16:41:55.730277
+No running Discord process found at 2025-04-12 16:41:55.735278
+Found Discord executable: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe at 2025-04-12 16:41:55.736278
+Launched Discord with PID: 30036 at 2025-04-12 16:41:55.742278
+No running Discord process found at 2025-04-12 16:41:57.747709
+Launched Discord but couldn't find its PID at 2025-04-12 16:41:57.747709
+Activated Discord by opening DM channel for PID: 30036 at 2025-04-12 16:41:57.957495
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 16:42:02.958863
+Captured Discord logs during activity at 2025-04-12 16:42:02.958863
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 16:42:04.960894
+Captured Discord logs during activity at 2025-04-12 16:42:04.960894
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 16:42:06.962059
+Captured Discord logs during activity at 2025-04-12 16:42:06.962059
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 16:42:08.963888
+Captured Discord logs during activity at 2025-04-12 16:42:08.964889
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 16:42:10.966751
+Captured Discord logs during activity at 2025-04-12 16:42:10.966751
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 16:42:12.967063
+Captured Discord logs during activity at 2025-04-12 16:42:12.968063
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 16:42:14.969518
+Captured Discord logs during activity at 2025-04-12 16:42:14.969518
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 16:42:16.971308
+Captured Discord logs during activity at 2025-04-12 16:42:16.971308
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 16:42:18.971369
+Captured Discord logs during activity at 2025-04-12 16:42:18.972383
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 16:42:20.972986
+Captured Discord logs during activity at 2025-04-12 16:42:20.972986
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 16:42:22.974428
+Captured Discord logs during activity at 2025-04-12 16:42:22.974428
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 16:42:24.975997
+Captured Discord logs during activity at 2025-04-12 16:42:24.975997
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 16:42:26.977758
+Captured Discord logs during activity at 2025-04-12 16:42:26.978756
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 16:42:28.980112
+Captured Discord logs during activity at 2025-04-12 16:42:28.980112
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 16:42:30.981004
+Captured Discord logs during activity at 2025-04-12 16:42:30.982003
+Script started with pythonw (PID: 27436) at 2025-04-12 16:43:44.416658
+GUI initialized at 2025-04-12 16:43:44.481261
+Pop-up shown at 2025-04-12 16:43:45.920662
+Starting wait loop at 2025-04-12 16:43:45.921192
+Wait loop completed at 2025-04-12 16:43:55.921902
+Checking for internet access at 2025-04-12 16:43:55.921902
+Internet access confirmed at 2025-04-12 16:43:56.094249
+No running Discord process found, assuming idle for 1 hour at 2025-04-12 16:43:56.609303
+No running Discord process found at 2025-04-12 16:43:56.615305
+Found Discord executable: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe at 2025-04-12 16:43:56.616287
+Launched Discord with PID: 30440 at 2025-04-12 16:43:56.622298
+Found running Discord process with PID: 8100 at 2025-04-12 16:43:58.632753
+Activated Discord by opening DM channel for PID: 8100 at 2025-04-12 16:43:58.917874
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 16:44:03.919995
+Captured Discord logs during activity at 2025-04-12 16:44:03.919995
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 16:44:05.931684
+Captured Discord logs during activity at 2025-04-12 16:44:05.931684
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 16:44:07.940183
+Captured Discord logs during activity at 2025-04-12 16:44:07.940183
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 16:44:09.949132
+Captured Discord logs during activity at 2025-04-12 16:44:09.949132
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 16:44:11.957484
+Captured Discord logs during activity at 2025-04-12 16:44:11.958497
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 16:44:13.967467
+Captured Discord logs during activity at 2025-04-12 16:44:13.967467
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 16:44:15.975623
+Captured Discord logs during activity at 2025-04-12 16:44:15.976614
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 16:44:17.985992
+Captured Discord logs during activity at 2025-04-12 16:44:17.985992
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 16:44:19.995137
+Captured Discord logs during activity at 2025-04-12 16:44:19.995137
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 16:44:21.996871
+Captured Discord logs during activity at 2025-04-12 16:44:21.996871
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 16:44:23.998643
+Captured Discord logs during activity at 2025-04-12 16:44:23.998643
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 16:44:26.007768
+Captured Discord logs during activity at 2025-04-12 16:44:26.007768
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 16:44:28.015482
+Captured Discord logs during activity at 2025-04-12 16:44:28.016481
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 16:44:30.018164
+Captured Discord logs during activity at 2025-04-12 16:44:30.018164
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 16:44:32.019977
+Captured Discord logs during activity at 2025-04-12 16:44:32.019977
+Script started with pythonw (PID: 21304) at 2025-04-12 16:47:19.139389
+GUI initialized at 2025-04-12 16:47:19.199461
+Pop-up shown at 2025-04-12 16:47:20.410885
+Starting wait loop at 2025-04-12 16:47:20.410885
+Wait loop completed at 2025-04-12 16:47:30.411535
+Checking for internet access at 2025-04-12 16:47:30.411535
+Internet access confirmed at 2025-04-12 16:47:30.593236
+No running Discord process found, assuming idle for 1 hour at 2025-04-12 16:47:31.099942
+No running Discord process found at 2025-04-12 16:47:31.104946
+Found Discord executable: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe at 2025-04-12 16:47:31.105925
+Launched Discord with PID: 25660 at 2025-04-12 16:47:31.111943
+Found running Discord process with PID: 18776 at 2025-04-12 16:47:33.122993
+Activated Discord by opening DM channel for PID: 18776 at 2025-04-12 16:47:33.421348
+Saved 95 Discord log lines to discord_output.txt at 2025-04-12 16:47:38.425944
+Captured Discord logs after activation at 2025-04-12 16:47:38.426947
+Script started with pythonw (PID: 25616) at 2025-04-12 16:50:38.189253
+GUI initialized at 2025-04-12 16:50:38.249418
+Pop-up shown at 2025-04-12 16:50:39.903209
+Starting wait loop at 2025-04-12 16:50:39.903741
+Wait loop completed at 2025-04-12 16:50:49.903859
+Checking for internet access at 2025-04-12 16:50:49.903859
+Internet access confirmed at 2025-04-12 16:50:50.087772
+No timestamp found in Discord log: C:\Users\Haley Thomson\AppData\Roaming\Discord\logs\renderer_js.log at 2025-04-12 16:50:50.472504
+Discord (PID: 5440) last active 197.22 seconds ago (using process creation) at 2025-04-12 16:50:50.472504
+Found running Discord process with PID: 5440 at 2025-04-12 16:50:50.478485
+Attempted to restore Discord window for PID: 5440 at 2025-04-12 16:50:53.018515
+Activated Discord by opening DM channel for PID: 5440 at 2025-04-12 16:50:53.252505
+Error capturing Discord logs to discord_output.txt: [Errno 13] Permission denied: 'discord_output.txt' at 2025-04-12 16:50:58.253205
+Captured Discord logs after activation at 2025-04-12 16:50:58.253205
+Script started with pythonw (PID: 23972) at 2025-04-12 16:53:57.229282
+GUI initialized at 2025-04-12 16:53:57.294907
+Pop-up shown at 2025-04-12 16:53:59.016191
+Starting wait loop at 2025-04-12 16:53:59.016703
+Wait loop completed at 2025-04-12 16:54:09.016766
+Checking for internet access at 2025-04-12 16:54:09.016766
+Internet access confirmed at 2025-04-12 16:54:09.188507
+No running Discord process found, assuming idle for 1 hour at 2025-04-12 16:54:09.669394
+No running Discord process found at 2025-04-12 16:54:09.674395
+Found Discord executable: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe at 2025-04-12 16:54:09.675394
+Launched Discord with PID: 28196 at 2025-04-12 16:54:09.681376
+Found running Discord process with PID: 12268 at 2025-04-12 16:54:11.687503
+Activated Discord by opening DM channel for PID: 12268 at 2025-04-12 16:54:11.967668
+Error capturing Discord logs to discord_output.txt: [Errno 13] Permission denied: 'discord_output.txt' at 2025-04-12 16:54:16.968377
+Captured Discord logs during activity at 2025-04-12 16:54:16.968377
+Error capturing Discord logs to discord_output.txt: [Errno 13] Permission denied: 'discord_output.txt' at 2025-04-12 16:54:18.968887
+Captured Discord logs during activity at 2025-04-12 16:54:18.968887
+Error capturing Discord logs to discord_output.txt: [Errno 13] Permission denied: 'discord_output.txt' at 2025-04-12 16:54:20.969403
+Captured Discord logs during activity at 2025-04-12 16:54:20.969403
+Error capturing Discord logs to discord_output.txt: [Errno 13] Permission denied: 'discord_output.txt' at 2025-04-12 16:54:22.969550
+Captured Discord logs during activity at 2025-04-12 16:54:22.969550
+Error capturing Discord logs to discord_output.txt: [Errno 13] Permission denied: 'discord_output.txt' at 2025-04-12 16:54:24.969572
+Captured Discord logs during activity at 2025-04-12 16:54:24.969572
+Error capturing Discord logs to discord_output.txt: [Errno 13] Permission denied: 'discord_output.txt' at 2025-04-12 16:54:26.970147
+Captured Discord logs during activity at 2025-04-12 16:54:26.970147
+Error capturing Discord logs to discord_output.txt: [Errno 13] Permission denied: 'discord_output.txt' at 2025-04-12 16:54:28.971126
+Captured Discord logs during activity at 2025-04-12 16:54:28.971126
+Error capturing Discord logs to discord_output.txt: [Errno 13] Permission denied: 'discord_output.txt' at 2025-04-12 16:54:30.971934
+Captured Discord logs during activity at 2025-04-12 16:54:30.971934
+Error capturing Discord logs to discord_output.txt: [Errno 13] Permission denied: 'discord_output.txt' at 2025-04-12 16:54:32.972864
+Captured Discord logs during activity at 2025-04-12 16:54:32.972864
+Error capturing Discord logs to discord_output.txt: [Errno 13] Permission denied: 'discord_output.txt' at 2025-04-12 16:54:34.973832
+Captured Discord logs during activity at 2025-04-12 16:54:34.973832
+Error capturing Discord logs to discord_output.txt: [Errno 13] Permission denied: 'discord_output.txt' at 2025-04-12 16:54:36.973869
+Captured Discord logs during activity at 2025-04-12 16:54:36.973869
+Error capturing Discord logs to discord_output.txt: [Errno 13] Permission denied: 'discord_output.txt' at 2025-04-12 16:54:38.974769
+Captured Discord logs during activity at 2025-04-12 16:54:38.974769
+Error capturing Discord logs to discord_output.txt: [Errno 13] Permission denied: 'discord_output.txt' at 2025-04-12 16:54:40.976184
+Captured Discord logs during activity at 2025-04-12 16:54:40.976184
+Error capturing Discord logs to discord_output.txt: [Errno 13] Permission denied: 'discord_output.txt' at 2025-04-12 16:54:42.976264
+Captured Discord logs during activity at 2025-04-12 16:54:42.976264
+Error capturing Discord logs to discord_output.txt: [Errno 13] Permission denied: 'discord_output.txt' at 2025-04-12 16:54:44.976862
+Captured Discord logs during activity at 2025-04-12 16:54:44.976862
+Script started with pythonw (PID: 6848) at 2025-04-12 17:06:15.579577
+GUI initialized at 2025-04-12 17:06:15.642182
+Pop-up shown at 2025-04-12 17:06:17.032897
+Starting wait loop at 2025-04-12 17:06:17.033425
+Wait loop completed at 2025-04-12 17:06:27.033623
+Checking for internet access at 2025-04-12 17:06:27.033623
+Internet access confirmed at 2025-04-12 17:06:27.224872
+No timestamp found in Discord log: C:\Users\Haley Thomson\AppData\Roaming\Discord\logs\renderer_js.log at 2025-04-12 17:06:27.718267
+Discord (PID: 12268) last active 737.66 seconds ago (using process creation) at 2025-04-12 17:06:27.718267
+Found running Discord process with PID: 12268 at 2025-04-12 17:06:27.724285
+Attempted to restore Discord window for PID: 12268 at 2025-04-12 17:06:30.208743
+Activated Discord by opening DM channel for PID: 12268 at 2025-04-12 17:06:30.433182
+Error capturing Discord logs: [Errno 13] Permission denied: 'discord_output.txt' at 2025-04-12 17:06:35.433803
+Script started with pythonw (PID: 18128) at 2025-04-12 17:08:44.468360
+GUI initialized at 2025-04-12 17:08:44.530613
+Pop-up shown at 2025-04-12 17:08:46.298429
+Starting wait loop at 2025-04-12 17:08:46.298944
+Wait loop completed at 2025-04-12 17:08:56.299880
+Checking for internet access at 2025-04-12 17:08:56.299880
+Internet access confirmed at 2025-04-12 17:08:56.468919
+No running Discord process found, assuming idle for 1 hour at 2025-04-12 17:08:56.979549
+No running Discord process found at 2025-04-12 17:08:56.985664
+Found Discord executable: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe at 2025-04-12 17:08:56.986664
+Launched Discord with PID: 19904 at 2025-04-12 17:08:56.992666
+No running Discord process found at 2025-04-12 17:08:58.998465
+Activated Discord by opening DM channel for PID: 19904 at 2025-04-12 17:08:59.206243
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 17:09:04.208955
+Captured Discord logs during activity at 2025-04-12 17:09:04.209938
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 17:09:06.211286
+Captured Discord logs during activity at 2025-04-12 17:09:06.211286
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 17:09:08.213923
+Captured Discord logs during activity at 2025-04-12 17:09:08.213923
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 17:09:10.216122
+Captured Discord logs during activity at 2025-04-12 17:09:10.217123
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 17:09:12.219140
+Captured Discord logs during activity at 2025-04-12 17:09:12.220115
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 17:09:14.222991
+Captured Discord logs during activity at 2025-04-12 17:09:14.222991
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 17:09:16.225871
+Captured Discord logs during activity at 2025-04-12 17:09:16.226870
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 17:09:18.229343
+Captured Discord logs during activity at 2025-04-12 17:09:18.229343
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 17:09:20.231384
+Captured Discord logs during activity at 2025-04-12 17:09:20.231384
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 17:09:22.233205
+Captured Discord logs during activity at 2025-04-12 17:09:22.234187
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 17:09:24.236625
+Captured Discord logs during activity at 2025-04-12 17:09:24.236625
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 17:09:26.237889
+Captured Discord logs during activity at 2025-04-12 17:09:26.237889
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 17:09:28.239747
+Captured Discord logs during activity at 2025-04-12 17:09:28.239747
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 17:09:30.241653
+Captured Discord logs during activity at 2025-04-12 17:09:30.242652
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 17:09:32.244444
+Captured Discord logs during activity at 2025-04-12 17:09:32.244444
+Script started with pythonw (PID: 27752) at 2025-04-12 17:11:52.239147
+GUI initialized at 2025-04-12 17:11:52.300473
+Pop-up shown at 2025-04-12 17:11:54.016640
+Starting wait loop at 2025-04-12 17:11:54.016640
+Wait loop completed at 2025-04-12 17:12:04.018404
+Checking for internet access at 2025-04-12 17:12:04.018404
+Internet access confirmed at 2025-04-12 17:12:04.209103
+No running Discord process found, assuming idle for 1 hour at 2025-04-12 17:12:04.693905
+No running Discord process found at 2025-04-12 17:12:04.698904
+Found Discord executable: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe at 2025-04-12 17:12:04.700470
+Launched Discord with PID: 22640 at 2025-04-12 17:12:04.706001
+No running Discord process found at 2025-04-12 17:12:06.711827
+Activated Discord by opening DM channel for PID: 22640 at 2025-04-12 17:12:06.922243
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 17:12:11.925107
+Captured Discord logs during activity at 2025-04-12 17:12:11.926097
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 17:12:13.929889
+Captured Discord logs during activity at 2025-04-12 17:12:13.929889
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 17:12:15.934755
+Captured Discord logs during activity at 2025-04-12 17:12:15.935738
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 17:12:17.937037
+Captured Discord logs during activity at 2025-04-12 17:12:17.938038
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 17:12:19.940029
+Captured Discord logs during activity at 2025-04-12 17:12:19.941019
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 17:12:21.942656
+Captured Discord logs during activity at 2025-04-12 17:12:21.942656
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 17:12:23.944895
+Captured Discord logs during activity at 2025-04-12 17:12:23.944895
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 17:12:25.949836
+Captured Discord logs during activity at 2025-04-12 17:12:25.950816
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 17:12:27.958863
+Captured Discord logs during activity at 2025-04-12 17:12:27.959845
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 17:12:29.969623
+Captured Discord logs during activity at 2025-04-12 17:12:29.969623
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 17:12:31.978523
+Captured Discord logs during activity at 2025-04-12 17:12:31.979505
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 17:12:33.981441
+Captured Discord logs during activity at 2025-04-12 17:12:33.982442
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 17:12:35.983690
+Captured Discord logs during activity at 2025-04-12 17:12:35.984384
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 17:12:37.985491
+Captured Discord logs during activity at 2025-04-12 17:12:37.986468
+Saved 100 Discord log lines to discord_output.txt at 2025-04-12 17:12:39.989253
+Captured Discord logs during activity at 2025-04-12 17:12:39.989253
+Script started with pythonw (PID: 26584) at 2025-04-13 08:15:22.779092
+GUI initialized at 2025-04-13 08:15:23.134284
+Pop-up shown at 2025-04-13 08:15:24.481757
+Starting wait loop at 2025-04-13 08:15:24.481757
+Wait loop completed at 2025-04-13 08:15:34.482515
+Checking for internet access at 2025-04-13 08:15:34.482515
+Internet access confirmed at 2025-04-13 08:15:34.665006
+No running Discord process found, assuming idle for 1 hour at 2025-04-13 08:15:35.193208
+No running Discord process found at 2025-04-13 08:15:35.199188
+Found Discord executable: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe at 2025-04-13 08:15:35.200189
+Launched Discord with PID: 27776 at 2025-04-13 08:15:35.206189
+Found running Discord process with PID: 6744 at 2025-04-13 08:15:37.210317
+Activated Discord by opening DM channel for PID: 6744 at 2025-04-13 08:15:37.471190
+Appended Discord logs to discord_output.txt at 2025-04-13 08:15:42.507030
+Captured Discord logs during activity at 2025-04-13 08:15:42.507030
+Appended Discord logs to discord_output.txt at 2025-04-13 08:15:44.507682
+Captured Discord logs during activity at 2025-04-13 08:15:44.508682
+Appended Discord logs to discord_output.txt at 2025-04-13 08:15:46.509638
+Captured Discord logs during activity at 2025-04-13 08:15:46.509638
+Appended Discord logs to discord_output.txt at 2025-04-13 08:15:48.510638
+Captured Discord logs during activity at 2025-04-13 08:15:48.510638
+Appended Discord logs to discord_output.txt at 2025-04-13 08:15:50.511180
+Captured Discord logs during activity at 2025-04-13 08:15:50.511180
+Appended Discord logs to discord_output.txt at 2025-04-13 08:15:52.511533
+Captured Discord logs during activity at 2025-04-13 08:15:52.511533
+Appended Discord logs to discord_output.txt at 2025-04-13 08:15:54.512978
+Captured Discord logs during activity at 2025-04-13 08:15:54.512978
+Appended Discord logs to discord_output.txt at 2025-04-13 08:15:56.513096
+Captured Discord logs during activity at 2025-04-13 08:15:56.513096
+Appended Discord logs to discord_output.txt at 2025-04-13 08:15:58.513346
+Captured Discord logs during activity at 2025-04-13 08:15:58.513346
+Appended Discord logs to discord_output.txt at 2025-04-13 08:16:00.514529
+Captured Discord logs during activity at 2025-04-13 08:16:00.514529
+Appended Discord logs to discord_output.txt at 2025-04-13 08:16:02.515450
+Captured Discord logs during activity at 2025-04-13 08:16:02.516432
+Appended Discord logs to discord_output.txt at 2025-04-13 08:16:04.518003
+Captured Discord logs during activity at 2025-04-13 08:16:04.518003
+Appended Discord logs to discord_output.txt at 2025-04-13 08:16:06.519972
+Captured Discord logs during activity at 2025-04-13 08:16:06.519972
+Appended Discord logs to discord_output.txt at 2025-04-13 08:16:08.521016
+Captured Discord logs during activity at 2025-04-13 08:16:08.521016
+Appended Discord logs to discord_output.txt at 2025-04-13 08:16:10.523161
+Captured Discord logs during activity at 2025-04-13 08:16:10.523161
+Script started with pythonw (PID: 36104) at 2025-04-13 08:21:42.704946
+GUI initialized at 2025-04-13 08:21:42.764513
+Pop-up shown at 2025-04-13 08:21:43.835092
+Starting wait loop at 2025-04-13 08:21:43.836092
+Wait loop completed at 2025-04-13 08:21:53.836367
+Checking for internet access at 2025-04-13 08:21:53.836367
+Internet access confirmed at 2025-04-13 08:21:54.017121
+No running Discord process found, assuming idle for 1 hour at 2025-04-13 08:21:54.479863
+No running Discord process found at 2025-04-13 08:21:54.484883
+Found Discord executable: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe at 2025-04-13 08:21:54.485903
+Launched Discord with PID: 33144 at 2025-04-13 08:21:54.491998
+Error reading Discord output: [WinError 10038] An operation was attempted on something that is not a socket at 2025-04-13 08:21:54.493011
+No running Discord process found at 2025-04-13 08:21:56.498520
+Launched Discord but couldn't find its PID at 2025-04-13 08:21:56.499500
+Activated Discord by opening DM channel for PID: 33144 at 2025-04-13 08:21:56.707571
+Appended Discord logs to discord_output.txt at 2025-04-13 08:22:01.708527
+Captured Discord logs during activity at 2025-04-13 08:22:01.708527
+Appended Discord logs to discord_output.txt at 2025-04-13 08:22:03.709505
+Captured Discord logs during activity at 2025-04-13 08:22:03.709505
+Appended Discord logs to discord_output.txt at 2025-04-13 08:22:05.709584
+Captured Discord logs during activity at 2025-04-13 08:22:05.709584
+Appended Discord logs to discord_output.txt at 2025-04-13 08:22:07.709896
+Captured Discord logs during activity at 2025-04-13 08:22:07.709896
+Appended Discord logs to discord_output.txt at 2025-04-13 08:22:09.710734
+Captured Discord logs during activity at 2025-04-13 08:22:09.710734
+Appended Discord logs to discord_output.txt at 2025-04-13 08:22:11.711303
+Captured Discord logs during activity at 2025-04-13 08:22:11.711303
+Appended Discord logs to discord_output.txt at 2025-04-13 08:22:13.711771
+Captured Discord logs during activity at 2025-04-13 08:22:13.711771
+Appended Discord logs to discord_output.txt at 2025-04-13 08:22:15.712608
+Captured Discord logs during activity at 2025-04-13 08:22:15.712608
+Appended Discord logs to discord_output.txt at 2025-04-13 08:22:17.712754
+Captured Discord logs during activity at 2025-04-13 08:22:17.712754
+Appended Discord logs to discord_output.txt at 2025-04-13 08:22:19.712978
+Captured Discord logs during activity at 2025-04-13 08:22:19.712978
+Appended Discord logs to discord_output.txt at 2025-04-13 08:22:21.713780
+Captured Discord logs during activity at 2025-04-13 08:22:21.713780
+Appended Discord logs to discord_output.txt at 2025-04-13 08:22:23.713977
+Captured Discord logs during activity at 2025-04-13 08:22:23.713977
+Appended Discord logs to discord_output.txt at 2025-04-13 08:22:25.714642
+Captured Discord logs during activity at 2025-04-13 08:22:25.714642
+Appended Discord logs to discord_output.txt at 2025-04-13 08:22:27.715271
+Captured Discord logs during activity at 2025-04-13 08:22:27.715271
+Appended Discord logs to discord_output.txt at 2025-04-13 08:22:29.715366
+Captured Discord logs during activity at 2025-04-13 08:22:29.715366
+Script started with pythonw (PID: 15832) at 2025-04-13 08:25:13.576799
+GUI initialized at 2025-04-13 08:25:13.641371
+Pop-up shown at 2025-04-13 08:25:15.059887
+Starting wait loop at 2025-04-13 08:25:15.059887
+Wait loop completed at 2025-04-13 08:25:25.060516
+Checking for internet access at 2025-04-13 08:25:25.060516
+Internet access confirmed at 2025-04-13 08:25:25.241976
+No running Discord process found, assuming idle for 1 hour at 2025-04-13 08:25:25.769817
+No running Discord process found at 2025-04-13 08:25:25.775355
+Found Discord executable: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe at 2025-04-13 08:25:25.776355
+Launched Discord with PID: 16432 at 2025-04-13 08:25:25.782357
+Read line from Discord: Discord 1.0.9188 at 2025-04-13 08:25:26.198236
+Read line from Discord: Starting app. at 2025-04-13 08:25:26.249241
+Read line from Discord: Starting updater. at 2025-04-13 08:25:26.255237
+Read line from Discord: Determined current Windows architecture: x64 at 2025-04-13 08:25:26.256237
+Read line from Discord: splashScreen.initSplash(false) at 2025-04-13 08:25:26.265237
+Read line from Discord: CDM component API found at 2025-04-13 08:25:26.266237
+Read line from Discord: blackbox: 4/13/2025, 8:25:26 AM MDT 0 at 2025-04-13 08:25:26.314778
+Read line from Discord: ---------------------------------------------- at 2025-04-13 08:25:26.314778
+Read line from Discord: CDM completed with status: cdm-ready-success at 2025-04-13 08:25:26.315777
+Read line from Discord: blackbox: 4/13/2025, 8:25:26 AM MDT 1 Discord starting: {"newUpdater":true,"releaseChannel":"stable","version":"1.0.9188"}, modulepath: C:\Users\Haley Thomson\AppData\Roaming\discord\module_data at 2025-04-13 08:25:26.332085
+Error reading Discord output: 'charmap' codec can't encode character '\u2705' in position 62: character maps to <undefined> at 2025-04-13 08:25:26.337086
+Found running Discord process with PID: 1780 at 2025-04-13 08:25:27.786360
+Activated Discord by opening DM channel for PID: 1780 at 2025-04-13 08:25:27.999829
+Appended 10 Discord logs to discord_output.txt at 2025-04-13 08:25:33.003027
+Captured Discord logs during activity at 2025-04-13 08:25:33.003027
+Appended 0 Discord logs to discord_output.txt at 2025-04-13 08:25:35.003660
+Captured Discord logs during activity at 2025-04-13 08:25:35.003660
+Appended 0 Discord logs to discord_output.txt at 2025-04-13 08:25:37.004483
+Captured Discord logs during activity at 2025-04-13 08:25:37.004483
+Appended 0 Discord logs to discord_output.txt at 2025-04-13 08:25:39.008120
+Captured Discord logs during activity at 2025-04-13 08:25:39.010122
+Appended 0 Discord logs to discord_output.txt at 2025-04-13 08:25:41.013116
+Captured Discord logs during activity at 2025-04-13 08:25:41.013116
+Appended 0 Discord logs to discord_output.txt at 2025-04-13 08:25:43.017490
+Captured Discord logs during activity at 2025-04-13 08:25:43.017490
+Appended 0 Discord logs to discord_output.txt at 2025-04-13 08:25:45.019260
+Captured Discord logs during activity at 2025-04-13 08:25:45.019260
+Appended 0 Discord logs to discord_output.txt at 2025-04-13 08:25:47.021196
+Captured Discord logs during activity at 2025-04-13 08:25:47.021196
+Appended 0 Discord logs to discord_output.txt at 2025-04-13 08:25:49.022081
+Captured Discord logs during activity at 2025-04-13 08:25:49.022081
+Appended 0 Discord logs to discord_output.txt at 2025-04-13 08:25:51.022361
+Captured Discord logs during activity at 2025-04-13 08:25:51.022361
+Appended 0 Discord logs to discord_output.txt at 2025-04-13 08:25:53.022521
+Captured Discord logs during activity at 2025-04-13 08:25:53.022521
+Appended 0 Discord logs to discord_output.txt at 2025-04-13 08:25:55.022650
+Captured Discord logs during activity at 2025-04-13 08:25:55.022650
+Appended 0 Discord logs to discord_output.txt at 2025-04-13 08:25:57.022975
+Captured Discord logs during activity at 2025-04-13 08:25:57.022975
+Appended 0 Discord logs to discord_output.txt at 2025-04-13 08:25:59.023788
+Captured Discord logs during activity at 2025-04-13 08:25:59.023788
+Appended 0 Discord logs to discord_output.txt at 2025-04-13 08:26:01.024714
+Captured Discord logs during activity at 2025-04-13 08:26:01.024714
+Script started with pythonw (PID: 13244) at 2025-04-13 08:27:04.707358
+GUI initialized at 2025-04-13 08:27:04.767575
+Pop-up shown at 2025-04-13 08:27:06.174853
+Starting wait loop at 2025-04-13 08:27:06.175855
+Wait loop completed at 2025-04-13 08:27:16.176726
+Checking for internet access at 2025-04-13 08:27:16.176726
+Internet access confirmed at 2025-04-13 08:27:16.348339
+No timestamp found in Discord log: C:\Users\Haley Thomson\AppData\Roaming\Discord\logs\renderer_js.log at 2025-04-13 08:27:16.494632
+Discord (PID: 2024) last active 108.14 seconds ago (using process creation) at 2025-04-13 08:27:16.495616
+Found running Discord process with PID: 2024 at 2025-04-13 08:27:16.499634
+Attempted to restore Discord window for PID: 2024 at 2025-04-13 08:27:17.079006
+Activated Discord by opening DM channel for PID: 2024 at 2025-04-13 08:27:17.287432
+Logs are being appended to discord_output.txt by Tee-Object at 2025-04-13 08:27:22.287889
+Checked Discord logs during activity at 2025-04-13 08:27:22.287889
+Logs are being appended to discord_output.txt by Tee-Object at 2025-04-13 08:27:24.288101
+Checked Discord logs during activity at 2025-04-13 08:27:24.288101
+Logs are being appended to discord_output.txt by Tee-Object at 2025-04-13 08:27:26.288251
+Checked Discord logs during activity at 2025-04-13 08:27:26.288251
+Logs are being appended to discord_output.txt by Tee-Object at 2025-04-13 08:27:28.288864
+Checked Discord logs during activity at 2025-04-13 08:27:28.288864
+Logs are being appended to discord_output.txt by Tee-Object at 2025-04-13 08:27:30.289506
+Checked Discord logs during activity at 2025-04-13 08:27:30.289506
+Logs are being appended to discord_output.txt by Tee-Object at 2025-04-13 08:27:32.289879
+Checked Discord logs during activity at 2025-04-13 08:27:32.289879
+Logs are being appended to discord_output.txt by Tee-Object at 2025-04-13 08:27:34.290319
+Checked Discord logs during activity at 2025-04-13 08:27:34.290319
+Logs are being appended to discord_output.txt by Tee-Object at 2025-04-13 08:27:36.290436
+Checked Discord logs during activity at 2025-04-13 08:27:36.290436
+Logs are being appended to discord_output.txt by Tee-Object at 2025-04-13 08:27:38.291414
+Checked Discord logs during activity at 2025-04-13 08:27:38.291414
+Logs are being appended to discord_output.txt by Tee-Object at 2025-04-13 08:27:40.292210
+Checked Discord logs during activity at 2025-04-13 08:27:40.292210
+Logs are being appended to discord_output.txt by Tee-Object at 2025-04-13 08:27:42.292678
+Checked Discord logs during activity at 2025-04-13 08:27:42.292678
+Logs are being appended to discord_output.txt by Tee-Object at 2025-04-13 08:27:44.293345
+Checked Discord logs during activity at 2025-04-13 08:27:44.293345
+Logs are being appended to discord_output.txt by Tee-Object at 2025-04-13 08:27:46.294322
+Checked Discord logs during activity at 2025-04-13 08:27:46.294322
+Logs are being appended to discord_output.txt by Tee-Object at 2025-04-13 08:27:48.295185
+Checked Discord logs during activity at 2025-04-13 08:27:48.295185
+Logs are being appended to discord_output.txt by Tee-Object at 2025-04-13 08:27:50.296073
+Checked Discord logs during activity at 2025-04-13 08:27:50.296073
+Script started with pythonw (PID: 4288) at 2025-04-13 08:30:12.435277
+GUI initialized at 2025-04-13 08:30:12.494350
+Pop-up shown at 2025-04-13 08:30:13.630578
+Starting wait loop at 2025-04-13 08:30:13.631580
+Wait loop completed at 2025-04-13 08:30:23.632061
+Checking for internet access at 2025-04-13 08:30:23.632061
+Internet access confirmed at 2025-04-13 08:30:23.817108
+No running Discord process found, assuming idle for 1 hour at 2025-04-13 08:30:24.266473
+No running Discord process found at 2025-04-13 08:30:24.272472
+Found Discord executable: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe at 2025-04-13 08:30:24.272472
+Launched Discord with PID: 16516 at 2025-04-13 08:30:24.279454
+Found running Discord process with PID: 3352 at 2025-04-13 08:30:26.286520
+Activated Discord by opening DM channel for PID: 3352 at 2025-04-13 08:30:26.574479
+Logs are being appended to discord_output.txt by async read at 2025-04-13 08:30:31.574511
+Checked Discord logs during activity at 2025-04-13 08:30:31.574511
+Logs are being appended to discord_output.txt by async read at 2025-04-13 08:30:33.575845
+Checked Discord logs during activity at 2025-04-13 08:30:33.575845
+Logs are being appended to discord_output.txt by async read at 2025-04-13 08:30:35.576400
+Checked Discord logs during activity at 2025-04-13 08:30:35.576400
+Logs are being appended to discord_output.txt by async read at 2025-04-13 08:30:37.576454
+Checked Discord logs during activity at 2025-04-13 08:30:37.576454
+Logs are being appended to discord_output.txt by async read at 2025-04-13 08:30:39.576958
+Checked Discord logs during activity at 2025-04-13 08:30:39.576958
+Logs are being appended to discord_output.txt by async read at 2025-04-13 08:30:41.577394
+Checked Discord logs during activity at 2025-04-13 08:30:41.577394
+Logs are being appended to discord_output.txt by async read at 2025-04-13 08:30:43.577891
+Checked Discord logs during activity at 2025-04-13 08:30:43.577891
+Logs are being appended to discord_output.txt by async read at 2025-04-13 08:30:45.578817
+Checked Discord logs during activity at 2025-04-13 08:30:45.578817
+Logs are being appended to discord_output.txt by async read at 2025-04-13 08:30:47.579785
+Checked Discord logs during activity at 2025-04-13 08:30:47.579785
+Logs are being appended to discord_output.txt by async read at 2025-04-13 08:30:49.580529
+Checked Discord logs during activity at 2025-04-13 08:30:49.580529
+Logs are being appended to discord_output.txt by async read at 2025-04-13 08:30:51.580568
+Checked Discord logs during activity at 2025-04-13 08:30:51.580568
+Logs are being appended to discord_output.txt by async read at 2025-04-13 08:30:53.581695
+Checked Discord logs during activity at 2025-04-13 08:30:53.581695
+Logs are being appended to discord_output.txt by async read at 2025-04-13 08:30:55.582639
+Checked Discord logs during activity at 2025-04-13 08:30:55.582639
+Logs are being appended to discord_output.txt by async read at 2025-04-13 08:30:57.583406
+Checked Discord logs during activity at 2025-04-13 08:30:57.583406
+Logs are being appended to discord_output.txt by async read at 2025-04-13 08:30:59.583426
+Checked Discord logs during activity at 2025-04-13 08:30:59.583426
+Starting ww.py execution at 2025-04-13 08:45:06.111121
+Script started with pythonw (PID: 29784) at 2025-04-13 08:45:06.111121
+GUI initialized at 2025-04-13 08:45:06.174284
+Pop-up shown at 2025-04-13 08:45:07.600282
+Starting wait loop at 2025-04-13 08:45:07.600282
+Wait loop completed at 2025-04-13 08:45:17.601201
+Checking for internet access at 2025-04-13 08:45:17.601201
+Internet access confirmed at 2025-04-13 08:45:17.781010
+Entering get_idle_time at 2025-04-13 08:45:17.781010
+Idle time: 0.33 seconds at 2025-04-13 08:45:17.781991
+System idle time: 0.328 at 2025-04-13 08:45:17.781991
+Entering get_discord_idle_time at 2025-04-13 08:45:17.781991
+No running Discord process found, assuming idle for 1 hour at 2025-04-13 08:45:18.335042
+Discord idle time: 3600.0 at 2025-04-13 08:45:18.336023
+Calling discord_wiggle at 2025-04-13 08:45:18.336023
+Entering discord_wiggle at 2025-04-13 08:45:18.336023
+No running Discord process found at 2025-04-13 08:45:18.342041
+Found Discord executable: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe at 2025-04-13 08:45:18.343024
+Attempting to launch Discord at: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe at 2025-04-13 08:45:18.343024
+Launched Discord with PID: 23608 at 2025-04-13 08:45:18.352023
+Read line from Discord: Discord 1.0.9188 at 2025-04-13 08:45:18.784733
+Read line from Discord: Starting app. at 2025-04-13 08:45:18.839350
+Read line from Discord: Starting updater. at 2025-04-13 08:45:18.851350
+Read line from Discord: Determined current Windows architecture: x64 at 2025-04-13 08:45:18.862351
+Read line from Discord: splashScreen.initSplash(false) at 2025-04-13 08:45:18.872903
+Read line from Discord: CDM component API found at 2025-04-13 08:45:18.883447
+Read line from Discord: blackbox: 4/13/2025, 8:45:18 AM MDT 0 at 2025-04-13 08:45:18.910446
+Read line from Discord: ---------------------------------------------- at 2025-04-13 08:45:18.933445
+Read line from Discord: CDM completed with status: cdm-ready-success at 2025-04-13 08:45:18.944445
+Read line from Discord: blackbox: 4/13/2025, 8:45:18 AM MDT 1 Discord starting: {"newUpdater":true,"releaseChannel":"stable","version":"1.0.9188"}, modulepath: C:\Users\Haley Thomson\AppData\Roaming\discord\module_data at 2025-04-13 08:45:18.955444
+Error reading Discord output: 'charmap' codec can't encode character '\u2705' in position 62: character maps to <undefined> at 2025-04-13 08:45:18.966444
+Found running Discord process with PID: 920 at 2025-04-13 08:45:20.356876
+Discord PID found: 920 at 2025-04-13 08:45:20.357858
+Activated Discord by opening DM channel for PID: 920 at 2025-04-13 08:45:20.584016
+Logs are being appended to discord_output.txt by read_output thread at 2025-04-13 08:45:25.584966
+Checked Discord logs during activity at 2025-04-13 08:45:25.584966
+Logs are being appended to discord_output.txt by read_output thread at 2025-04-13 08:45:27.584994
+Checked Discord logs during activity at 2025-04-13 08:45:27.584994
+Logs are being appended to discord_output.txt by read_output thread at 2025-04-13 08:45:29.585334
+Checked Discord logs during activity at 2025-04-13 08:45:29.585334
+Logs are being appended to discord_output.txt by read_output thread at 2025-04-13 08:45:31.585908
+Checked Discord logs during activity at 2025-04-13 08:45:31.586909
+Logs are being appended to discord_output.txt by read_output thread at 2025-04-13 08:45:33.587661
+Checked Discord logs during activity at 2025-04-13 08:45:33.587661
+Logs are being appended to discord_output.txt by read_output thread at 2025-04-13 08:45:35.588066
+Checked Discord logs during activity at 2025-04-13 08:45:35.588066
+Logs are being appended to discord_output.txt by read_output thread at 2025-04-13 08:45:37.588464
+Checked Discord logs during activity at 2025-04-13 08:45:37.588464
+Logs are being appended to discord_output.txt by read_output thread at 2025-04-13 08:45:39.588961
+Checked Discord logs during activity at 2025-04-13 08:45:39.588961
+Logs are being appended to discord_output.txt by read_output thread at 2025-04-13 08:45:41.589579
+Checked Discord logs during activity at 2025-04-13 08:45:41.589579
+Logs are being appended to discord_output.txt by read_output thread at 2025-04-13 08:45:43.590256
+Checked Discord logs during activity at 2025-04-13 08:45:43.590256
+Logs are being appended to discord_output.txt by read_output thread at 2025-04-13 08:45:45.590702
+Checked Discord logs during activity at 2025-04-13 08:45:45.590702
+Logs are being appended to discord_output.txt by read_output thread at 2025-04-13 08:45:47.591681
+Checked Discord logs during activity at 2025-04-13 08:45:47.591681
+Logs are being appended to discord_output.txt by read_output thread at 2025-04-13 08:45:49.591746
+Checked Discord logs during activity at 2025-04-13 08:45:49.591746
+Logs are being appended to discord_output.txt by read_output thread at 2025-04-13 08:45:51.592332
+Checked Discord logs during activity at 2025-04-13 08:45:51.592332
+Logs are being appended to discord_output.txt by read_output thread at 2025-04-13 08:45:53.592741
+Checked Discord logs during activity at 2025-04-13 08:45:53.592741
+Exiting discord_wiggle at 2025-04-13 08:45:55.594557
+Finished discord_wiggle at 2025-04-13 08:45:55.595535
+Starting ww.py execution at 2025-04-13 08:46:46.556641
+Script started with pythonw (PID: 33140) at 2025-04-13 08:46:46.556641
+GUI initialized at 2025-04-13 08:46:46.636707
+Pop-up shown at 2025-04-13 08:46:47.929271
+Starting wait loop at 2025-04-13 08:46:47.929794
+Wait loop completed at 2025-04-13 08:46:57.929929
+Checking for internet access at 2025-04-13 08:46:57.929929
+Internet access confirmed at 2025-04-13 08:46:58.094023
+Entering get_idle_time at 2025-04-13 08:46:58.094023
+Idle time: 2.14 seconds at 2025-04-13 08:46:58.095023
+System idle time: 2.141 at 2025-04-13 08:46:58.095023
+Entering get_discord_idle_time at 2025-04-13 08:46:58.095023
+No timestamp found in Discord log: C:\Users\Haley Thomson\AppData\Roaming\Discord\logs\renderer_js.log at 2025-04-13 08:46:58.177686
+Discord (PID: 1048) last active 97.15 seconds ago (using process creation) at 2025-04-13 08:46:58.177686
+Discord idle time: 97.14570307731628 at 2025-04-13 08:46:58.178670
+Calling discord_wiggle at 2025-04-13 08:46:58.179667
+Entering discord_wiggle at 2025-04-13 08:46:58.179667
+Found running Discord process with PID: 1048 at 2025-04-13 08:46:58.183685
+Attempted to restore Discord window for PID: 1048 at 2025-04-13 08:46:58.832920
+Activated Discord by opening DM channel for PID: 1048 at 2025-04-13 08:46:59.066287
+Logs are being appended to discord_output.txt by redirected stdout at 2025-04-13 08:47:04.066336
+Checked Discord logs during activity at 2025-04-13 08:47:04.066336
+Logs are being appended to discord_output.txt by redirected stdout at 2025-04-13 08:47:06.066911
+Checked Discord logs during activity at 2025-04-13 08:47:06.066911
+Logs are being appended to discord_output.txt by redirected stdout at 2025-04-13 08:47:08.067585
+Checked Discord logs during activity at 2025-04-13 08:47:08.067585
+Logs are being appended to discord_output.txt by redirected stdout at 2025-04-13 08:47:10.067988
+Checked Discord logs during activity at 2025-04-13 08:47:10.067988
+Logs are being appended to discord_output.txt by redirected stdout at 2025-04-13 08:47:12.068034
+Checked Discord logs during activity at 2025-04-13 08:47:12.068034
+Logs are being appended to discord_output.txt by redirected stdout at 2025-04-13 08:47:14.068471
+Checked Discord logs during activity at 2025-04-13 08:47:14.068471
+Logs are being appended to discord_output.txt by redirected stdout at 2025-04-13 08:47:16.068603
+Checked Discord logs during activity at 2025-04-13 08:47:16.068603
+Logs are being appended to discord_output.txt by redirected stdout at 2025-04-13 08:47:18.069235
+Checked Discord logs during activity at 2025-04-13 08:47:18.069235
+Logs are being appended to discord_output.txt by redirected stdout at 2025-04-13 08:47:20.070056
+Checked Discord logs during activity at 2025-04-13 08:47:20.070056
+Logs are being appended to discord_output.txt by redirected stdout at 2025-04-13 08:47:22.070530
+Checked Discord logs during activity at 2025-04-13 08:47:22.070530
+Logs are being appended to discord_output.txt by redirected stdout at 2025-04-13 08:47:24.070541
+Checked Discord logs during activity at 2025-04-13 08:47:24.070541
+Logs are being appended to discord_output.txt by redirected stdout at 2025-04-13 08:47:26.070556
+Checked Discord logs during activity at 2025-04-13 08:47:26.070556
+Logs are being appended to discord_output.txt by redirected stdout at 2025-04-13 08:47:28.070563
+Checked Discord logs during activity at 2025-04-13 08:47:28.070563
+Logs are being appended to discord_output.txt by redirected stdout at 2025-04-13 08:47:30.071062
+Checked Discord logs during activity at 2025-04-13 08:47:30.071062
+Logs are being appended to discord_output.txt by redirected stdout at 2025-04-13 08:47:32.071752
+Checked Discord logs during activity at 2025-04-13 08:47:32.071752
+Exiting discord_wiggle at 2025-04-13 08:47:34.073448
+Finished discord_wiggle at 2025-04-13 08:47:34.073448
+Starting ww.py execution at 2025-04-13 08:49:20.109423
+Script started with pythonw (PID: 16948) at 2025-04-13 08:49:20.109423
+GUI initialized at 2025-04-13 08:49:20.169961
+Pop-up shown at 2025-04-13 08:49:21.435039
+Starting wait loop at 2025-04-13 08:49:21.435039
+Wait loop completed at 2025-04-13 08:49:31.435823
+Checking for internet access at 2025-04-13 08:49:31.435823
+Internet access confirmed at 2025-04-13 08:49:31.609773
+Entering get_idle_time at 2025-04-13 08:49:31.609773
+Idle time: 0.38 seconds at 2025-04-13 08:49:31.609773
+System idle time: 0.375 at 2025-04-13 08:49:31.610783
+Entering get_discord_idle_time at 2025-04-13 08:49:31.610783
+No running Discord process found, assuming idle for 1 hour at 2025-04-13 08:49:32.133641
+Discord idle time: 3600.0 at 2025-04-13 08:49:32.133641
+Calling discord_wiggle at 2025-04-13 08:49:32.134641
+Entering discord_wiggle at 2025-04-13 08:49:32.134641
+No running Discord process found at 2025-04-13 08:49:32.140643
+Found Discord executable: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe at 2025-04-13 08:49:32.140643
+Attempting to launch Discord at: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe at 2025-04-13 08:49:32.141642
+Launched Discord with PID: 34012 at 2025-04-13 08:49:32.147644
+Found running Discord process with PID: 11076 at 2025-04-13 08:49:37.152296
+Started continuous Discord output capture for PID: 11076 at 2025-04-13 08:49:37.159298
+Activated Discord by opening DM channel for PID: 11076 at 2025-04-13 08:49:37.409630
+Logs are being appended to discord_output.txt by PowerShell continuous capture at 2025-04-13 08:49:42.410493
+Checked Discord logs during activity at 2025-04-13 08:49:42.410493
+Logs are being appended to discord_output.txt by PowerShell continuous capture at 2025-04-13 08:49:44.411229
+Checked Discord logs during activity at 2025-04-13 08:49:44.411229
+Logs are being appended to discord_output.txt by PowerShell continuous capture at 2025-04-13 08:49:46.411749
+Checked Discord logs during activity at 2025-04-13 08:49:46.411749
+Logs are being appended to discord_output.txt by PowerShell continuous capture at 2025-04-13 08:49:48.412131
+Checked Discord logs during activity at 2025-04-13 08:49:48.412131
+Logs are being appended to discord_output.txt by PowerShell continuous capture at 2025-04-13 08:49:50.412235
+Checked Discord logs during activity at 2025-04-13 08:49:50.412235
+Logs are being appended to discord_output.txt by PowerShell continuous capture at 2025-04-13 08:49:52.412575
+Checked Discord logs during activity at 2025-04-13 08:49:52.412575
+Logs are being appended to discord_output.txt by PowerShell continuous capture at 2025-04-13 08:49:54.414065
+Checked Discord logs during activity at 2025-04-13 08:49:54.414065
+Logs are being appended to discord_output.txt by PowerShell continuous capture at 2025-04-13 08:49:56.414796
+Checked Discord logs during activity at 2025-04-13 08:49:56.414796
+Logs are being appended to discord_output.txt by PowerShell continuous capture at 2025-04-13 08:49:58.415337
+Checked Discord logs during activity at 2025-04-13 08:49:58.415337
+Logs are being appended to discord_output.txt by PowerShell continuous capture at 2025-04-13 08:50:00.417204
+Checked Discord logs during activity at 2025-04-13 08:50:00.417204
+Logs are being appended to discord_output.txt by PowerShell continuous capture at 2025-04-13 08:50:02.417425
+Checked Discord logs during activity at 2025-04-13 08:50:02.417425
+Logs are being appended to discord_output.txt by PowerShell continuous capture at 2025-04-13 08:50:04.417635
+Checked Discord logs during activity at 2025-04-13 08:50:04.417635
+Logs are being appended to discord_output.txt by PowerShell continuous capture at 2025-04-13 08:50:06.417944
+Checked Discord logs during activity at 2025-04-13 08:50:06.417944
+Logs are being appended to discord_output.txt by PowerShell continuous capture at 2025-04-13 08:50:08.418005
+Checked Discord logs during activity at 2025-04-13 08:50:08.418005
+Exiting discord_wiggle at 2025-04-13 08:50:08.945856
