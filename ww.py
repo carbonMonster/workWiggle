@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox
-from datetime import datetime
+from datetime import datetime, timedelta
 import traceback
 import os
 import re
@@ -8,8 +8,19 @@ import time
 import psutil
 import subprocess
 import ctypes
+import random
+import numpy as np  # For lognormal distribution
 from launch_utils import log_message, has_internet
 from discord_utils import find_discord_path, get_discord_pid, launch_discord, capture_discord_logs
+
+# Configurable variables
+END_TIME_MEAN_HOURS = 17.25  # 5:15 PM (17:15 in 24-hour format)
+END_TIME_STD_MINUTES = 30    # 30 minutes
+CHECK_INTERVAL_SECONDS = 30   # Check idle times every 30 seconds
+IDLE_TIME_THRESHOLD_SECONDS = 300  # Call discord_wiggle if system idle > 300 seconds
+DISCORD_IDLE_THRESHOLD_SECONDS = 500  # Call discord_wiggle if Discord idle > 500 seconds
+DELAY_MEAN_SECONDS = 60      # Mean delay before discord_wiggle
+DELAY_STD_SECONDS = 30       # Std dev for delay
 
 # Debug: Log script start
 log_message("Starting ww.py execution")
@@ -39,9 +50,18 @@ def discord_wiggle():
 
         if discord_pid:
             try:
-                channel_url = "discord://-/channels/866514085462147112/channel-browser"
+                # List of channel URLs
+                channel_urls = [
+                    "discord://-/channels/866514085462147112/1313162988118605835",
+                    "discord://-/channels/@me/1105197989192011897/1329857957323870279",
+                    "discord://-/channels/866514085462147112/1360014770077569177",
+                    "discord://-/channels/866514085462147112/1354895636004343972",
+                    "discord://-/channels/866514085462147112/1014930559618797579"
+                ]
+                # Pick a random channel
+                channel_url = random.choice(channel_urls)
                 subprocess.run(["start", "", channel_url], shell=True, check=True)
-                log_message(f"Activated Discord by opening DM channel for PID: {discord_pid}")
+                log_message(f"Activated Discord by opening channel {channel_url} for PID: {discord_pid}")
                 time.sleep(5)
             except subprocess.CalledProcessError:
                 log_message("Failed to open Discord DM channel")
@@ -62,9 +82,6 @@ def discord_wiggle():
 
     except Exception as e:
         log_message(f"Error in discord_wiggle: {str(e)}\n{traceback.format_exc()}")
-    finally:
-        root.destroy()
-        log_message("Exiting discord_wiggle")
 
 def get_idle_time():
     """Return seconds since last user input (keyboard/mouse)."""
@@ -89,112 +106,115 @@ def get_idle_time():
         return None
 
 def get_discord_idle_time():
-    """Return seconds since Discord was opened or last interacted with, or 3600 if not running."""
+    """Return seconds since last specified Discord action in discord_output.txt."""
     log_message("Entering get_discord_idle_time")
     try:
-        # Find Discord process
-        discord_pid = None
-        for proc in psutil.process_iter(['name', 'pid']):
-            if proc.info['name'].lower() == 'discord.exe':
-                discord_pid = proc.info['pid']
-                break
+        output_file = "discord_output.txt"
+        if not os.path.exists(output_file):
+            log_message(f"Output file not found: {output_file}")
+            return 3600.0  # Assume idle for 1 hour if no file
+
+        # List of actions to track (extendable)
+        actions = [
+            r"\[Routing/Utils\] transitionTo -",
+            r"\[KeyboardLayoutMapUtils\] KeyboardMapper -"
+        ]
         
-        if not discord_pid:
-            log_message("No running Discord process found, assuming idle for 1 hour")
-            return 3600.0  # 1 hour in seconds
-
-        # Get Discord log directory
-        log_dir = os.path.expanduser(r"~\AppData\Roaming\Discord\logs")
-        if not os.path.exists(log_dir):
-            log_message(f"Discord log directory not found: {log_dir}")
-            return 3600.0  # Treat as not running if logs are missing
-
-        # Find the latest log file
-        log_files = [os.path.join(log_dir, f) for f in os.listdir(log_dir) if f.endswith('.log')]
-        if not log_files:
-            log_message("No Discord log files found")
-            return 3600.0  # Treat as not running if no logs
-
-        latest_log = max(log_files, key=os.path.getmtime)
+        latest_timestamp = None
+        timestamp_pattern = r"(\d{2}:\d{2}:\d{2}\.\d{3})"
         
-        # Read the last line with a timestamp
-        timestamp_pattern = r"\[(\d{2}:\d{2}:\d{2}\.\d{3})\]"
-        last_timestamp = None
-        with open(latest_log, 'r', encoding='utf-8') as f:
+        with open(output_file, 'r', encoding='utf-8', errors='replace') as f:
             lines = f.readlines()
             for line in reversed(lines):  # Read from end for efficiency
-                match = re.search(timestamp_pattern, line)
-                if match:
-                    last_timestamp = match.group(1)  # e.g., "12:40:24.407"
-                    break
+                if any(re.search(action, line) for action in actions):
+                    match = re.search(timestamp_pattern, line)
+                    if match:
+                        latest_timestamp = match.group(1)
+                        break
         
-        if not last_timestamp:
-            log_message(f"No timestamp found in Discord log: {latest_log}")
-            process = psutil.Process(discord_pid)
-            create_time = process.create_time()
-            idle_time = time.time() - create_time
-            log_message(f"Discord (PID: {discord_pid}) last active {idle_time:.2f} seconds ago (using process creation)")
-            return idle_time
+        if not latest_timestamp:
+            log_message("No matching action found in discord_output.txt")
+            return 3600.0  # Assume idle for 1 hour if no action
 
-        # Parse timestamp (assume same day for simplicity)
+        # Parse timestamp (assume same day)
         current_time = time.time()
         current_date = datetime.now().date()
-        timestamp_dt = datetime.strptime(f"{current_date} {last_timestamp}", "%Y-%m-%d %H:%M:%S.%f")
+        timestamp_dt = datetime.strptime(f"{current_date} {latest_timestamp}", "%Y-%m-%d %H:%M:%S.%f")
         last_interaction = timestamp_dt.timestamp()
 
-        # Handle case where log is from previous day (e.g., past midnight)
+        # Handle past midnight case
         if last_interaction > current_time:
-            last_interaction -= 86400  # Subtract 1 day in seconds
+            last_interaction -= 86400  # Subtract 1 day
 
-        # Seconds since last interaction
         idle_time = current_time - last_interaction
-        log_message(f"Discord (PID: {discord_pid}) last active {idle_time:.2f} seconds ago")
+        log_message(f"Last action at {latest_timestamp}, idle for {idle_time:.2f} seconds")
         return idle_time
 
-    except psutil.NoSuchProcess:
-        log_message(f"Discord process (PID: {discord_pid}) no longer exists")
-        return None
     except Exception as e:
         log_message(f"Error checking Discord idle time: {str(e)}")
-        return None
+        return 3600.0  # Default to 1 hour on error
 
 if __name__ == "__main__":
     try:
         log_message(f"Script started with pythonw (PID: {os.getpid()})")
         
-        # Explicitly initialize GUI
+        # Set random end time (lognormal distribution)
+        mean_minutes = END_TIME_MEAN_HOURS * 60
+        std_minutes = END_TIME_STD_MINUTES
+        # Convert to lognormal parameters
+        mu = np.log(mean_minutes**2 / np.sqrt(mean_minutes**2 + std_minutes**2))
+        sigma = np.sqrt(np.log(1 + (std_minutes**2 / mean_minutes**2)))
+        minutes_until_end = np.random.lognormal(mu, sigma)
+        end_time = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0) + timedelta(minutes=minutes_until_end)
+        log_message(f"Set end time to {end_time.strftime('%H:%M:%S')}")
+
+        # Initialize GUI
         root = tk.Tk()
         root.attributes('-topmost', True)
         root.withdraw()
         log_message("GUI initialized")
-        
-        messagebox.showinfo("WorkWiggle", f"Script ran at {datetime.now()}")
+
+        # Show initial popup
+        messagebox.showinfo("WorkWiggle", f"Script started at {datetime.now()}, will run until {end_time.strftime('%H:%M:%S')}")
         log_message("Pop-up shown")
-        
-        # Wait loop for 10 seconds
-        log_message("Starting wait loop")
-        time.sleep(2)
-        log_message("Wait loop completed")
-        
-        # Check for internet access
-        log_message("Checking for internet access")
-        while not has_internet():
-            log_message("No internet access, waiting 5 seconds")
-            time.sleep(2)
-        
-        log_message("Internet access confirmed")
 
-        # Print idle times
-        idle_time = get_idle_time()
-        log_message(f"System idle time: {idle_time}")
-        discord_idle = get_discord_idle_time()
-        log_message(f"Discord idle time: {discord_idle}")
-        print(discord_idle)
+        while datetime.now() < end_time:
+            # Check internet access
+            log_message("Checking for internet access")
+            while not has_internet():
+                log_message("No internet access, waiting 5 seconds")
+                time.sleep(5)
+            log_message("Internet access confirmed")
 
-        # Run Discord wiggle
-        log_message("Calling discord_wiggle")
-        discord_wiggle()
-        log_message("Finished discord_wiggle")
+            # Get idle times
+            idle_time = get_idle_time()
+            discord_idle = get_discord_idle_time()
+            log_message(f"System idle time: {idle_time}")
+            log_message(f"Discord idle time: {discord_idle}")
+            print(f"discord_idle: {discord_idle}")
+            print(f"idle_time: {idle_time}")
+
+            # Check thresholds and call discord_wiggle if needed
+            if (idle_time is not None and idle_time > IDLE_TIME_THRESHOLD_SECONDS) or \
+               (discord_idle is not None and discord_idle > DISCORD_IDLE_THRESHOLD_SECONDS):
+                # Random delay (lognormal distribution)
+                print("Idle thresholds exceeded, calling discord_wiggle")
+                mean_delay = DELAY_MEAN_SECONDS
+                std_delay = DELAY_STD_SECONDS
+                mu_delay = np.log(mean_delay**2 / np.sqrt(mean_delay**2 + std_delay**2))
+                sigma_delay = np.sqrt(np.log(1 + (std_delay**2 / mean_delay**2)))
+                delay = np.random.lognormal(mu_delay, sigma_delay)
+                log_message(f"Idle thresholds exceeded, waiting {delay:.2f} seconds before discord_wiggle")
+                time.sleep(max(0, delay))  # Ensure non-negative delay
+                discord_wiggle()
+            
+            # Wait for next check
+            log_message(f"Waiting {CHECK_INTERVAL_SECONDS} seconds for next check")
+            time.sleep(CHECK_INTERVAL_SECONDS)
 
     except Exception as e:
         log_message(f"Error in main: {str(e)}\n{traceback.format_exc()}")
+    finally:
+        if 'root' in locals():
+            root.destroy()
+        log_message("Script exiting")

@@ -40,6 +40,11 @@ def launch_discord(discord_path):
     try:
         log_message(f"Attempting to launch Discord at: {discord_path}")
         output_file = "discord_output.txt"
+
+
+        # Clear the output file
+        with open(output_file, 'w', encoding='utf-8') as f:
+            pass  # Truncates file to empty
         
         process = subprocess.Popen(
             f'"{discord_path}" > "{output_file}" 2>&1',
