@@ -2052,3 +2052,783 @@ PermissionError: [Errno 13] Permission denied: 'discord_output.txt'
 [2025-04-13 13:56:07.688780] Discord idle time: 292.8897817134857
 [2025-04-13 13:56:07.689780] Waiting 30 seconds for next check
 [2025-04-13 13:56:19.484447] Script exiting
+[2025-04-13 14:00:59.370716] Starting ww.py execution
+[2025-04-13 14:00:59.370716] Script started with pythonw (PID: 30612)
+[2025-04-13 14:00:59.382716] Set end time to 17:02:46
+[2025-04-13 14:00:59.445356] GUI initialized
+[2025-04-13 14:01:00.250771] Pop-up shown
+[2025-04-13 14:01:00.250771] Checking for internet access
+[2025-04-13 14:01:00.300839] Internet access confirmed
+[2025-04-13 14:01:00.301840] Entering get_idle_time
+[2025-04-13 14:01:00.301840] Idle time: 0.00 seconds
+[2025-04-13 14:01:00.301840] Entering get_discord_idle_time
+[2025-04-13 14:01:00.318926] Last action at 13:58:23.111, idle for 157.20 seconds
+[2025-04-13 14:01:00.319914] System idle time: 0.0
+[2025-04-13 14:01:00.319914] Discord idle time: 157.20284008979797
+[2025-04-13 14:01:00.319914] Waiting 30 seconds for next check
+[2025-04-13 14:01:30.320318] Checking for internet access
+[2025-04-13 14:01:30.350592] Internet access confirmed
+[2025-04-13 14:01:30.350592] Entering get_idle_time
+[2025-04-13 14:01:30.350592] Idle time: 0.31 seconds
+[2025-04-13 14:01:30.351552] Entering get_discord_idle_time
+[2025-04-13 14:01:30.351552] Last action at 13:58:23.111, idle for 187.24 seconds
+[2025-04-13 14:01:30.352552] System idle time: 0.313
+[2025-04-13 14:01:30.352552] Discord idle time: 187.24055194854736
+[2025-04-13 14:01:30.352552] Waiting 30 seconds for next check
+[2025-04-13 14:02:00.353985] Checking for internet access
+[2025-04-13 14:02:00.385071] Internet access confirmed
+[2025-04-13 14:02:00.386073] Entering get_idle_time
+[2025-04-13 14:02:00.386073] Idle time: 2.73 seconds
+[2025-04-13 14:02:00.386073] Entering get_discord_idle_time
+[2025-04-13 14:02:00.387069] Last action at 13:58:23.111, idle for 217.28 seconds
+[2025-04-13 14:02:00.387069] System idle time: 2.735
+[2025-04-13 14:02:00.387069] Discord idle time: 217.27606964111328
+[2025-04-13 14:02:00.388068] Waiting 30 seconds for next check
+[2025-04-13 14:02:30.388852] Checking for internet access
+[2025-04-13 14:02:30.426882] Internet access confirmed
+[2025-04-13 14:02:30.427879] Entering get_idle_time
+[2025-04-13 14:02:30.427879] Idle time: 0.06 seconds
+[2025-04-13 14:02:30.427879] Entering get_discord_idle_time
+[2025-04-13 14:02:30.428880] Last action at 13:58:23.111, idle for 247.32 seconds
+[2025-04-13 14:02:30.428880] System idle time: 0.063
+[2025-04-13 14:02:30.428880] Discord idle time: 247.31687927246094
+[2025-04-13 14:02:30.429882] Waiting 30 seconds for next check
+[2025-04-13 14:03:00.430060] Checking for internet access
+[2025-04-13 14:03:00.458633] Internet access confirmed
+[2025-04-13 14:03:00.458633] Entering get_idle_time
+[2025-04-13 14:03:00.459648] Idle time: 0.25 seconds
+[2025-04-13 14:03:00.459648] Entering get_discord_idle_time
+[2025-04-13 14:03:00.460633] Last action at 13:58:23.111, idle for 277.35 seconds
+[2025-04-13 14:03:00.460633] System idle time: 0.25
+[2025-04-13 14:03:00.461634] Discord idle time: 277.34963369369507
+[2025-04-13 14:03:00.461634] Waiting 30 seconds for next check
+[2025-04-13 14:03:30.461854] Checking for internet access
+[2025-04-13 14:03:30.503944] Internet access confirmed
+[2025-04-13 14:03:30.503944] Entering get_idle_time
+[2025-04-13 14:03:30.504926] Idle time: 26.97 seconds
+[2025-04-13 14:03:30.504926] Entering get_discord_idle_time
+[2025-04-13 14:03:30.505942] Last action at 13:58:23.111, idle for 307.39 seconds
+[2025-04-13 14:03:30.505942] System idle time: 26.969
+[2025-04-13 14:03:30.505942] Discord idle time: 307.39392614364624
+[2025-04-13 14:03:30.506924] Waiting 30 seconds for next check
+[2025-04-13 14:04:00.507350] Checking for internet access
+[2025-04-13 14:04:00.535437] Internet access confirmed
+[2025-04-13 14:04:00.535437] Entering get_idle_time
+[2025-04-13 14:04:00.536437] Idle time: 0.02 seconds
+[2025-04-13 14:04:00.536437] Entering get_discord_idle_time
+[2025-04-13 14:04:00.537438] Last action at 13:58:23.111, idle for 337.43 seconds
+[2025-04-13 14:04:00.537438] System idle time: 0.016
+[2025-04-13 14:04:00.538436] Discord idle time: 337.4264385700226
+[2025-04-13 14:04:00.538436] Waiting 30 seconds for next check
+[2025-04-13 14:04:30.540163] Checking for internet access
+[2025-04-13 14:04:30.573148] Internet access confirmed
+[2025-04-13 14:04:30.574147] Entering get_idle_time
+[2025-04-13 14:04:30.574147] Idle time: 0.00 seconds
+[2025-04-13 14:04:30.574147] Entering get_discord_idle_time
+[2025-04-13 14:04:30.575147] Last action at 13:58:23.111, idle for 367.46 seconds
+[2025-04-13 14:04:30.575147] System idle time: 0.0
+[2025-04-13 14:04:30.575147] Discord idle time: 367.4641478061676
+[2025-04-13 14:04:30.576147] Waiting 30 seconds for next check
+[2025-04-13 14:05:00.576174] Checking for internet access
+[2025-04-13 14:05:00.606370] Internet access confirmed
+[2025-04-13 14:05:00.606370] Entering get_idle_time
+[2025-04-13 14:05:00.607369] Idle time: 12.34 seconds
+[2025-04-13 14:05:00.607369] Entering get_discord_idle_time
+[2025-04-13 14:05:00.607369] Last action at 13:58:23.111, idle for 397.50 seconds
+[2025-04-13 14:05:00.608368] System idle time: 12.344
+[2025-04-13 14:05:00.608368] Discord idle time: 397.4963688850403
+[2025-04-13 14:05:00.608368] Waiting 30 seconds for next check
+[2025-04-13 14:05:30.609926] Checking for internet access
+[2025-04-13 14:05:30.640097] Internet access confirmed
+[2025-04-13 14:05:30.640623] Entering get_idle_time
+[2025-04-13 14:05:30.640623] Idle time: 0.05 seconds
+[2025-04-13 14:05:30.640623] Entering get_discord_idle_time
+[2025-04-13 14:05:30.648625] Last action at 13:58:23.111, idle for 427.54 seconds
+[2025-04-13 14:05:30.649609] System idle time: 0.046
+[2025-04-13 14:05:30.649609] Discord idle time: 427.53762555122375
+[2025-04-13 14:05:30.650628] Waiting 30 seconds for next check
+[2025-04-13 14:06:00.650844] Checking for internet access
+[2025-04-13 14:06:00.681841] Internet access confirmed
+[2025-04-13 14:06:00.682878] Entering get_idle_time
+[2025-04-13 14:06:00.683391] Idle time: 0.00 seconds
+[2025-04-13 14:06:00.683919] Entering get_discord_idle_time
+[2025-04-13 14:06:00.694916] Last action at 13:58:23.111, idle for 457.58 seconds
+[2025-04-13 14:06:00.694916] System idle time: 0.0
+[2025-04-13 14:06:00.695902] Discord idle time: 457.5839169025421
+[2025-04-13 14:06:00.695902] Waiting 30 seconds for next check
+[2025-04-13 14:06:30.696168] Checking for internet access
+[2025-04-13 14:06:30.733163] Internet access confirmed
+[2025-04-13 14:06:30.733163] Entering get_idle_time
+[2025-04-13 14:06:30.733163] Idle time: 0.01 seconds
+[2025-04-13 14:06:30.734150] Entering get_discord_idle_time
+[2025-04-13 14:06:30.734150] Last action at 13:58:23.111, idle for 487.62 seconds
+[2025-04-13 14:06:30.734150] System idle time: 0.015
+[2025-04-13 14:06:30.735152] Discord idle time: 487.6231508255005
+[2025-04-13 14:06:30.735152] Waiting 30 seconds for next check
+[2025-04-13 14:07:00.735507] Checking for internet access
+[2025-04-13 14:07:00.785636] Internet access confirmed
+[2025-04-13 14:07:00.785636] Entering get_idle_time
+[2025-04-13 14:07:00.786617] Idle time: 0.03 seconds
+[2025-04-13 14:07:00.786617] Entering get_discord_idle_time
+[2025-04-13 14:07:00.787617] Last action at 13:58:23.111, idle for 517.68 seconds
+[2025-04-13 14:07:00.787617] System idle time: 0.031
+[2025-04-13 14:07:00.788620] Discord idle time: 517.6766171455383
+[2025-04-13 14:07:00.788620] Idle thresholds exceeded, waiting 35.90 seconds before discord_wiggle
+[2025-04-13 14:07:36.691482] Entering discord_wiggle
+[2025-04-13 14:07:37.311181] Found running Discord process with PID: 15468
+[2025-04-13 14:07:37.311181] Discord already running with PID: 15468
+[2025-04-13 14:07:37.415389] Opened Discord channel discord://-/channels/866514085462147112/1354895636004343972 for PID: 15468 without focus
+[2025-04-13 14:07:42.417102] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:07:42.417102] Checked Discord logs during activity
+[2025-04-13 14:07:44.417909] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:07:44.417909] Checked Discord logs during activity
+[2025-04-13 14:07:46.418898] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:07:46.418898] Checked Discord logs during activity
+[2025-04-13 14:07:48.419640] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:07:48.419640] Checked Discord logs during activity
+[2025-04-13 14:07:50.419696] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:07:50.419696] Checked Discord logs during activity
+[2025-04-13 14:07:52.420324] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:07:52.420324] Checked Discord logs during activity
+[2025-04-13 14:07:54.420382] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:07:54.420382] Checked Discord logs during activity
+[2025-04-13 14:07:56.421006] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:07:56.421006] Checked Discord logs during activity
+[2025-04-13 14:07:58.421704] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:07:58.421704] Checked Discord logs during activity
+[2025-04-13 14:08:00.421929] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:08:00.421929] Checked Discord logs during activity
+[2025-04-13 14:08:02.422284] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:08:02.422284] Checked Discord logs during activity
+[2025-04-13 14:08:04.422415] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:08:04.422415] Checked Discord logs during activity
+[2025-04-13 14:08:06.423223] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:08:06.423223] Checked Discord logs during activity
+[2025-04-13 14:08:08.423279] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:08:08.423279] Checked Discord logs during activity
+[2025-04-13 14:08:10.424039] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:08:10.424039] Checked Discord logs during activity
+[2025-04-13 14:08:12.424073] Waiting 30 seconds for next check
+[2025-04-13 14:08:42.424289] Checking for internet access
+[2025-04-13 14:08:42.464436] Internet access confirmed
+[2025-04-13 14:08:42.464436] Entering get_idle_time
+[2025-04-13 14:08:42.465435] Idle time: 0.06 seconds
+[2025-04-13 14:08:42.465435] Entering get_discord_idle_time
+[2025-04-13 14:08:42.473434] Last action at 14:07:38.111, idle for 64.36 seconds
+[2025-04-13 14:08:42.473434] System idle time: 0.063
+[2025-04-13 14:08:42.473434] Discord idle time: 64.36145162582397
+[2025-04-13 14:08:42.474436] Waiting 30 seconds for next check
+[2025-04-13 14:09:12.474964] Checking for internet access
+[2025-04-13 14:09:12.514225] Internet access confirmed
+[2025-04-13 14:09:12.514225] Entering get_idle_time
+[2025-04-13 14:09:12.515208] Idle time: 0.03 seconds
+[2025-04-13 14:09:12.515208] Entering get_discord_idle_time
+[2025-04-13 14:09:12.515208] Last action at 14:07:38.111, idle for 94.40 seconds
+[2025-04-13 14:09:12.516206] System idle time: 0.031
+[2025-04-13 14:09:12.516206] Discord idle time: 94.40420818328857
+[2025-04-13 14:09:12.517207] Waiting 30 seconds for next check
+[2025-04-13 14:09:42.517645] Checking for internet access
+[2025-04-13 14:09:42.557277] Internet access confirmed
+[2025-04-13 14:09:42.557277] Entering get_idle_time
+[2025-04-13 14:09:42.558259] Idle time: 7.52 seconds
+[2025-04-13 14:09:42.558259] Entering get_discord_idle_time
+[2025-04-13 14:09:42.558259] Last action at 14:07:38.111, idle for 124.45 seconds
+[2025-04-13 14:09:42.559259] System idle time: 7.516
+[2025-04-13 14:09:42.559259] Discord idle time: 124.44725966453552
+[2025-04-13 14:09:42.559259] Waiting 30 seconds for next check
+[2025-04-13 14:10:12.561156] Checking for internet access
+[2025-04-13 14:10:12.594073] Internet access confirmed
+[2025-04-13 14:10:12.594073] Entering get_idle_time
+[2025-04-13 14:10:12.594073] Idle time: 1.67 seconds
+[2025-04-13 14:10:12.594073] Entering get_discord_idle_time
+[2025-04-13 14:10:12.595076] Last action at 14:07:38.111, idle for 154.48 seconds
+[2025-04-13 14:10:12.595076] System idle time: 1.672
+[2025-04-13 14:10:12.596074] Discord idle time: 154.4840760231018
+[2025-04-13 14:10:12.596074] Waiting 30 seconds for next check
+[2025-04-13 14:10:42.596115] Checking for internet access
+[2025-04-13 14:10:42.623262] Internet access confirmed
+[2025-04-13 14:10:42.624263] Entering get_idle_time
+[2025-04-13 14:10:42.624263] Idle time: 20.20 seconds
+[2025-04-13 14:10:42.624263] Entering get_discord_idle_time
+[2025-04-13 14:10:42.625263] Last action at 14:07:38.111, idle for 184.51 seconds
+[2025-04-13 14:10:42.625263] System idle time: 20.203
+[2025-04-13 14:10:42.626250] Discord idle time: 184.51426315307617
+[2025-04-13 14:10:42.626762] Waiting 30 seconds for next check
+[2025-04-13 14:11:12.627075] Checking for internet access
+[2025-04-13 14:11:12.665841] Internet access confirmed
+[2025-04-13 14:11:12.665841] Entering get_idle_time
+[2025-04-13 14:11:12.665841] Idle time: 50.23 seconds
+[2025-04-13 14:11:12.666823] Entering get_discord_idle_time
+[2025-04-13 14:11:12.678841] Last action at 14:07:38.111, idle for 214.57 seconds
+[2025-04-13 14:11:12.679823] System idle time: 50.234
+[2025-04-13 14:11:12.679823] Discord idle time: 214.5678415298462
+[2025-04-13 14:11:12.679823] Waiting 30 seconds for next check
+[2025-04-13 14:11:42.681817] Checking for internet access
+[2025-04-13 14:11:42.723739] Internet access confirmed
+[2025-04-13 14:11:42.723739] Entering get_idle_time
+[2025-04-13 14:11:42.723739] Idle time: 80.30 seconds
+[2025-04-13 14:11:42.724722] Entering get_discord_idle_time
+[2025-04-13 14:11:42.724722] Last action at 14:07:38.111, idle for 244.61 seconds
+[2025-04-13 14:11:42.725720] System idle time: 80.297
+[2025-04-13 14:11:42.725720] Discord idle time: 244.61372184753418
+[2025-04-13 14:11:42.725720] Waiting 30 seconds for next check
+[2025-04-13 14:12:12.726411] Checking for internet access
+[2025-04-13 14:12:12.764964] Internet access confirmed
+[2025-04-13 14:12:12.764964] Entering get_idle_time
+[2025-04-13 14:12:12.765962] Idle time: 110.34 seconds
+[2025-04-13 14:12:12.765962] Entering get_discord_idle_time
+[2025-04-13 14:12:12.766962] Last action at 14:07:38.111, idle for 274.66 seconds
+[2025-04-13 14:12:12.766962] System idle time: 110.343
+[2025-04-13 14:12:12.766962] Discord idle time: 274.6559624671936
+[2025-04-13 14:12:12.767962] Waiting 30 seconds for next check
+[2025-04-13 14:12:42.768583] Checking for internet access
+[2025-04-13 14:12:42.797600] Internet access confirmed
+[2025-04-13 14:12:42.798600] Entering get_idle_time
+[2025-04-13 14:12:42.798600] Idle time: 15.83 seconds
+[2025-04-13 14:12:42.798600] Entering get_discord_idle_time
+[2025-04-13 14:12:42.799582] Last action at 14:07:38.111, idle for 304.69 seconds
+[2025-04-13 14:12:42.799582] System idle time: 15.828
+[2025-04-13 14:12:42.799582] Discord idle time: 304.6885826587677
+[2025-04-13 14:12:42.800593] Waiting 30 seconds for next check
+[2025-04-13 14:13:12.801503] Checking for internet access
+[2025-04-13 14:13:12.838823] Internet access confirmed
+[2025-04-13 14:13:12.838823] Entering get_idle_time
+[2025-04-13 14:13:12.839805] Idle time: 0.08 seconds
+[2025-04-13 14:13:12.839805] Entering get_discord_idle_time
+[2025-04-13 14:13:12.840805] Last action at 14:07:38.111, idle for 334.73 seconds
+[2025-04-13 14:13:12.840805] System idle time: 0.078
+[2025-04-13 14:13:12.840805] Discord idle time: 334.72880506515503
+[2025-04-13 14:13:12.841805] Waiting 30 seconds for next check
+[2025-04-13 14:13:42.841957] Checking for internet access
+[2025-04-13 14:13:42.871482] Internet access confirmed
+[2025-04-13 14:13:42.871482] Entering get_idle_time
+[2025-04-13 14:13:42.871482] Idle time: 0.27 seconds
+[2025-04-13 14:13:42.872504] Entering get_discord_idle_time
+[2025-04-13 14:13:42.873481] Last action at 14:07:38.111, idle for 364.76 seconds
+[2025-04-13 14:13:42.873481] System idle time: 0.265
+[2025-04-13 14:13:42.873481] Discord idle time: 364.7615044116974
+[2025-04-13 14:13:42.874482] Waiting 30 seconds for next check
+[2025-04-13 14:14:12.874647] Checking for internet access
+[2025-04-13 14:14:12.906892] Internet access confirmed
+[2025-04-13 14:14:12.906892] Entering get_idle_time
+[2025-04-13 14:14:12.906892] Idle time: 30.31 seconds
+[2025-04-13 14:14:12.907892] Entering get_discord_idle_time
+[2025-04-13 14:14:12.907892] Last action at 14:07:38.111, idle for 394.80 seconds
+[2025-04-13 14:14:12.908892] System idle time: 30.312
+[2025-04-13 14:14:12.908892] Discord idle time: 394.79689288139343
+[2025-04-13 14:14:12.908892] Waiting 30 seconds for next check
+[2025-04-13 14:14:42.909164] Checking for internet access
+[2025-04-13 14:14:42.947251] Internet access confirmed
+[2025-04-13 14:14:42.947251] Entering get_idle_time
+[2025-04-13 14:14:42.948233] Idle time: 60.34 seconds
+[2025-04-13 14:14:42.948233] Entering get_discord_idle_time
+[2025-04-13 14:14:42.949253] Last action at 14:07:38.111, idle for 424.84 seconds
+[2025-04-13 14:14:42.949253] System idle time: 60.343
+[2025-04-13 14:14:42.949253] Discord idle time: 424.83723306655884
+[2025-04-13 14:14:42.950236] Waiting 30 seconds for next check
+[2025-04-13 14:15:12.951114] Checking for internet access
+[2025-04-13 14:15:12.978122] Internet access confirmed
+[2025-04-13 14:15:12.978122] Entering get_idle_time
+[2025-04-13 14:15:12.979121] Idle time: 0.06 seconds
+[2025-04-13 14:15:12.979121] Entering get_discord_idle_time
+[2025-04-13 14:15:12.979121] Last action at 14:07:38.111, idle for 454.87 seconds
+[2025-04-13 14:15:12.980131] System idle time: 0.063
+[2025-04-13 14:15:12.980131] Discord idle time: 454.86812138557434
+[2025-04-13 14:15:12.981135] Waiting 30 seconds for next check
+[2025-04-13 14:15:42.981705] Checking for internet access
+[2025-04-13 14:15:43.028084] Internet access confirmed
+[2025-04-13 14:15:43.028084] Entering get_idle_time
+[2025-04-13 14:15:43.029067] Idle time: 4.76 seconds
+[2025-04-13 14:15:43.029067] Entering get_discord_idle_time
+[2025-04-13 14:15:43.030066] Last action at 14:07:38.111, idle for 484.92 seconds
+[2025-04-13 14:15:43.030066] System idle time: 4.765
+[2025-04-13 14:15:43.031066] Discord idle time: 484.9190661907196
+[2025-04-13 14:15:43.031066] Waiting 30 seconds for next check
+[2025-04-13 14:16:13.031685] Checking for internet access
+[2025-04-13 14:16:13.070823] Internet access confirmed
+[2025-04-13 14:16:13.070823] Entering get_idle_time
+[2025-04-13 14:16:13.070823] Idle time: 34.81 seconds
+[2025-04-13 14:16:13.071806] Entering get_discord_idle_time
+[2025-04-13 14:16:13.071806] Last action at 14:07:38.111, idle for 514.96 seconds
+[2025-04-13 14:16:13.072808] System idle time: 34.812
+[2025-04-13 14:16:13.072808] Discord idle time: 514.9608063697815
+[2025-04-13 14:16:13.073806] Idle thresholds exceeded, waiting 50.33 seconds before discord_wiggle
+[2025-04-13 14:17:03.402604] Entering discord_wiggle
+[2025-04-13 14:17:03.412587] Found running Discord process with PID: 15468
+[2025-04-13 14:17:03.412587] Discord already running with PID: 15468
+[2025-04-13 14:17:03.440189] Opened Discord channel discord://-/channels/866514085462147112/1313162988118605835 for PID: 15468 without focus
+[2025-04-13 14:17:08.441182] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:17:08.441182] Checked Discord logs during activity
+[2025-04-13 14:17:10.441668] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:17:10.441668] Checked Discord logs during activity
+[2025-04-13 14:17:12.441917] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:17:12.441917] Checked Discord logs during activity
+[2025-04-13 14:17:14.442273] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:17:14.442273] Checked Discord logs during activity
+[2025-04-13 14:17:16.442994] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:17:16.442994] Checked Discord logs during activity
+[2025-04-13 14:17:18.443465] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:17:18.443465] Checked Discord logs during activity
+[2025-04-13 14:17:20.444353] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:17:20.444353] Checked Discord logs during activity
+[2025-04-13 14:17:22.444636] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:17:22.444636] Checked Discord logs during activity
+[2025-04-13 14:17:24.445208] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:17:24.445208] Checked Discord logs during activity
+[2025-04-13 14:17:26.445547] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:17:26.445547] Checked Discord logs during activity
+[2025-04-13 14:17:28.445774] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:17:28.445774] Checked Discord logs during activity
+[2025-04-13 14:17:30.446568] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:17:30.446568] Checked Discord logs during activity
+[2025-04-13 14:17:32.447147] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:17:32.447147] Checked Discord logs during activity
+[2025-04-13 14:17:34.448024] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:17:34.448024] Checked Discord logs during activity
+[2025-04-13 14:17:36.448703] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:17:36.448703] Checked Discord logs during activity
+[2025-04-13 14:17:38.448921] Waiting 30 seconds for next check
+[2025-04-13 14:18:08.449212] Checking for internet access
+[2025-04-13 14:18:08.487362] Internet access confirmed
+[2025-04-13 14:18:08.487362] Entering get_idle_time
+[2025-04-13 14:18:08.488344] Idle time: 7.80 seconds
+[2025-04-13 14:18:08.488344] Entering get_discord_idle_time
+[2025-04-13 14:18:08.496938] Last action at 14:17:04.140, idle for 64.36 seconds
+[2025-04-13 14:18:08.496938] System idle time: 7.797
+[2025-04-13 14:18:08.497925] Discord idle time: 64.35693860054016
+[2025-04-13 14:18:08.497925] Waiting 30 seconds for next check
+[2025-04-13 14:18:22.766035] Script interrupted by user
+[2025-04-13 14:18:22.767021] Script exiting
+[2025-04-13 14:19:09.471589] Starting ww.py execution
+[2025-04-13 14:19:09.471589] Script started with pythonw (PID: 6116)
+[2025-04-13 14:19:09.485701] Set end time to 17:55:25
+[2025-04-13 14:19:09.556489] GUI initialized
+[2025-04-13 14:19:10.405309] Pop-up shown
+[2025-04-13 14:19:10.406283] Checking for internet access
+[2025-04-13 14:19:10.440120] Entering get_idle_time
+[2025-04-13 14:19:10.441121] Idle time: 0.00 seconds
+[2025-04-13 14:19:10.441121] Entering get_discord_idle_time
+[2025-04-13 14:19:10.447122] Last action at 14:18:15.703, idle for 54.74 seconds
+[2025-04-13 14:19:10.448123] Waiting 30 seconds for next check
+[2025-04-13 14:19:40.448216] Checking for internet access
+[2025-04-13 14:19:40.475754] Entering get_idle_time
+[2025-04-13 14:19:40.476755] Idle time: 0.02 seconds
+[2025-04-13 14:19:40.476755] Entering get_discord_idle_time
+[2025-04-13 14:19:40.477771] Last action at 14:18:15.703, idle for 84.77 seconds
+[2025-04-13 14:19:40.478754] Waiting 30 seconds for next check
+[2025-04-13 14:20:10.479659] Checking for internet access
+[2025-04-13 14:20:10.509240] Entering get_idle_time
+[2025-04-13 14:20:10.509240] Idle time: 22.55 seconds
+[2025-04-13 14:20:10.509846] Entering get_discord_idle_time
+[2025-04-13 14:20:10.509846] Last action at 14:18:15.703, idle for 114.81 seconds
+[2025-04-13 14:20:10.511847] Waiting 30 seconds for next check
+[2025-04-13 14:20:40.512689] Checking for internet access
+[2025-04-13 14:20:40.546911] Entering get_idle_time
+[2025-04-13 14:20:40.546911] Idle time: 0.02 seconds
+[2025-04-13 14:20:40.546911] Entering get_discord_idle_time
+[2025-04-13 14:20:40.547897] Last action at 14:18:15.703, idle for 144.84 seconds
+[2025-04-13 14:20:40.548896] Waiting 30 seconds for next check
+[2025-04-13 14:21:10.550767] Checking for internet access
+[2025-04-13 14:21:10.605890] Entering get_idle_time
+[2025-04-13 14:21:10.606888] Idle time: 0.17 seconds
+[2025-04-13 14:21:10.606888] Entering get_discord_idle_time
+[2025-04-13 14:21:10.607890] Last action at 14:18:15.703, idle for 174.90 seconds
+[2025-04-13 14:21:10.608889] Waiting 30 seconds for next check
+[2025-04-13 14:21:40.609305] Checking for internet access
+[2025-04-13 14:21:40.649933] Entering get_idle_time
+[2025-04-13 14:21:40.649933] Idle time: 21.83 seconds
+[2025-04-13 14:21:40.650916] Entering get_discord_idle_time
+[2025-04-13 14:21:40.650916] Last action at 14:18:15.703, idle for 204.95 seconds
+[2025-04-13 14:21:40.652916] Waiting 30 seconds for next check
+[2025-04-13 14:22:10.653513] Checking for internet access
+[2025-04-13 14:22:10.691045] Entering get_idle_time
+[2025-04-13 14:22:10.692051] Idle time: 21.11 seconds
+[2025-04-13 14:22:10.692051] Entering get_discord_idle_time
+[2025-04-13 14:22:10.694046] Last action at 14:18:15.703, idle for 234.99 seconds
+[2025-04-13 14:22:10.695045] Waiting 30 seconds for next check
+[2025-04-13 14:22:40.695817] Checking for internet access
+[2025-04-13 14:22:40.726800] Entering get_idle_time
+[2025-04-13 14:22:40.727809] Idle time: 51.14 seconds
+[2025-04-13 14:22:40.727809] Entering get_discord_idle_time
+[2025-04-13 14:22:40.728798] Last action at 14:18:15.703, idle for 265.03 seconds
+[2025-04-13 14:22:40.729811] Waiting 30 seconds for next check
+[2025-04-13 14:23:10.730574] Checking for internet access
+[2025-04-13 14:23:10.763110] Entering get_idle_time
+[2025-04-13 14:23:10.763110] Idle time: 0.00 seconds
+[2025-04-13 14:23:10.763110] Entering get_discord_idle_time
+[2025-04-13 14:23:10.765134] Last action at 14:18:15.703, idle for 295.06 seconds
+[2025-04-13 14:23:10.765641] Waiting 30 seconds for next check
+[2025-04-13 14:23:40.765663] Checking for internet access
+[2025-04-13 14:23:40.806228] Entering get_idle_time
+[2025-04-13 14:23:40.806228] Idle time: 0.00 seconds
+[2025-04-13 14:23:40.807228] Entering get_discord_idle_time
+[2025-04-13 14:23:40.808228] Last action at 14:18:15.703, idle for 325.10 seconds
+[2025-04-13 14:23:40.808228] Waiting 30 seconds for next check
+[2025-04-13 14:24:10.809855] Checking for internet access
+[2025-04-13 14:24:10.841923] Entering get_idle_time
+[2025-04-13 14:24:10.842910] Idle time: 0.02 seconds
+[2025-04-13 14:24:10.842910] Entering get_discord_idle_time
+[2025-04-13 14:24:10.843910] Last action at 14:18:15.703, idle for 355.14 seconds
+[2025-04-13 14:24:10.844910] Waiting 30 seconds for next check
+[2025-04-13 14:24:40.844946] Checking for internet access
+[2025-04-13 14:24:40.897630] Entering get_idle_time
+[2025-04-13 14:24:40.898613] Idle time: 7.98 seconds
+[2025-04-13 14:24:40.898613] Entering get_discord_idle_time
+[2025-04-13 14:24:40.899630] Last action at 14:18:15.703, idle for 385.20 seconds
+[2025-04-13 14:24:40.900611] Waiting 30 seconds for next check
+[2025-04-13 14:25:10.901523] Checking for internet access
+[2025-04-13 14:25:10.944660] Entering get_idle_time
+[2025-04-13 14:25:10.944660] Idle time: 0.09 seconds
+[2025-04-13 14:25:10.945642] Entering get_discord_idle_time
+[2025-04-13 14:25:10.946659] Last action at 14:18:15.703, idle for 415.24 seconds
+[2025-04-13 14:25:10.947640] Waiting 30 seconds for next check
+[2025-04-13 14:25:40.948138] Checking for internet access
+[2025-04-13 14:25:40.984844] Entering get_idle_time
+[2025-04-13 14:25:40.984844] Idle time: 13.23 seconds
+[2025-04-13 14:25:40.984844] Entering get_discord_idle_time
+[2025-04-13 14:25:40.985844] Last action at 14:18:15.703, idle for 445.28 seconds
+[2025-04-13 14:25:40.986844] Waiting 30 seconds for next check
+[2025-04-13 14:26:10.987146] Checking for internet access
+[2025-04-13 14:26:11.016230] Entering get_idle_time
+[2025-04-13 14:26:11.017207] Idle time: 17.69 seconds
+[2025-04-13 14:26:11.017207] Entering get_discord_idle_time
+[2025-04-13 14:26:11.018207] Last action at 14:18:15.703, idle for 475.32 seconds
+[2025-04-13 14:26:11.019221] Waiting 30 seconds for next check
+[2025-04-13 14:26:41.020201] Checking for internet access
+[2025-04-13 14:26:41.047288] Entering get_idle_time
+[2025-04-13 14:26:41.047288] Idle time: 0.02 seconds
+[2025-04-13 14:26:41.047288] Entering get_discord_idle_time
+[2025-04-13 14:26:41.048285] Last action at 14:18:15.703, idle for 505.35 seconds
+[2025-04-13 14:26:41.049287] Idle thresholds exceeded, waiting 92.96 seconds before discord_wiggle
+[2025-04-13 14:28:14.007502] Entering discord_wiggle
+[2025-04-13 14:28:14.665687] No running Discord process found
+[2025-04-13 14:28:14.666687] Found Discord executable: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe
+[2025-04-13 14:28:14.666687] Attempting to launch Discord at: C:\Users\Haley Thomson\AppData\Local\Discord\app-1.0.9188\Discord.exe
+[2025-04-13 14:28:14.671686] Launched Discord with PID: 4100
+[2025-04-13 14:28:16.678385] Found running Discord process with PID: 5716
+[2025-04-13 14:28:16.679385] Discord PID found: 5716
+[2025-04-13 14:28:16.752051] Opened Discord channel discord://-/channels/866514085462147112/1014930559618797579 for PID: 5716 without focus
+[2025-04-13 14:28:21.753021] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:28:21.753021] Checked Discord logs during activity
+[2025-04-13 14:28:23.753724] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:28:23.753724] Checked Discord logs during activity
+[2025-04-13 14:28:25.754102] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:28:25.754102] Checked Discord logs during activity
+[2025-04-13 14:28:27.754175] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:28:27.754175] Checked Discord logs during activity
+[2025-04-13 14:28:29.754339] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:28:29.754339] Checked Discord logs during activity
+[2025-04-13 14:28:31.754798] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:28:31.754798] Checked Discord logs during activity
+[2025-04-13 14:28:33.755640] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:28:33.755640] Checked Discord logs during activity
+[2025-04-13 14:28:35.757296] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:28:35.757296] Checked Discord logs during activity
+[2025-04-13 14:28:37.758235] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:28:37.758235] Checked Discord logs during activity
+[2025-04-13 14:28:39.758393] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:28:39.758393] Checked Discord logs during activity
+[2025-04-13 14:28:41.758948] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:28:41.758948] Checked Discord logs during activity
+[2025-04-13 14:28:43.759820] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:28:43.759820] Checked Discord logs during activity
+[2025-04-13 14:28:45.760692] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:28:45.760692] Checked Discord logs during activity
+[2025-04-13 14:28:47.760910] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:28:47.760910] Checked Discord logs during activity
+[2025-04-13 14:28:49.761393] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:28:49.761393] Checked Discord logs during activity
+[2025-04-13 14:28:51.762382] Waiting 30 seconds for next check
+[2025-04-13 14:29:21.762993] Checking for internet access
+[2025-04-13 14:29:21.787973] Entering get_idle_time
+[2025-04-13 14:29:21.787973] Idle time: 28.22 seconds
+[2025-04-13 14:29:21.787973] Entering get_discord_idle_time
+[2025-04-13 14:29:21.804554] Last action at 14:28:18.912, idle for 62.89 seconds
+[2025-04-13 14:29:21.806236] Waiting 30 seconds for next check
+[2025-04-13 14:29:51.807154] Checking for internet access
+[2025-04-13 14:29:51.834719] Entering get_idle_time
+[2025-04-13 14:29:51.834719] Idle time: 0.00 seconds
+[2025-04-13 14:29:51.834719] Entering get_discord_idle_time
+[2025-04-13 14:29:51.843720] Last action at 14:28:18.912, idle for 92.93 seconds
+[2025-04-13 14:29:51.844720] Waiting 30 seconds for next check
+[2025-04-13 14:30:21.844790] Checking for internet access
+[2025-04-13 14:30:21.883434] Entering get_idle_time
+[2025-04-13 14:30:21.884436] Idle time: 0.00 seconds
+[2025-04-13 14:30:21.884436] Entering get_discord_idle_time
+[2025-04-13 14:30:21.885435] Last action at 14:28:18.912, idle for 122.97 seconds
+[2025-04-13 14:30:21.886434] Waiting 30 seconds for next check
+[2025-04-13 14:30:51.887695] Checking for internet access
+[2025-04-13 14:30:51.914767] Entering get_idle_time
+[2025-04-13 14:30:51.914767] Idle time: 0.27 seconds
+[2025-04-13 14:30:51.914767] Entering get_discord_idle_time
+[2025-04-13 14:30:51.915784] Last action at 14:28:18.912, idle for 153.00 seconds
+[2025-04-13 14:30:51.916768] Waiting 30 seconds for next check
+[2025-04-13 14:31:21.916790] Checking for internet access
+[2025-04-13 14:31:21.943912] Entering get_idle_time
+[2025-04-13 14:31:21.944897] Idle time: 15.94 seconds
+[2025-04-13 14:31:21.944897] Entering get_discord_idle_time
+[2025-04-13 14:31:21.955893] Last action at 14:28:18.912, idle for 183.04 seconds
+[2025-04-13 14:31:21.956895] Waiting 30 seconds for next check
+[2025-04-13 14:31:51.957867] Checking for internet access
+[2025-04-13 14:31:52.029236] Entering get_idle_time
+[2025-04-13 14:31:52.029236] Idle time: 46.03 seconds
+[2025-04-13 14:31:52.029236] Entering get_discord_idle_time
+[2025-04-13 14:31:52.030235] Last action at 14:28:18.912, idle for 213.12 seconds
+[2025-04-13 14:31:52.031236] Waiting 30 seconds for next check
+[2025-04-13 14:32:22.032043] Checking for internet access
+[2025-04-13 14:32:22.064610] Entering get_idle_time
+[2025-04-13 14:32:22.065623] Idle time: 76.06 seconds
+[2025-04-13 14:32:22.065623] Entering get_discord_idle_time
+[2025-04-13 14:32:22.065623] Last action at 14:28:18.912, idle for 243.15 seconds
+[2025-04-13 14:32:22.066611] Waiting 30 seconds for next check
+[2025-04-13 14:32:52.068571] Checking for internet access
+[2025-04-13 14:32:52.102396] Entering get_idle_time
+[2025-04-13 14:32:52.102396] Idle time: 106.09 seconds
+[2025-04-13 14:32:52.102396] Entering get_discord_idle_time
+[2025-04-13 14:32:52.103384] Last action at 14:28:18.912, idle for 273.19 seconds
+[2025-04-13 14:32:52.104387] Waiting 30 seconds for next check
+[2025-04-13 14:33:22.104502] Checking for internet access
+[2025-04-13 14:33:22.131621] Entering get_idle_time
+[2025-04-13 14:33:22.131621] Idle time: 136.12 seconds
+[2025-04-13 14:33:22.131621] Entering get_discord_idle_time
+[2025-04-13 14:33:22.132606] Last action at 14:28:18.912, idle for 303.22 seconds
+[2025-04-13 14:33:22.133607] Waiting 30 seconds for next check
+[2025-04-13 14:33:52.134438] Checking for internet access
+[2025-04-13 14:33:52.171464] Entering get_idle_time
+[2025-04-13 14:33:52.172445] Idle time: 166.17 seconds
+[2025-04-13 14:33:52.172445] Entering get_discord_idle_time
+[2025-04-13 14:33:52.173464] Last action at 14:28:18.912, idle for 333.26 seconds
+[2025-04-13 14:33:52.173464] Waiting 30 seconds for next check
+[2025-04-13 14:34:22.173629] Checking for internet access
+[2025-04-13 14:34:22.211418] Entering get_idle_time
+[2025-04-13 14:34:22.211418] Idle time: 196.20 seconds
+[2025-04-13 14:34:22.212414] Entering get_discord_idle_time
+[2025-04-13 14:34:22.212414] Last action at 14:28:18.912, idle for 363.30 seconds
+[2025-04-13 14:34:22.213414] Waiting 30 seconds for next check
+[2025-04-13 14:34:52.214268] Checking for internet access
+[2025-04-13 14:34:52.246400] Entering get_idle_time
+[2025-04-13 14:34:52.246400] Idle time: 226.23 seconds
+[2025-04-13 14:34:52.247467] Entering get_discord_idle_time
+[2025-04-13 14:34:52.247982] Last action at 14:28:18.912, idle for 393.34 seconds
+[2025-04-13 14:34:52.248991] Waiting 30 seconds for next check
+[2025-04-13 14:35:22.249696] Checking for internet access
+[2025-04-13 14:35:22.289783] Entering get_idle_time
+[2025-04-13 14:35:22.290782] Idle time: 256.28 seconds
+[2025-04-13 14:35:22.290782] Entering get_discord_idle_time
+[2025-04-13 14:35:22.291786] Last action at 14:28:18.912, idle for 423.38 seconds
+[2025-04-13 14:35:22.292780] Waiting 30 seconds for next check
+[2025-04-13 14:35:52.293644] Checking for internet access
+[2025-04-13 14:35:52.323229] Entering get_idle_time
+[2025-04-13 14:35:52.324227] Idle time: 286.31 seconds
+[2025-04-13 14:35:52.324227] Entering get_discord_idle_time
+[2025-04-13 14:35:52.325227] Last action at 14:28:18.912, idle for 453.41 seconds
+[2025-04-13 14:35:52.326227] Waiting 30 seconds for next check
+[2025-04-13 14:36:22.327083] Checking for internet access
+[2025-04-13 14:36:22.359268] Entering get_idle_time
+[2025-04-13 14:36:22.360274] Idle time: 19.59 seconds
+[2025-04-13 14:36:22.360274] Entering get_discord_idle_time
+[2025-04-13 14:36:22.361269] Last action at 14:28:18.912, idle for 483.45 seconds
+[2025-04-13 14:36:22.362268] Waiting 30 seconds for next check
+[2025-04-13 14:36:25.570138] Script interrupted by user
+[2025-04-13 14:36:25.572138] Script exiting
+[2025-04-13 14:37:56.945204] Starting ww.py execution
+[2025-04-13 14:37:56.946216] Script started with pythonw (PID: 6756)
+[2025-04-13 14:37:56.947198] Set end time to 16:20:56
+[2025-04-13 14:37:57.072095] GUI initialized
+[2025-04-13 14:38:01.679498] Pop-up shown
+[2025-04-13 14:38:01.679498] Checking for internet access
+[2025-04-13 14:38:01.733634] Entering get_idle_time
+[2025-04-13 14:38:01.733634] Idle time: 0.01 seconds
+[2025-04-13 14:38:01.733634] Entering get_discord_idle_time
+[2025-04-13 14:38:01.765616] Last action at 14:28:18.912, idle for 582.83 seconds
+[2025-04-13 14:38:01.766620] Idle thresholds exceeded, waiting 58.10 seconds before discord_wiggle
+[2025-04-13 14:38:59.870232] Entering discord_wiggle
+[2025-04-13 14:38:59.880233] Found running Discord process with PID: 5716
+[2025-04-13 14:38:59.881233] Discord already running with PID: 5716
+[2025-04-13 14:38:59.935293] Opened Discord channel discord://-/channels/866514085462147112/1354895636004343972 for PID: 5716 without focus
+[2025-04-13 14:39:04.936404] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:39:04.936404] Checked Discord logs during activity
+[2025-04-13 14:39:06.936761] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:39:06.936761] Checked Discord logs during activity
+[2025-04-13 14:39:08.937664] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:39:08.937664] Checked Discord logs during activity
+[2025-04-13 14:39:10.938082] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:39:10.938082] Checked Discord logs during activity
+[2025-04-13 14:39:12.938888] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:39:12.938888] Checked Discord logs during activity
+[2025-04-13 14:39:14.939058] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:39:14.939058] Checked Discord logs during activity
+[2025-04-13 14:39:16.939624] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:39:16.939624] Checked Discord logs during activity
+[2025-04-13 14:39:18.940160] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:39:18.940160] Checked Discord logs during activity
+[2025-04-13 14:39:20.940676] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:39:20.940676] Checked Discord logs during activity
+[2025-04-13 14:39:22.940907] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:39:22.940907] Checked Discord logs during activity
+[2025-04-13 14:39:24.941503] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:39:24.941503] Checked Discord logs during activity
+[2025-04-13 14:39:26.942148] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:39:26.942148] Checked Discord logs during activity
+[2025-04-13 14:39:28.942515] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:39:28.942515] Checked Discord logs during activity
+[2025-04-13 14:39:30.943484] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:39:30.943484] Checked Discord logs during activity
+[2025-04-13 14:39:32.943636] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:39:32.943636] Checked Discord logs during activity
+[2025-04-13 14:39:34.943760] Waiting 30 seconds for next check
+[2025-04-13 14:40:04.943882] Checking for internet access
+[2025-04-13 14:40:04.985537] Entering get_idle_time
+[2025-04-13 14:40:04.985537] Idle time: 0.00 seconds
+[2025-04-13 14:40:04.985537] Entering get_discord_idle_time
+[2025-04-13 14:40:04.994536] Last action at 14:39:00.600, idle for 64.39 seconds
+[2025-04-13 14:40:04.994536] Waiting 30 seconds for next check
+[2025-04-13 14:40:34.995473] Checking for internet access
+[2025-04-13 14:40:35.035608] Entering get_idle_time
+[2025-04-13 14:40:35.035608] Idle time: 0.53 seconds
+[2025-04-13 14:40:35.035608] Entering get_discord_idle_time
+[2025-04-13 14:40:35.044230] Last action at 14:40:21.564, idle for 13.48 seconds
+[2025-04-13 14:40:35.044230] Waiting 30 seconds for next check
+[2025-04-13 14:41:05.044959] Checking for internet access
+[2025-04-13 14:41:05.079402] Entering get_idle_time
+[2025-04-13 14:41:05.079402] Idle time: 0.00 seconds
+[2025-04-13 14:41:05.079925] Entering get_discord_idle_time
+[2025-04-13 14:41:05.079925] Last action at 14:40:21.564, idle for 43.52 seconds
+[2025-04-13 14:41:05.079925] Waiting 30 seconds for next check
+[2025-04-13 14:41:35.080438] Checking for internet access
+[2025-04-13 14:41:35.108066] Entering get_idle_time
+[2025-04-13 14:41:35.109066] Idle time: 29.95 seconds
+[2025-04-13 14:41:35.109066] Entering get_discord_idle_time
+[2025-04-13 14:41:35.117070] Last action at 14:40:21.564, idle for 73.55 seconds
+[2025-04-13 14:41:35.117070] Waiting 30 seconds for next check
+[2025-04-13 14:42:05.118106] Checking for internet access
+[2025-04-13 14:42:05.148435] Entering get_idle_time
+[2025-04-13 14:42:05.149442] Idle time: 59.98 seconds
+[2025-04-13 14:42:05.149442] Entering get_discord_idle_time
+[2025-04-13 14:42:05.150417] Last action at 14:40:21.564, idle for 103.59 seconds
+[2025-04-13 14:42:05.150417] Waiting 30 seconds for next check
+[2025-04-13 14:42:35.150420] Checking for internet access
+[2025-04-13 14:42:35.178566] Entering get_idle_time
+[2025-04-13 14:42:35.178566] Idle time: 90.02 seconds
+[2025-04-13 14:42:35.178566] Entering get_discord_idle_time
+[2025-04-13 14:42:35.179569] Last action at 14:40:21.564, idle for 133.62 seconds
+[2025-04-13 14:42:35.179569] Waiting 30 seconds for next check
+[2025-04-13 14:43:05.180524] Checking for internet access
+[2025-04-13 14:43:05.225781] Entering get_idle_time
+[2025-04-13 14:43:05.225781] Idle time: 120.06 seconds
+[2025-04-13 14:43:05.226762] Entering get_discord_idle_time
+[2025-04-13 14:43:05.226762] Last action at 14:40:21.564, idle for 163.66 seconds
+[2025-04-13 14:43:05.226762] Waiting 30 seconds for next check
+[2025-04-13 14:43:35.228145] Checking for internet access
+[2025-04-13 14:43:35.256130] Entering get_idle_time
+[2025-04-13 14:43:35.256130] Idle time: 150.09 seconds
+[2025-04-13 14:43:35.256130] Entering get_discord_idle_time
+[2025-04-13 14:43:35.257228] Last action at 14:40:21.564, idle for 193.69 seconds
+[2025-04-13 14:43:35.257752] Waiting 30 seconds for next check
+[2025-04-13 14:44:05.258052] Checking for internet access
+[2025-04-13 14:44:05.299035] Entering get_idle_time
+[2025-04-13 14:44:05.299035] Idle time: 180.14 seconds
+[2025-04-13 14:44:05.300050] Entering get_discord_idle_time
+[2025-04-13 14:44:05.301035] Last action at 14:40:21.564, idle for 223.74 seconds
+[2025-04-13 14:44:05.301035] Waiting 30 seconds for next check
+[2025-04-13 14:44:35.301706] Checking for internet access
+[2025-04-13 14:44:35.348422] Entering get_idle_time
+[2025-04-13 14:44:35.349424] Idle time: 210.19 seconds
+[2025-04-13 14:44:35.349424] Entering get_discord_idle_time
+[2025-04-13 14:44:35.349424] Last action at 14:40:21.564, idle for 253.79 seconds
+[2025-04-13 14:44:35.350423] Waiting 30 seconds for next check
+[2025-04-13 14:45:05.350736] Checking for internet access
+[2025-04-13 14:45:05.389735] Entering get_idle_time
+[2025-04-13 14:45:05.389735] Idle time: 240.23 seconds
+[2025-04-13 14:45:05.390795] Entering get_discord_idle_time
+[2025-04-13 14:45:05.391309] Last action at 14:40:21.564, idle for 283.83 seconds
+[2025-04-13 14:45:05.391834] Waiting 30 seconds for next check
+[2025-04-13 14:45:35.392611] Checking for internet access
+[2025-04-13 14:45:35.431614] Entering get_idle_time
+[2025-04-13 14:45:35.431614] Idle time: 270.27 seconds
+[2025-04-13 14:45:35.432593] Entering get_discord_idle_time
+[2025-04-13 14:45:35.432593] Last action at 14:40:21.564, idle for 313.87 seconds
+[2025-04-13 14:45:35.432593] Waiting 30 seconds for next check
+[2025-04-13 14:46:05.432852] Checking for internet access
+[2025-04-13 14:46:05.471849] Entering get_idle_time
+[2025-04-13 14:46:05.471849] Idle time: 0.17 seconds
+[2025-04-13 14:46:05.472850] Entering get_discord_idle_time
+[2025-04-13 14:46:05.473400] Last action at 14:40:21.564, idle for 343.91 seconds
+[2025-04-13 14:46:05.473400] Waiting 30 seconds for next check
+[2025-04-13 14:46:35.473596] Checking for internet access
+[2025-04-13 14:46:35.515768] Entering get_idle_time
+[2025-04-13 14:46:35.515768] Idle time: 8.52 seconds
+[2025-04-13 14:46:35.515768] Entering get_discord_idle_time
+[2025-04-13 14:46:35.525323] Last action at 14:40:21.564, idle for 373.96 seconds
+[2025-04-13 14:46:35.525323] Waiting 30 seconds for next check
+[2025-04-13 14:47:05.525743] Checking for internet access
+[2025-04-13 14:47:05.564326] Entering get_idle_time
+[2025-04-13 14:47:05.564326] Idle time: 38.56 seconds
+[2025-04-13 14:47:05.565326] Entering get_discord_idle_time
+[2025-04-13 14:47:05.572346] Last action at 14:40:21.564, idle for 404.01 seconds
+[2025-04-13 14:47:05.573351] Waiting 30 seconds for next check
+[2025-04-13 14:47:35.574218] Checking for internet access
+[2025-04-13 14:47:35.614401] Entering get_idle_time
+[2025-04-13 14:47:35.614401] Idle time: 68.61 seconds
+[2025-04-13 14:47:35.615382] Entering get_discord_idle_time
+[2025-04-13 14:47:35.615382] Last action at 14:40:21.564, idle for 434.05 seconds
+[2025-04-13 14:47:35.615382] Waiting 30 seconds for next check
+[2025-04-13 14:48:05.616893] Checking for internet access
+[2025-04-13 14:48:05.657190] Entering get_idle_time
+[2025-04-13 14:48:05.657190] Idle time: 98.66 seconds
+[2025-04-13 14:48:05.657190] Entering get_discord_idle_time
+[2025-04-13 14:48:05.658185] Last action at 14:40:21.564, idle for 464.09 seconds
+[2025-04-13 14:48:05.658185] Waiting 30 seconds for next check
+[2025-04-13 14:48:35.658363] Checking for internet access
+[2025-04-13 14:48:35.689980] Entering get_idle_time
+[2025-04-13 14:48:35.689980] Idle time: 128.69 seconds
+[2025-04-13 14:48:35.689980] Entering get_discord_idle_time
+[2025-04-13 14:48:35.690983] Last action at 14:40:21.564, idle for 494.13 seconds
+[2025-04-13 14:48:35.690983] Waiting 30 seconds for next check
+[2025-04-13 14:49:05.691987] Checking for internet access
+[2025-04-13 14:49:05.744012] Entering get_idle_time
+[2025-04-13 14:49:05.744012] Idle time: 158.73 seconds
+[2025-04-13 14:49:05.744994] Entering get_discord_idle_time
+[2025-04-13 14:49:05.744994] Last action at 14:40:21.564, idle for 524.18 seconds
+[2025-04-13 14:49:05.745993] Idle thresholds exceeded, waiting 74.04 seconds before discord_wiggle
+[2025-04-13 14:50:19.784314] Entering discord_wiggle
+[2025-04-13 14:50:19.789298] Found running Discord process with PID: 5716
+[2025-04-13 14:50:19.790295] Discord already running with PID: 5716
+[2025-04-13 14:50:19.805300] Opened Discord channel discord://-/channels/866514085462147112/1313162988118605835 for PID: 5716 without focus
+[2025-04-13 14:50:24.805348] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:50:24.805348] Checked Discord logs during activity
+[2025-04-13 14:50:26.806175] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:50:26.806175] Checked Discord logs during activity
+[2025-04-13 14:50:28.806783] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:50:28.806783] Checked Discord logs during activity
+[2025-04-13 14:50:30.807357] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:50:30.807357] Checked Discord logs during activity
+[2025-04-13 14:50:32.807920] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:50:32.807920] Checked Discord logs during activity
+[2025-04-13 14:50:34.808619] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:50:34.808619] Checked Discord logs during activity
+[2025-04-13 14:50:36.809212] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:50:36.809212] Checked Discord logs during activity
+[2025-04-13 14:50:38.810003] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:50:38.810003] Checked Discord logs during activity
+[2025-04-13 14:50:40.810412] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:50:40.810412] Checked Discord logs during activity
+[2025-04-13 14:50:42.810525] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:50:42.810525] Checked Discord logs during activity
+[2025-04-13 14:50:44.810971] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:50:44.810971] Checked Discord logs during activity
+[2025-04-13 14:50:46.811187] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:50:46.811187] Checked Discord logs during activity
+[2025-04-13 14:50:48.812163] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:50:48.812163] Checked Discord logs during activity
+[2025-04-13 14:50:50.812862] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:50:50.812862] Checked Discord logs during activity
+[2025-04-13 14:50:52.813749] Logs are being appended to discord_output.txt by read_output thread
+[2025-04-13 14:50:52.813749] Checked Discord logs during activity
+[2025-04-13 14:50:54.815220] Waiting 30 seconds for next check
+[2025-04-13 14:51:24.815428] Checking for internet access
+[2025-04-13 14:51:24.867720] Entering get_idle_time
+[2025-04-13 14:51:24.868252] Idle time: 1.83 seconds
+[2025-04-13 14:51:24.868252] Entering get_discord_idle_time
+[2025-04-13 14:51:24.868252] Last action at 14:50:20.391, idle for 64.48 seconds
+[2025-04-13 14:51:24.869236] Waiting 30 seconds for next check
