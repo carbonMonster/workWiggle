@@ -41,7 +41,6 @@ def launch_discord(discord_path):
         log_message(f"Attempting to launch Discord at: {discord_path}")
         output_file = "discord_output.txt"
 
-
         # Clear the output file
         with open(output_file, 'w', encoding='utf-8') as f:
             pass  # Truncates file to empty
@@ -53,6 +52,7 @@ def launch_discord(discord_path):
         )
         log_message(f"Launched Discord with PID: {process.pid}")
         time.sleep(2)
+        monitor_discord_logs(output_file=output_file)
         discord_pid = get_discord_pid()
         if discord_pid:
             log_message(f"Discord PID found: {discord_pid}")

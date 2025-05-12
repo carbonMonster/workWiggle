@@ -49,43 +49,73 @@ def get_discord_pid():
         log_message("No running Discord process found")
         return None
     except Exception as e:
-        log_message(f"Error checking Discord process: {str(e)}")
+        log_message(f"Error in get_discord_pid: {str(e)}")
         return None
 
 def launch_discord(discord_path):
     try:
         log_message(f"Attempting to launch Discord at: {discord_path}")
         temp_file = "discord_temp_output.txt"
+        output_file = "discord_output.txt"
+
         
-        # Launch Discord with stdout redirected to a temp file
-        process = subprocess.Popen(
-            f'"{discord_path}" > "{temp_file}" 2>&1',
-            shell=True,
-            creationflags=subprocess.DETACHED_PROCESS
-        )
-        log_message(f"Launched Discord with PID: {process.pid}")
+        # Clear temp file if it exists
+        if os.path.exists(temp_file):
+            with open(temp_file, 'w', encoding='utf-8') as f:
+                pass
+            log_message(f"Cleared {temp_file}")
+        
+        # Launch Discord with stdout redirected to temp file
+        try:
+            log_message(f"YOYOYOYO, Luanching and Logging!!!!")
+            process = subprocess.Popen(
+                f'"{discord_path}" > "{temp_file}" 2>&1',
+                shell=True,
+                creationflags=subprocess.DETACHED_PROCESS
+            )
+            log_message(f"JAJAJAJAJA, Luanched and Logged!!!!")
+            log_message(f"Launched Discord with PID: {process.pid}")
+        except Exception as e:
+            log_message(f"Error launching Discord subprocess: {str(e)}")
+            return None
 
         # Wait for Discord to initialize
+        log_message(f"Launched Discord with PID: {process.pid}")
+        log_message("Preparing to wait for Discord initialization")
         time.sleep(5)
+        log_message("Finished waiting for Discord initialization")
+        log_message("About to check Discord PID")
         discord_pid = get_discord_pid()
         if not discord_pid:
             log_message("Failed to find Discord PID after launch")
             return process.pid
 
-        # Start a PowerShell process to tail the temp file and append to discord_output.txt
-        output_file = "discord_output.txt"
+        # Check if temp file exists and has content
+        if os.path.exists(temp_file):
+            with open(temp_file, 'r', encoding='utf-8', errors='replace') as f:
+                content = f.read().strip()
+                log_message(f"Content of {temp_file}: {'[empty]' if not content else content[:100] + '...'}")
+        else:
+            log_message(f"Temp file {temp_file} was not created")
+
+        # Start PowerShell process to tail temp file
         cmd = (
             f'powershell -Command "Get-Content \'{temp_file}\' -Wait -Tail 1 | '
             f'ForEach-Object {{ $_.Trim() | Where-Object {{ $_ -ne \'\' }} | '
             f'Add-Content -Path \'{output_file}\' }}"'
         )
-        subprocess.Popen(cmd, shell=True, creationflags=subprocess.DETACHED_PROCESS)
-        log_message(f"Started tailing {temp_file} to {output_file} for PID: {discord_pid}")
+        try:
+            tail_process = subprocess.Popen(cmd, shell=True, creationflags=subprocess.DETACHED_PROCESS)
+            log_message(f"Started tailing {temp_file} to {output_file} with tail process PID: {tail_process.pid}")
+        except Exception as e:
+            log_message(f"Failed to start PowerShell tail process: {str(e)}")
+            return discord_pid
 
         return discord_pid
     except Exception as e:
         log_message(f"Failed to launch Discord: {str(e)}")
         return None
+    
 
 def capture_discord_logs(output_file="discord_output.txt"):
     try:
